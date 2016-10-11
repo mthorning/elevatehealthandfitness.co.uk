@@ -25,15 +25,25 @@
 <body id="indexPage">
     <?php include 'navigation.php'; ?>
         <div id="introSection" class="container-fluid navMargin">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <img src="img/Elevate%20Logo.png">
+                </div>
+            </div>
             <div class="whiteContainer">
                 <div class="container">
+                    <div class="col-xs-12">
+                                        <img src="img/Elevate_Timelinecover.png">
+                                    </div>
                     <div class="row">
                         <!--                        Main Section-->
                         <div class="col-xs-9">
                             <div class="row">
+                                <!--
                                 <div class="col-xs-12 text-center">
                                     <img id="tagline" src="img/tagline.png">
                                 </div>
+-->
                             </div>
                             <div class="row rowMargin">
                                 <div class="col-xs-6">
@@ -109,16 +119,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <img src="img/Elevate%20Logo.png">
-                </div>
-            </div>
+            <!--
             <div class="row">
                 <div class="col-xs-12">
                     <img src="img/Elevate_Timelinecover.png">
                 </div>
             </div>
+-->
         </div>
         <?php include "footer.php" ?>
 

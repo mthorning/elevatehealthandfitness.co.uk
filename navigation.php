@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span></button>
         </div>
         <div id="navbarCollapse" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav pull-right">
                 <li id="navHome"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li id="navGallery"><a href="#">Gallery</a></li>
                 <li id="navBlog"><a href="#">Blog<span class="caret"></span></a></li>
