@@ -1,0 +1,20 @@
+.shareBox {
+    $shareBorder: #7a7a7a;
+    text-align: center;
+    padding: 7px 15px;
+    border: 1px solid $shareBorder;
+    border-radius: 20px;
+    overflow: hidden;
+    .shareIcon {
+        border-right: 1px solid $shareBorder;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    img {
+        width: 100%;
+        border: 0;
+        box-shadow: 0;
+        }
+    }
+}

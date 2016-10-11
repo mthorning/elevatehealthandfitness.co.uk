@@ -1,0 +1,20 @@
+/* line 1, C:/xampp/htdocs/elevate/css/shareStyle.scss */
+.shareBox {
+  text-align: center;
+  padding: 7px 15px;
+  border: 1px solid #7a7a7a;
+  border-radius: 20px;
+  overflow: hidden; }
+  /* line 8, C:/xampp/htdocs/elevate/css/shareStyle.scss */
+  .shareBox .shareIcon {
+    border-right: 1px solid #7a7a7a; }
+    /* line 10, C:/xampp/htdocs/elevate/css/shareStyle.scss */
+    .shareBox .shareIcon:last-child {
+      border-right: none; }
+  /* line 14, C:/xampp/htdocs/elevate/css/shareStyle.scss */
+  .shareBox img {
+    width: 100%;
+    border: 0;
+    box-shadow: 0; }
+
+/*# sourceMappingURL=shareStyle.css.map */

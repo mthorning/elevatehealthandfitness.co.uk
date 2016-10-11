@@ -1,0 +1,193 @@
+/* line 10, C:/xampp/htdocs/elevate/css/style.scss */
+#navbarLogo {
+  height: 70px; }
+
+/* line 15, C:/xampp/htdocs/elevate/css/style.scss */
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #e9e4ea; }
+  /* line 18, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-brand {
+    color: #0a67de; }
+    /* line 21, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+      color: #0a4da3; }
+  /* line 25, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-text {
+    color: #0a67de; }
+  /* line 30, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #0a67de; }
+    /* line 33, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+      color: #0a4da3; }
+  /* line 69, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #0a4da3;
+    background-color: #e9e4ea; }
+  /* line 77, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #0a4da3;
+    background-color: #e9e4ea; }
+  /* line 83, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #e9e4ea; }
+    /* line 86, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+      background-color: #e9e4ea; }
+    /* line 89, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #0a67de; }
+  /* line 94, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #0a67de; }
+  /* line 97, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-link {
+    color: #0a67de; }
+    /* line 99, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-link:hover {
+      color: #0a4da3; }
+
+@media (max-width: 767px) {
+  /* line 107, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #0a67de; }
+    /* line 110, C:/xampp/htdocs/elevate/css/style.scss */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #0a4da3; }
+  /* line 117, C:/xampp/htdocs/elevate/css/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #0a4da3;
+    background-color: #e9e4ea; } }
+
+/* line 125, C:/xampp/htdocs/elevate/css/style.scss */
+#navWrapper {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9e4ea; }
+
+/* line 132, C:/xampp/htdocs/elevate/css/style.scss */
+html,
+body {
+  overflow-x: hidden; }
+
+/* line 136, C:/xampp/htdocs/elevate/css/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em; }
+  /* line 139, C:/xampp/htdocs/elevate/css/style.scss */
+  body .navMargin {
+    margin-top: 60px; }
+  /* line 142, C:/xampp/htdocs/elevate/css/style.scss */
+  body .rowMargin {
+    margin: 50px 0; }
+  /* line 145, C:/xampp/htdocs/elevate/css/style.scss */
+  body .container-fluid {
+    padding: 0; }
+  /* line 148, C:/xampp/htdocs/elevate/css/style.scss */
+  body .btnColor {
+    background-color: #0a67de;
+    color: white; }
+    /* line 151, C:/xampp/htdocs/elevate/css/style.scss */
+    body .btnColor:hover {
+      background-color: #e9e4ea;
+      color: #0a4da3;
+      border: 1px solid #1e1e1e;
+      box-shadow: 2px 2px 8px #1e1e1e; }
+    /* line 157, C:/xampp/htdocs/elevate/css/style.scss */
+    body .btnColor:active {
+      background-color: #e9e4ea;
+      color: #0a4da3;
+      border: 1px solid #1e1e1e; }
+  /* line 163, C:/xampp/htdocs/elevate/css/style.scss */
+  body footer {
+    color: #cbbcbc;
+    background-color: #1e1e1e;
+    text-align: center; }
+    /* line 166, C:/xampp/htdocs/elevate/css/style.scss */
+    body footer a {
+      color: #cbbcbc; }
+      /* line 168, C:/xampp/htdocs/elevate/css/style.scss */
+      body footer a:hover {
+        color: #0a4da3;
+        text-decoration: none; }
+    /* line 174, C:/xampp/htdocs/elevate/css/style.scss */
+    body footer #shareBoxContainer {
+      margin-bottom: 10px; }
+    /* line 177, C:/xampp/htdocs/elevate/css/style.scss */
+    body footer #designCredit {
+      text-align: right;
+      line-height: 100px; }
+
+/* line 185, C:/xampp/htdocs/elevate/css/style.scss */
+.fixedScenery {
+  background: url("../img/Scenery.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/* line 193, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection #tagline {
+  width: 50%;
+  height: 75%;
+  text-align: center; }
+
+/* line 198, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection .whiteContainer {
+  background-color: white;
+  padding-top: 30px; }
+
+/* line 202, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection h1 {
+  text-align: center; }
+
+/* line 205, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection h2 {
+  text-align: center; }
+
+/* line 208, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection p {
+  text-align: justify; }
+
+/* line 211, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection .imgWrapper {
+  margin: 10px; }
+
+/* line 214, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection img {
+  width: 100%;
+  margin: auto; }
+
+/* line 218, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection .textBox {
+  padding: 0 30px 30px 30px; }
+
+/* line 221, C:/xampp/htdocs/elevate/css/style.scss */
+#indexPage #introSection .sidebarSection {
+  margin: 20px 0; }
+
+/* line 229, C:/xampp/htdocs/elevate/css/style.scss */
+#contactForm h1 {
+  color: #0a67de; }
+
+/* line 232, C:/xampp/htdocs/elevate/css/style.scss */
+#contactForm .contactForm {
+  border: 1px solid #0a67de;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 50px; }
+
+/* line 238, C:/xampp/htdocs/elevate/css/style.scss */
+#contactForm .navMargin {
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */

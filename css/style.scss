@@ -1,0 +1,241 @@
+//Variables
+$bgDefault: #ffffff;
+$bgHighlight: #e9e4ea;
+$colDefault: #0a67de;
+$colHighlight: #0a4da3;
+$footerColor: #cbbcbc;
+$footerBG: #1e1e1e;
+$dropDown: false;
+//Navbar Custom Styling
+#navbarLogo {
+    height: 70px;
+}
+
+//Navigation Bar from Gen
+.navbar-default {
+    background-color: $bgDefault;
+    border-color: $bgHighlight;
+    .navbar-brand {
+        color: $colDefault;
+        &:hover,
+        &:focus {
+            color: $colHighlight;
+        }
+    }
+    .navbar-text {
+        color: $colDefault;
+    }
+    .navbar-nav {
+        > li {
+            > a {
+                color: $colDefault;
+                &:hover,
+                &:focus {
+                    color: $colHighlight;
+                }
+            }
+            @if $dropDown {
+                > .dropdown-menu {
+                    background-color: $bgDefault;
+                    > li {
+                        > a {
+                            color: $colDefault;
+                            &:hover,
+                            &:focus {
+                                color: $colHighlight;
+                                background-color: $bgHighlight;
+                            }
+                        }
+                        > .divider {
+                            background-color: $bgHighlight;
+                        }
+                    }
+                }
+            }
+        }
+        @if $dropDown {
+            .open .dropdown-menu > .active {
+                > a,
+                > a:hover,
+                > a:focus {
+                    color: $colHighlight;
+                    background-color: $bgHighlight;
+                }
+            }
+        }
+        > .active {
+            > a,
+            > a:hover,
+            > a:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight;
+            }
+        }
+        > .open {
+            > a,
+            > a:hover,
+            > a:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight;
+            }
+        }
+    }
+    .navbar-toggle {
+        border-color: $bgHighlight;
+        &:hover,
+        &:focus {
+            background-color: $bgHighlight;
+        }
+        .icon-bar {
+            background-color: $colDefault;
+        }
+    }
+    .navbar-collapse,
+    .navbar-form {
+        border-color: $colDefault;
+    }
+    .navbar-link {
+        color: $colDefault;
+        &:hover {
+            color: $colHighlight;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu {
+        > li > a {
+            color: $colDefault;
+            &:hover,
+            &:focus {
+                color: $colHighlight;
+            }
+        }
+        > .active {
+            > a,
+            > a:hover,
+            > a:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight;
+            }
+        }
+    }
+}
+
+#navWrapper {
+    background-color: $bgDefault;
+    border-bottom: 1px solid $bgHighlight;
+}
+
+//ALL PAGES
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    .navMargin {
+        margin-top: 60px;
+    }
+    .rowMargin {
+        margin: 50px 0;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+    .btnColor {
+        background-color: $colDefault;
+        color: white;
+        &:hover {
+            background-color: $bgHighlight;
+            color: $colHighlight;
+            border: 1px solid $footerBG;
+            box-shadow: 2px 2px 8px $footerBG;
+        }
+        &:active {
+            background-color: $bgHighlight;
+            color: $colHighlight;
+            border: 1px solid $footerBG;
+        }
+    }
+    footer {
+        color: $footerColor;
+        background-color: $footerBG;
+        a {
+            color: $footerColor;
+            &:hover {
+                color: $colHighlight;
+                text-decoration: none;
+            }
+        }
+        text-align: center;
+        #shareBoxContainer {
+            margin-bottom: 10px;
+        }
+        #designCredit {
+            text-align: right;
+            line-height: 100px;
+        }
+    }
+}
+
+//INDEX 
+.fixedScenery {
+    background: url("../img/Scenery.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#indexPage {
+    #introSection {
+        #tagline {
+            width: 50%;
+            height: 75%;
+            text-align: center;
+        }
+        .whiteContainer {
+            background-color: white;
+            padding-top: 30px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .imgWrapper {
+            margin: 10px;
+        }
+        img {
+            width: 100%;
+            margin: auto;
+        }
+        .textBox {
+            padding: 0 30px 30px 30px;
+        }
+        .sidebarSection {
+            margin: 20px 0;
+        }
+    }
+}
+
+//CONTACTFORM
+#contactForm {
+    h1 {
+        color: $colDefault;
+    }
+    .contactForm {
+        border: 1px solid $colDefault;
+        margin-top: 50px;
+        border-radius: 15px;
+        padding: 50px;
+    }
+    .navMargin {
+        margin-bottom: 30px;
+    }
+}
