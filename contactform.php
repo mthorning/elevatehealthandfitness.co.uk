@@ -24,7 +24,7 @@
 </head>
 
 <body id="contactForm">
-    <?php include "navigation.php"?>
+    <?php include "header.php"?>
         <div class="container-fluid navMargin">
             <div class="row">
                 <div class="contactForm col-sm-offset-1 col-sm-10">

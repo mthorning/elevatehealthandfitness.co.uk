@@ -23,7 +23,7 @@
 </head>
 
 <body id="indexPage">
-    <?php include 'navigation.php'; ?>
+    <?php include "header.php"; ?>
         <div id="introSection" class="container-fluid navMargin">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
@@ -31,68 +31,85 @@
                 </div>
             </div>
             <div class="whiteContainer">
-                <div class="container">
-                    <div class="col-xs-12">
-                                        <img src="img/Elevate_Timelinecover.png">
-                                    </div>
+                <h1>PERSONAL TRAINING • TRURO, CORNWALL</h1>
+                <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>
+                <div id="welcome" class="container">
+                    <!--                        Main Section-->
+                    <div id="welcomeSection" class="textBox">
+                        <h1>Welcome to Elevate Health &amp; Fitness</h1>
+                        <p>Do you suffer from stress, back pain, constant fatigue, low energy levels, weight control, postural problems, injuries or struggle to improve your fitness/sports performance levels? Whatever the reason, here at Elevate Health &amp; Fitness we provide bespoke, holistic personal training programmes incorporating exercise, nutrition and lifestyle strategies designed to help you achieve your health and fitness goals.</p>
+                        <p class="center">•</p>
+                        <p>With 1-to-1 personal training based in Truro or at a venue suitable for you, we aim to ensure you reach your peak health and fitness, with an eat-train-live smart philosophy focused on helping you improve your quality of life.</p>
+                        <br />
+                        <hr />
+                        <br />
+                    </div>
+                    <img src="img/Elevate_Timelinecover.png">
+                    <br />
+                    <hr />
+                    <br />
                     <div class="row">
-                        <!--                        Main Section-->
-                        <div class="col-xs-9">
-                            <div class="row">
-                                <!--
-                                <div class="col-xs-12 text-center">
-                                    <img id="tagline" src="img/tagline.png">
-                                </div>
--->
-                            </div>
-                            <div class="row rowMargin">
-                                <div class="col-xs-6">
-                                    <div class="textBox">
-                                        <h2>EAT SMART</h2>
-                                        <p>Lorem ipsum dolor sit amet, vel idque voluptatibus et, audiam lobortis iudicabit ne nam. No inani option complectitur ius, ius etiam discere tincidunt at. Te vix congue nonumes. Sed te cibo vocibus. His cu odio minimum, ad movet habemus nominavi ius. An mel reque intellegat, no elit fabulas molestiae eos. Mel in nostrud adolescens, per ad denique blandit.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="imgwrapper">
-                                        <img src="img/food.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row rowMargin">
-                                <div class="col-xs-6">
-                                    <div class="imgWrapper">
-                                        <img src="img/cycling.jpeg">
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="textBox">
-                                        <h2>TRAIN SMART</h2>
-                                        <p>Lorem ipsum dolor sit amet, vel idque voluptatibus et, audiam lobortis iudicabit ne nam. No inani option complectitur ius, ius etiam discere tincidunt at. Te vix congue nonumes. Sed te cibo vocibus. His cu odio minimum, ad movet habemus nominavi ius. An mel reque intellegat, no elit fabulas molestiae eos. Mel in nostrud adolescens, per ad denique blandit.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row rowMargin">
-                                <div class="col-xs-6">
-                                    <div class="textBox">
-                                        <h2>LIVE SMART</h2>
-                                        <p>Lorem ipsum dolor sit amet, vel idque voluptatibus et, audiam lobortis iudicabit ne nam. No inani option complectitur ius, ius etiam discere tincidunt at. Te vix congue nonumes. Sed te cibo vocibus. His cu odio minimum, ad movet habemus nominavi ius. An mel reque intellegat, no elit fabulas molestiae eos. Mel in nostrud adolescens, per ad denique blandit.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="imgWrapper">
-                                        <img src="img/exercising%20woman.jpeg">
-                                    </div>
-                                </div>
+                        <div class="col-md-6">
+                            <div class="textBox">
+                                <h2>EAT SMART</h2>
+                                <p><em>‘You are what you eat’</em> (and drink)! <em>‘You can’t outrun a bad diet’</em>! These are a couple of common phrases banded about in nutrition / dietary circles and they are spot on! The fuel you put into your body has a massive impact on your health! Eat junk = poor health / Eat Smart = elevated health! That’s why here at Elevate Health &amp; Fitness one of our main priorities is to focus on what you eat and drink. We will provide you with a bespoke nutrition program that <strong style="text-decoration: underline;">WILL</strong> improve your health and vitality, providing your body with all the nutrients it needs to function in its optimal state.
+
+                                </p>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="imgwrapper">
+                                <img class="curvedImg" src="img/food.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                    <br />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="imgWrapper">
+                                <img class="curvedImg" src="img/trainer.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="textBox">
+                                <h2>TRAIN SMART</h2>
+                                <p>Whether you are returning from injury, looking to alleviate postural problems or back pain, want to improve your fitness or sports performance, or even just trying to improve your energy levels, here at Elevate Health &amp; Fitness, we will provide you with a unique exercise program based on your needs, goals and assessments taken at the beginning of your journey. This program will ensure you can function at your best and will be tailored around your life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                    <br />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="textBox">
+                                <h2>LIVE SMART</h2>
+                                <p>So you eat and train smart, but the rest of your life is a hectic, stressful merry-go-round that leaves you exhausted and struggling to cope? To get the most out of your training and nutrition programs we emphasise the importance of lifestyle factors such as sleep and relaxation and the massive benefits they can have on your overall health and wellbeing. We will provide you with strategies to help you function at your best and get the most from your program!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="imgWrapper">
+                                <img class="curvedImg" src="img/exercising%20woman.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <hr />
+                    <br />
+                    <div class="jumbotron">
+                        <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
+                    <a class="btn btn-lg btnColor" href="contactform.php">Contact us!</a>
+                    </div>
 
-                        <!--                    Sidebar-->
-                        <div class="col-xs-3 well well-lg">
+                    <!--                    Sidebar-->
+                    <!--
+                        <div class="col-xs-3 well well-lg sidebarSection">
                             <h4>A sidebar is sometimes useful, depends what you want:</h4>
-                            <div class="sidebarSection">
+                            <div>
                                 <p>This could be some sort of menu structure or list of blog entries.</p>
                                 <ul>
                                     <li><a href='#'>List item 1</a></li>
@@ -113,10 +130,10 @@
                             </div>
                             <div class="sidebarSection">
                                 <p>or Share buttons:</p>
-                                <?php include "shareBox.php"; ?>
+                               THIS IS WHERE THE SHAREBOX WAS
                             </div>
                         </div>
-                    </div>
+-->
                 </div>
             </div>
             <!--

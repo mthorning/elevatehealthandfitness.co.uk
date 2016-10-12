@@ -135,7 +135,7 @@ body {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.8em;
     .navMargin {
         margin-top: 60px;
     }
@@ -145,7 +145,12 @@ body {
     .container-fluid {
         padding: 0;
     }
-    .btnColor {
+    .curvedImg {
+        border-radius: 25px;
+    }
+    .btnColor,
+    &:visited {
+        border: 1px solid $footerBG;
         background-color: $colDefault;
         color: white;
         &:hover {
@@ -153,11 +158,6 @@ body {
             color: $colHighlight;
             border: 1px solid $footerBG;
             box-shadow: 2px 2px 8px $footerBG;
-        }
-        &:active {
-            background-color: $bgHighlight;
-            color: $colHighlight;
-            border: 1px solid $footerBG;
         }
     }
     footer {
@@ -183,7 +183,7 @@ body {
 
 //INDEX 
 .fixedScenery {
-    background: url("../img/Scenery.jpeg") no-repeat center center;
+    background: url("../img/Scenery.png") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -196,8 +196,37 @@ body {
             text-align: center;
         }
         .whiteContainer {
+            padding-top: 10px;
             background-color: white;
-            padding-top: 30px;
+            text-align: center;
+            a {
+                margin: 10px;
+            }
+            #welcome {
+                padding-top: 60px;
+            }
+            #welcomeSection {
+                h1 {
+                    margin-bottom: 30px;
+                }
+                p {
+                    text-align: center;
+                    max-width: 70vw;
+                    margin: auto;
+                    line-height: 30px;
+                    font-size: 1.2em;
+                    margin-bottom: 15px;
+                }
+            }
+            p {
+                text-align: justify;
+            }
+            .center {
+                text-align: center;
+            }
+            .textBox {
+                padding: 0 10px 10px 10px;
+            }
         }
         h1 {
             text-align: center;
@@ -208,15 +237,27 @@ body {
         p {
             text-align: justify;
         }
-        .imgWrapper {
-            margin: 10px;
-        }
+                .imgWrapper {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: 10px;
+                }
         img {
             width: 100%;
             margin: auto;
+            vertical-align: middle;
         }
-        .textBox {
-            padding: 0 30px 30px 30px;
+        .jumbotron {
+            margin: auto;
+            margin-bottom: 50px;
+            max-width: 75vw;
+            padding-right: 130px;
+            padding-left: 130px;
+            h3 {
+                line-height: 40px;
+            }
         }
         .sidebarSection {
             margin: 20px 0;
