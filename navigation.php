@@ -13,9 +13,12 @@
         <div id="navbarCollapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
                 <li id="navHome"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li id="navGallery"><a href="#">Gallery</a></li>
+                <li id="navAbout"><a href="#">About</a></li>
+                <li id="navServices"><a href="#">Services</a></li>
+                <li id="navTestimonials"><a href="#">Testimonials</a></li>
+                <li id="navFAQ"><a href="#">FAQ</a></li>
                 <li id="navBlog"><a href="#">Blog<span class="caret"></span></a></li>
-                <li id="navContact"><a href="contactform.php">Contact</a></li>
+                <li id="navContact"><a href="contactform.php">Contact Us</a></li>
             </ul>
 <!--
             <form class="navbar-form navbar-left" role="search">
