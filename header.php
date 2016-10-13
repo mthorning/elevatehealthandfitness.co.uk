@@ -1,4 +1,4 @@
-<nav role="navigation" class="navbar navbar-custom navbar-fixed-top">
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
     <!--default for white or inverse for black-->
     <div id="navWrapper">
         <div class="navbar-header">

@@ -27,9 +27,10 @@
         <div id="introSection" class="container-fluid navMargin">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                    <img src="img/png/Elevate-Logo.png" alt="Elevate Logo">
+                    <img id="bigScreenLogo" src="img/png/Elevate-Logo.png" alt="Elevate Logo">
                 </div>
             </div>
+            <img id="smallScreenLogo" src="img/jpg/Scenery-Logo.jpg" alt="Elevate Logo">
             <div class="whiteContainer">
                 <h1>PERSONAL TRAINING • TRURO, CORNWALL</h1>
                 <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>

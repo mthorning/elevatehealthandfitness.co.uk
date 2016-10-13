@@ -1,3 +1,22 @@
+//media query mixins (call with @include [name])
+@mixin md {
+    @media screen and (max-width: 992px) {
+        @content
+    }
+}
+
+@mixin sm {
+    @media screen and (max-width: 768px) {
+        @content
+    }
+}
+
+@mixin xs {
+    @media screen and (max-width: 480px) {
+        @content
+    }
+}
+
 //Variables
 $bgDefault: #ffffff;
 $bgHighlight: #e9e4ea;
@@ -9,6 +28,9 @@ $dropDown: false;
 //Navbar Custom Styling
 #navbarLogo {
     height: 70px;
+    @include md {
+        height: 45px;
+    }
 }
 
 //Navigation Bar from Gen
@@ -136,8 +158,14 @@ body {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8em;
+    @include md {
+        font-size: 1.4em;
+    }
     .navMargin {
         margin-top: 60px;
+        @include md {
+            margin-top: 45px;
+        }
     }
     .rowMargin {
         margin: 50px 0;
@@ -182,10 +210,21 @@ body {
 }
 
 //INDEX 
-.fixedScenery {
-    background: url("../img/jpg/Scenery.jpg") no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+@media screen and (min-width: 993px) {
+    #smallScreenLogo {
+        display: none;
+    }
+    .fixedScenery {
+        background: url("../img/jpg/Scenery.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@include md {
+    #bigScreenLogo {
+        display: none;
+    }
 }
 
 #indexPage {
