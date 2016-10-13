@@ -1,4 +1,4 @@
-<footer class="container-fluid">
+<footer class="pageFooter container-fluid">
     <div class="row rowMargin">
         <div class="col-sm-6 col-lg-3">
             <p><b>&copy; Elevate Health &amp; Fitness</b></p>

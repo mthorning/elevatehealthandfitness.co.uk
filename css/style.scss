@@ -160,7 +160,7 @@ body {
             box-shadow: 2px 2px 8px $footerBG;
         }
     }
-    footer {
+    .pageFooter {
         color: $footerColor;
         background-color: $footerBG;
         a {
@@ -183,7 +183,7 @@ body {
 
 //INDEX 
 .fixedScenery {
-    background: url("../img/Scenery.png") no-repeat center center;
+    background: url("../img/jpg/Scenery.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -208,6 +208,7 @@ body {
             #welcomeSection {
                 h1 {
                     margin-bottom: 30px;
+                    color: $colHighlight;
                 }
                 p {
                     text-align: center;
@@ -226,6 +227,9 @@ body {
             }
             .textBox {
                 padding: 0 10px 10px 10px;
+                a {
+                    color: $colHighlight;
+                }
             }
         }
         h1 {
@@ -237,13 +241,13 @@ body {
         p {
             text-align: justify;
         }
-                .imgWrapper {
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    margin: 10px;
-                }
+        .imgWrapper {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+        }
         img {
             width: 100%;
             margin: auto;
@@ -265,13 +269,67 @@ body {
     }
 }
 
+//ABOUTPAGES
+.aboutPages {
+    background: url("../img/png/aboutPattern.png") repeat center center;
+    .container {
+        border-radius: 25px;
+        padding: 50px;
+        position: relative;
+        margin: 90px auto;
+        width: 75%;
+        background-color: white;
+        box-shadow: 5px 5px 8px $footerBG;
+        h2 {
+            color: $colHighlight;
+        }
+        p {
+            text-indent: 50px;
+        }
+        .profilePic {
+            height: 350px;
+            float: right;
+            margin: 10px;
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+
+//TESTIMONIALS
+#testimonialPage {
+    background: url("../img/aboutPattern.png") repeat center center;
+    .container {
+        margin: 80px;
+        #myCarousel {
+            width: 100%;
+            margin: 0 auto;
+            .carousel-inner {
+                .item div {
+                    padding-top: 30px;
+                    height: 85vh;
+                }
+                .carousel-caption {
+                    width: 50%;
+                    position: relative;
+                    left: auto;
+                    right: auto;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
 //CONTACTFORM
 #contactForm {
     h1 {
-        color: $colDefault;
+        color: $colHighlight;
     }
     .contactForm {
-        border: 1px solid $colDefault;
+        border: 1px solid $colHighlight;
         margin-top: 50px;
         border-radius: 15px;
         padding: 50px;
