@@ -3,7 +3,7 @@
     <div id="navWrapper">
         <div class="navbar-header">
             <a class="navbar-brand" href="#"><a href="index.php"><img src="img/png/navbarLogo.png" id="navbarLogo"></a></a>
-            <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+            <button id="navToggleButton" type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
                 <!--bootstrap has some built-in functionality with data-target referring to the id of the containing div and data-toggle defining the function of the button as in JQuery-->
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span></button>
         </div>
         <div id="navbarCollapse" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav pull-right">
+            <ul id="dropdownNavMenu" class="nav navbar-nav pull-right">
                 <li id="navIndex" class="active"><a href="index.php"><span style="font-size: 0.85em;" class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li id="navAbout" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>

@@ -16,13 +16,29 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-3 col-md-offset-2">
+        <div class="col-xs-7 col-xs-offset-3 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
             <div id="shareBoxContainer">
                 <?php include "shareBox.php"; ?>
             </div>
         </div>
-        <div id="designCredit" class="col-md-5 col-md-offset-1 credit">
+        <div id="designCredit" class="col-xs-11 col-sm-5 col-sm-offset-1 credit">
             <p>Created by <a href="http://stack-design.co.uk">Stack-Design</a></p>
         </div>
     </div>
 </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <!--            navigation class control-->
+            <script>
+                $(function () {
+                    $('li').removeClass('active');
+                    $('#navIndex').addClass('active');
+                    $('#navToggleButton').click(function () {
+                        $('#dropdownNavMenu').toggleClass('pull-right');
+                    });
+                });
+            </script>

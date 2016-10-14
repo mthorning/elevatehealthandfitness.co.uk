@@ -50,16 +50,19 @@
                     <hr />
                     <br />
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-12">
+                            <img src="img/jpg/eatsmart.jpg" alt="Eat Smart banner" class="smallScreenImg">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
                             <div class="textBox">
                                 <h2>EAT SMART</h2>
-                                <p><em>‘You are what you eat’</em> (and drink)! <em>‘You can’t outrun a bad diet’</em>! These are a couple of common phrases banded about in nutrition / dietary circles and they are spot on! The fuel you put into your body has a massive impact on your health! Eat junk = poor health / Eat Smart = elevated health! That’s why here at Elevate Health &amp; Fitness one of our main priorities is to focus on what you eat and drink. We will provide you with a bespoke nutrition program that <strong style="text-decoration: underline;">WILL</strong> improve your health and vitality, providing your body with all the nutrients it needs to function in its optimal state. <a href="#">Discover more...</a>
+                                <p><em>‘You are what you eat’</em> (and drink)! <em>‘You can’t outrun a bad diet’</em>! These are a couple of common phrases banded about in nutrition / dietary circles and they are spot on! The fuel you put into your body has a massive impact on your health! Eat junk = poor health / Eat Smart = elevated health! That’s why here at Elevate Health &amp; Fitness one of our main priorities is to focus on what you eat and drink. We will provide you with a bespoke nutrition program that <strong style="text-decoration: underline;">WILL</strong> improve your health and vitality, providing your body with all the nutrients it needs to function in its optimal state. <a href="#"><em>Discover more...</em></a>
 
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="imgwrapper">
+                            <div class="bigScreenImg imgWrapper">
                                 <img class="curvedImg" src="img/jpg/food.jpg" alt="Plate of Food">
                             </div>
                         </div>
@@ -68,15 +71,18 @@
                     <hr />
                     <br />
                     <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/jpg/trainsmart.jpg" alt="Train Smart banner" class="smallScreenImg">
+                        </div>
                         <div class="col-md-6">
-                            <div class="imgWrapper">
+                            <div class="bigScreenImg imgWrapper">
                                 <img class="curvedImg" src="img/jpg/trainer.jpg" alt="Personal Trainer">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-12 col-md-6">
                             <div class="textBox">
                                 <h2>TRAIN SMART</h2>
-                                <p>Whether you are returning from injury, looking to alleviate postural problems or back pain, want to improve your fitness or sports performance, or even just trying to improve your energy levels, here at Elevate Health &amp; Fitness, we will provide you with a unique exercise program based on your needs, goals and assessments taken at the beginning of your journey. This program will ensure you can function at your best and will be tailored around your life. <a href="#">Discover more...</a>
+                                <p>Whether you are returning from injury, looking to alleviate postural problems or back pain, want to improve your fitness or sports performance, or even just trying to improve your energy levels, here at Elevate Health &amp; Fitness, we will provide you with a unique exercise program based on your needs, goals and assessments taken at the beginning of your journey. This program will ensure you can function at your best and will be tailored around your life. <a href="#"><em>Discover more...</em></a>
                                 </p>
                             </div>
                         </div>
@@ -85,15 +91,18 @@
                     <hr />
                     <br />
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-12">
+                            <img src="img/jpg/livesmart.jpg" alt="Live Smart banner" class="smallScreenImg">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
                             <div class="textBox">
                                 <h2>LIVE SMART</h2>
-                                <p>So you eat and train smart, but the rest of your life is a hectic, stressful merry-go-round that leaves you exhausted and struggling to cope? To get the most out of your training and nutrition programs we emphasise the importance of lifestyle factors such as sleep and relaxation and the massive benefits they can have on your overall health and wellbeing. We will provide you with strategies to help you function at your best and get the most from your program! <a href="#">Discover more...</a>
+                                <p>So you eat and train smart, but the rest of your life is a hectic, stressful merry-go-round that leaves you exhausted and struggling to cope? To get the most out of your training and nutrition programs we emphasise the importance of lifestyle factors such as sleep and relaxation and the massive benefits they can have on your overall health and wellbeing. We will provide you with strategies to help you function at your best and get the most from your program! <a href="#"><em>Discover more...</em></a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="imgWrapper">
+                            <div class="bigScreenImg imgWrapper">
                                 <img class="curvedImg" src="img/jpg/exercising-woman.jpg" alt="Exercising Woman">
                             </div>
                         </div>
@@ -101,7 +110,7 @@
                     <br />
                     <hr />
                     <br />
-                    <div class="jumbotron">
+                    <div class="jumbotron custom">
                         <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
                     <a class="btn btn-lg btnColor" href="contactform.php">Contact us!</a>
                     </div>
@@ -147,20 +156,6 @@
         </div>
         <?php include "footer.php" ?>
 
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
-
-            <!--            navigation class control-->
-<!--
-            <script>
-                $(function () {
-                    $('li').removeClass('active');
-                    $('#navIndex').addClass('active');
-                });
-            </script>
--->
 
     <!--            Front page background image script-->
             <script>
