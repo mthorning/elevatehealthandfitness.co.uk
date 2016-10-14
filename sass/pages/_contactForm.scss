@@ -1,0 +1,15 @@
+//CONTACTFORM
+#contactForm {
+    h1 {
+        color: $colHighlight;
+    }
+    .contactForm {
+        border: 1px solid $colHighlight;
+        margin-top: 50px;
+        border-radius: 15px;
+        padding: 50px;
+    }
+    .navMargin {
+        margin-bottom: 30px;
+    }
+}

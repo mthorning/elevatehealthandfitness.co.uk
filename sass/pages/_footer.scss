@@ -1,0 +1,19 @@
+.pageFooter {
+        color: $footerColor;
+        background-color: $footerBG;
+        a {
+            color: $footerColor;
+            &:hover {
+                color: $colHighlight;
+                text-decoration: none;
+            }
+        }
+        text-align: center;
+        #shareBoxContainer {
+            margin-bottom: 10px;
+        }
+        #designCredit {
+            text-align: right;
+            line-height: 100px;
+        }
+    }

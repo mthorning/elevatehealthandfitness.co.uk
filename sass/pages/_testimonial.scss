@@ -1,0 +1,24 @@
+//TESTIMONIALS
+#testimonialPage {
+    background: url("../img/aboutPattern.png") repeat center center;
+    .container {
+        margin: 80px;
+        #myCarousel {
+            width: 100%;
+            margin: 0 auto;
+            .carousel-inner {
+                .item div {
+                    padding-top: 30px;
+                    height: 85vh;
+                }
+                .carousel-caption {
+                    width: 50%;
+                    position: relative;
+                    left: auto;
+                    right: auto;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

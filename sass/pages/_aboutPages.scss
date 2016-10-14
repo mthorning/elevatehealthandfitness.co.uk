@@ -1,0 +1,28 @@
+//ABOUTPAGES
+.aboutPages {
+    background: url("../img/png/aboutPattern.png") repeat center center;
+    .container {
+        border-radius: 25px;
+        padding: 50px;
+        position: relative;
+        margin: 90px auto;
+        width: 75%;
+        background-color: white;
+        box-shadow: 5px 5px 8px $footerBG;
+        h2 {
+            color: $colHighlight;
+        }
+        p {
+            text-indent: 50px;
+        }
+        .profilePic {
+            height: 350px;
+            float: right;
+            margin: 10px;
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+//INDEX 
+#smallScreenLogo {
+    display: none;
+}
+
+.fixedScenery {
+    background: url("../img/jpg/Scenery.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@include md {
+    #bigScreenLogo {
+        display: none;
+    }
+    .fixedScenery {
+        background: none;
+    }
+    #smallScreenLogo {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+#indexPage {
+    #introSection {
+        #tagline {
+            width: 50%;
+            height: 75%;
+            text-align: center;
+        }
+        .whiteContainer {
+            padding-top: 10px;
+            background-color: white;
+            text-align: center;
+            a {
+                margin: 10px;
+            }
+            #welcome {
+                padding-top: 60px;
+            }
+            #welcomeSection {
+                h1 {
+                    margin-bottom: 30px;
+                    color: $colHighlight;
+                }
+                p {
+                    text-align: center;
+                    max-width: 70vw;
+                    @include sm {
+                        max-width: 90vw;
+                    }
+                    margin: auto;
+                    line-height: 30px;
+                    margin-bottom: 15px;
+                }
+            }
+            .smallScreenImg {
+                display: none;
+            }
+            @include md {
+                .bigScreenImg {
+                    display: none;
+                }
+                .smallScreenImg {
+                    display: block;
+                    margin-bottom: 40px;
+                }
+            }
+            p {
+                text-align: justify;
+            }
+            .center {
+                text-align: center;
+            }
+            .textBox {
+                padding: 0 10px 10px 10px;
+                a {
+                    color: $colHighlight;
+                }
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            @include md {
+                display: none;
+            }
+        }
+        p {
+            text-align: justify;
+        }
+        .imgWrapper {
+            padding-top: 50px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+        }
+        img {
+            width: 100%;
+            margin: inherit auto;
+            vertical-align: middle;
+        }
+        .sidebarSection {
+            margin: 20px 0;
+        }
+    }
+}
