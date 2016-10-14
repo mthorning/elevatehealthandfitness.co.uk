@@ -105,6 +105,7 @@ body {
   body h2,
   body h3,
   body h4,
+  body li,
   body p {
     font-size: 1.8em; }
     @media screen and (max-width: 992px) {
@@ -112,6 +113,7 @@ body {
       body h2,
       body h3,
       body h4,
+      body li,
       body p {
         font-size: 1.4em; } }
     @media screen and (max-width: 768px) {
@@ -119,6 +121,7 @@ body {
       body h2,
       body h3,
       body h4,
+      body li,
       body p {
         font-size: 1.1em; } }
   body .navMargin {
@@ -160,7 +163,8 @@ body {
       padding-left: 2px;
       padding-right: 2px; } }
   body .curvedImg {
-    border-radius: 25px; }
+    border-radius: 25px;
+    height: auto; }
   body .btnColor, body:visited {
     border: 1px solid #1e1e1e;
     background-color: #0a67de;
@@ -197,10 +201,17 @@ body {
   padding-top: 10px;
   background-color: white;
   text-align: center; }
+  #indexPage #introSection .whiteContainer #paddedBox {
+    height: 0; }
+    @media screen and (max-width: 480px) {
+      #indexPage #introSection .whiteContainer #paddedBox {
+        height: 50vh; } }
   #indexPage #introSection .whiteContainer a {
     margin: 10px; }
   #indexPage #introSection .whiteContainer #welcome {
     padding-top: 60px; }
+  #indexPage #introSection .whiteContainer h1 {
+    padding: inherit 5px; }
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
     margin-bottom: 30px;
     color: #0a4da3; }
@@ -247,8 +258,8 @@ body {
   margin: 10px; }
 #indexPage #introSection img {
   width: 100%;
-  margin: inherit auto;
-  vertical-align: middle; }
+  max-height: 450px;
+  margin: inherit auto; }
 #indexPage #introSection .sidebarSection {
   margin: 20px 0; }
 
@@ -257,22 +268,41 @@ body {
   .aboutPages .container {
     border-radius: 25px;
     padding: 50px;
-    position: relative;
     margin: 90px auto;
     width: 75%;
+    text-align: center;
     background-color: white;
     box-shadow: 5px 5px 8px #1e1e1e; }
+    @media screen and (max-width: 480px) {
+      .aboutPages .container {
+        border-radius: none;
+        padding: 10px;
+        margin: 50px 0; } }
+    @media screen and (max-width: 768px) {
+      .aboutPages .container {
+        width: 90%; } }
+    @media screen and (max-width: 480px) {
+      .aboutPages .container {
+        width: 100%; } }
     .aboutPages .container h2 {
-      color: #0a4da3; }
+      color: #0a4da3;
+      text-align: left; }
+    .aboutPages .container ul li {
+      text-align: left; }
     .aboutPages .container p {
-      text-indent: 50px; }
-    .aboutPages .container .profilePic {
-      height: 350px;
+      text-indent: 50px;
+      text-align: justify; }
+    .aboutPages .container #profilePic {
+      width: 100%; }
+      @media screen and (max-width: 768px) {
+        .aboutPages .container #profilePic {
+          width: 75%;
+          margin: auto; } }
+    .aboutPages .container .additionalPic {
+      padding: 5px;
       float: right;
-      margin: 10px; }
-      .aboutPages .container .profilePic img {
-        height: 100%;
-        width: auto; }
+      width: 30%;
+      margin: auto; }
 
 #testimonialPage {
   background: url("../img/aboutPattern.png") repeat center center; }

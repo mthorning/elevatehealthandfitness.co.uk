@@ -34,6 +34,9 @@
             <div class="whiteContainer">
                 <h1>PERSONAL TRAINING • TRURO, CORNWALL</h1>
                 <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>
+                <div id="paddedBox">
+
+                </div>
                 <div id="welcome" class="container">
                     <!--                        Main Section-->
                     <div id="welcomeSection" class="textBox">
@@ -112,7 +115,7 @@
                     <br />
                     <div class="jumbotron custom">
                         <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
-                    <a class="btn btn-lg btnColor" href="contactform.php">Contact us!</a>
+                        <a class="btn btn-lg btnColor" href="contactform.php">Contact us!</a>
                     </div>
 
                     <!--                    Sidebar-->
@@ -157,7 +160,7 @@
         <?php include "footer.php" ?>
 
 
-    <!--            Front page background image script-->
+            <!--            Front page background image script-->
             <script>
                 $(function () {
                     $('#indexPage').addClass('fixedScenery');

@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-7 col-xs-offset-3 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
+        <div class="col-xs-7 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
             <div id="shareBoxContainer">
                 <?php include "shareBox.php"; ?>
             </div>
@@ -36,7 +36,7 @@
             <script>
                 $(function () {
                     $('li').removeClass('active');
-                    $('#navIndex').addClass('active');
+                    $('#<?php echo $title; ?>').addClass('active');
                     $('#navToggleButton').click(function () {
                         $('#dropdownNavMenu').toggleClass('pull-right');
                     });

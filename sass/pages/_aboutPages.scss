@@ -4,25 +4,47 @@
     .container {
         border-radius: 25px;
         padding: 50px;
-        position: relative;
         margin: 90px auto;
+        @include xs {
+            border-radius: none;
+            padding: 10px;
+            margin: 50px 0;
+        }
         width: 75%;
+        text-align: center;
+        @include sm {
+            width: 90%;
+        }
+        @include xs {
+            width: 100%;
+        }
         background-color: white;
         box-shadow: 5px 5px 8px $footerBG;
         h2 {
             color: $colHighlight;
+            text-align: left;
+        }
+        ul {
+            li {
+                text-align: left;
+            }
         }
         p {
             text-indent: 50px;
+            text-align: justify;
         }
-        .profilePic {
-            height: 350px;
-            float: right;
-            margin: 10px;
-            img {
-                height: 100%;
-                width: auto;
+        #profilePic {
+            width: 100%;
+            @include sm {
+                width: 75%;
+                margin: auto;
             }
+        }
+        .additionalPic {
+            padding: 5px;
+            float: right;
+            width: 30%;
+            margin: auto;
         }
     }
 }

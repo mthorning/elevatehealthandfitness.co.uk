@@ -30,6 +30,12 @@
             text-align: center;
         }
         .whiteContainer {
+            #paddedBox {
+                height: 0;
+                @include xs {
+                    height: 50vh;
+                }
+            }
             padding-top: 10px;
             background-color: white;
             text-align: center;
@@ -38,6 +44,9 @@
             }
             #welcome {
                 padding-top: 60px;
+            }
+            h1 {
+                padding: inherit 5px;
             }
             #welcomeSection {
                 h1 {
@@ -102,8 +111,8 @@
         }
         img {
             width: 100%;
+            max-height: 450px;
             margin: inherit auto;
-            vertical-align: middle;
         }
         .sidebarSection {
             margin: 20px 0;
