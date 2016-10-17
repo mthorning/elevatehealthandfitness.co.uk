@@ -1,13 +1,13 @@
 //CONTACTFORM
 #contactForm {
+    background: url("../img/png/aboutPattern.png") repeat center center;
     h1 {
         color: $colHighlight;
     }
-    .contactForm {
-        border: 1px solid $colHighlight;
-        margin-top: 50px;
-        border-radius: 15px;
+    .formContainer {
+        @include standardContainer;
         padding: 50px;
+        margin-top: 50px;
     }
     .navMargin {
         margin-bottom: 30px;

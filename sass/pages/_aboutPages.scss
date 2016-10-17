@@ -2,24 +2,16 @@
 .aboutPages {
     background: url("../img/png/aboutPattern.png") repeat center center;
     .container {
-        border-radius: 25px;
-        padding: 50px;
-        margin: 90px auto;
-        @include xs {
-            border-radius: none;
-            padding: 10px;
-            margin: 50px 0;
+        @include standardContainer;
+        h1 {
+            color: $colHighlight;
+            font-size: 1.8em;
+            text-align: left;
         }
-        width: 75%;
-        text-align: center;
-        @include sm {
-            width: 90%;
-        }
-        @include xs {
-            width: 100%;
-        }
-        background-color: white;
-        box-shadow: 5px 5px 8px $footerBG;
+        #kensName {
+                text-align: center;
+                color: #333;
+            }
         h2 {
             color: $colHighlight;
             text-align: left;
@@ -27,6 +19,13 @@
         ul {
             li {
                 text-align: left;
+                font-size: 1.8em;
+                @include md {
+                    font-size: 1.4em;
+                }
+                @include sm {
+                    font-size: 1.1em;
+                }
             }
         }
         p {
@@ -34,9 +33,9 @@
             text-align: justify;
         }
         #profilePic {
-            width: 100%;
+            width: 80%;
             @include sm {
-                width: 75%;
+                width: 60%;
                 margin: auto;
             }
         }

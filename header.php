@@ -13,11 +13,11 @@
         </div>
         <div id="navbarCollapse" class="navbar-collapse collapse">
             <ul id="dropdownNavMenu" class="nav navbar-nav pull-right">
-                <li id="home" class="active"><a href="index.php"><span style="font-size: 0.85em;" class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li id="home"><a href="index.php"><span style="font-size: 0.85em;" class="glyphicon glyphicon-home"></span> Home</a></li>
                 <li id="about" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="about.aboutMe.php">About me</a></li>
+                        <li><a href="about_aboutMe.php">About me</a></li>
                         <li><a href="#">About Elevate</a></li>
                         <li><a href="#">CHEK philosophy</a></li>
                         <li><a href="#">Eat Smart</a></li>
@@ -29,7 +29,7 @@
                 <li id="testimonials"><a href="testimonials.php">Testimonials</a></li>
                 <li id="FAQ"><a href="#">FAQ</a></li>
                 <li id="blog"><a href="#">Blog<span class="caret"></span></a></li>
-                <li id="contactForm"><a href="contactForm.php">Contact Us</a></li>
+                <li id="contactUs"><a href="contactUs.php">Contact Us</a></li>
             </ul>
 <!--
             <form class="navbar-form navbar-left" role="search">

@@ -13,6 +13,8 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,13 +28,15 @@
     <?php include "header.php"; ?>
         <div class="container">
             <div class="row">
+                <div class="col-xs-11 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+                    <h1>ABOUT ME:</h1>
+                    <br />
+                </div>
                 <div class="col-sm-6">
                     <img id="profilePic" src="img/jpg/KenProfile.jpg" alt="Ken Profile Picture">
                 </div>
                 <div class="col-sm-6">
-                    <h2>ABOUT ME:</h2>
-                    <br />
-                    <h2>KEN WALKER</h2>
+                    <h1 id="kensName">KEN WALKER</h1>
                     <br />
                     <h2>Qualifications:</h2>
                     <ul>
@@ -48,7 +52,7 @@
             <p>With my own lifelong passion for health, fitness, sport and leading a healthy active lifestyle, as well as a strong work ethic, working as a postman in Truro for over 26 years, I began my career in the fitness industry in 2009 with a view to helping others achieve their own health and fitness goals.</p>
             <p>My journey began by successfully completing the intensive 2 year FdSc Personal Trainer qualification through Truro College, covering aspects such as exercise physiology, nutrition, anatomy, injuries, rehabilitation and exercise psychology. I then trained as a C.H.E.K Institute level 1 Holistic Lifestyle Coach to further enhance my skills and knowledge as a personal trainer. This knowledge was then applied through work as a personal trainer in Truro, helping clients to achieve their health and fitness goals.</p>
             <p>Understanding the importance of continual professional development in the area of health and fitness and keeping up with the latest research, I further enhanced my education and knowledge in the field by successfully completing the BSc Sports Performance and Coaching degree at Truro College, graduating with 1st class honours in 2014.</p>
-                <img class="additionalPic" src="img/jpg/KenRunning.jpg" alt="Ken Finishing a Race">
+            <img class="additionalPic" src="img/jpg/KenRunning.jpg" alt="Ken Finishing a Race">
             <p> Having completed the C.H.E.K Holistic Lifestyle Coach course and being very impressed by the C.H.E.K philosophy, I then decided to complete the C.H.E.K Exercise Coach course in September 2016. This provided me the skills to carry out complex assessments that are vital when designing bespoke training programs that meet the clients’ needs.
             </p>
             <p>My own personal passions includes a love of running, with a long background of competing in running and triathlon events, including marathons and Olympic distance triathlons, being an active member of Newquay Road Runners. Having returned from serious injury in 2008, when I was told I may not be able to run again, I went on to improve on my previous fitness levels, winning Truro Half Marathon in 2014 and running London Marathon in 2016 in a time of 2hrs 42mins (a 16min pb!). With two young children, I also fully understand the demands of a busy family life and the challenges of balancing this with work and training. With my desire to help others achieve their own personal health and fitness goals, my own personal experience, in conjunction with the knowledge gained from continual learning, I am in a prime position to offer individuals the help required to achieve their own health and fitness goals, providing holistic programmes that are time efficient, flexible and specific to each individuals unique circumstances.

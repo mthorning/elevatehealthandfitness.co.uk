@@ -105,7 +105,6 @@ body {
   body h2,
   body h3,
   body h4,
-  body li,
   body p {
     font-size: 1.8em; }
     @media screen and (max-width: 992px) {
@@ -113,7 +112,6 @@ body {
       body h2,
       body h3,
       body h4,
-      body li,
       body p {
         font-size: 1.4em; } }
     @media screen and (max-width: 768px) {
@@ -121,7 +119,6 @@ body {
       body h2,
       body h3,
       body h4,
-      body li,
       body p {
         font-size: 1.1em; } }
   body .navMargin {
@@ -266,6 +263,7 @@ body {
 .aboutPages {
   background: url("../img/png/aboutPattern.png") repeat center center; }
   .aboutPages .container {
+    float: none;
     border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
@@ -275,28 +273,42 @@ body {
     box-shadow: 5px 5px 8px #1e1e1e; }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
-        border-radius: none;
+        border-radius: 0;
         padding: 10px;
-        margin: 50px 0; } }
+        margin: 50px auto 0 auto; } }
     @media screen and (max-width: 768px) {
       .aboutPages .container {
         width: 90%; } }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
         width: 100%; } }
+    .aboutPages .container h1 {
+      color: #0a4da3;
+      font-size: 1.8em;
+      text-align: left; }
+    .aboutPages .container #kensName {
+      text-align: center;
+      color: #333; }
     .aboutPages .container h2 {
       color: #0a4da3;
       text-align: left; }
     .aboutPages .container ul li {
-      text-align: left; }
+      text-align: left;
+      font-size: 1.8em; }
+      @media screen and (max-width: 992px) {
+        .aboutPages .container ul li {
+          font-size: 1.4em; } }
+      @media screen and (max-width: 768px) {
+        .aboutPages .container ul li {
+          font-size: 1.1em; } }
     .aboutPages .container p {
       text-indent: 50px;
       text-align: justify; }
     .aboutPages .container #profilePic {
-      width: 100%; }
+      width: 80%; }
       @media screen and (max-width: 768px) {
         .aboutPages .container #profilePic {
-          width: 75%;
+          width: 60%;
           margin: auto; } }
     .aboutPages .container .additionalPic {
       padding: 5px;
@@ -321,15 +333,34 @@ body {
         right: auto;
         height: 200px; }
 
-#contactForm h1 {
-  color: #0a4da3; }
-#contactForm .contactForm {
-  border: 1px solid #0a4da3;
-  margin-top: 50px;
-  border-radius: 15px;
-  padding: 50px; }
-#contactForm .navMargin {
-  margin-bottom: 30px; }
+#contactForm {
+  background: url("../img/png/aboutPattern.png") repeat center center; }
+  #contactForm h1 {
+    color: #0a4da3; }
+  #contactForm .formContainer {
+    float: none;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 90px auto;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 8px #1e1e1e;
+    padding: 50px;
+    margin-top: 50px; }
+    @media screen and (max-width: 480px) {
+      #contactForm .formContainer {
+        border-radius: 0;
+        padding: 10px;
+        margin: 50px auto 0 auto; } }
+    @media screen and (max-width: 768px) {
+      #contactForm .formContainer {
+        width: 90%; } }
+    @media screen and (max-width: 480px) {
+      #contactForm .formContainer {
+        width: 100%; } }
+  #contactForm .navMargin {
+    margin-bottom: 30px; }
 
 .pageFooter {
   color: #cbbcbc;

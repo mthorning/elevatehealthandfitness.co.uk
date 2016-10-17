@@ -212,39 +212,21 @@ body {
       padding-right: 2px; } }
   /* line 67, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .curvedImg {
-    border-radius: 25px; }
-  /* line 71, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+    border-radius: 25px;
+    height: auto; }
+  /* line 72, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .btnColor,
   body:visited {
     border: 1px solid #1e1e1e;
     background-color: #0a67de;
     color: white; }
-    /* line 75, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+    /* line 76, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
     body .btnColor:hover,
     body:visited:hover {
       background-color: #e9e4ea;
       color: #0a4da3;
       border: 1px solid #1e1e1e;
       box-shadow: 2px 2px 8px #1e1e1e; }
-  /* line 82, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-  body .pageFooter {
-    color: #cbbcbc;
-    background-color: #1e1e1e;
-    text-align: center; }
-    /* line 85, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-    body .pageFooter a {
-      color: #cbbcbc; }
-      /* line 87, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-      body .pageFooter a:hover {
-        color: #0a4da3;
-        text-decoration: none; }
-    /* line 93, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-    body .pageFooter #shareBoxContainer {
-      margin-bottom: 10px; }
-    /* line 96, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-    body .pageFooter #designCredit {
-      text-align: right;
-      line-height: 100px; }
 
 /* line 2, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #smallScreenLogo {
@@ -265,30 +247,41 @@ body {
     background: none; }
   /* line 19, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #smallScreenLogo {
-    display: block; } }
+    display: block;
+    margin-top: 10px; } }
 
-/* line 26, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 27, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection #tagline {
   width: 50%;
   height: 75%;
   text-align: center; }
 
-/* line 31, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 32, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection .whiteContainer {
   padding-top: 10px;
   background-color: white;
   text-align: center; }
-  /* line 35, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 33, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  #indexPage #introSection .whiteContainer #paddedBox {
+    height: 0; }
+    @media screen and (max-width: 480px) {
+      /* line 33, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+      #indexPage #introSection .whiteContainer #paddedBox {
+        height: 50vh; } }
+  /* line 42, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer a {
     margin: 10px; }
-  /* line 38, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 45, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer #welcome {
     padding-top: 60px; }
-  /* line 42, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 48, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  #indexPage #introSection .whiteContainer h1 {
+    padding: inherit 5px; }
+  /* line 52, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
     margin-bottom: 30px;
     color: #0a4da3; }
-  /* line 46, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 56, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer #welcomeSection p {
     text-align: center;
     max-width: 70vw;
@@ -296,50 +289,50 @@ body {
     line-height: 30px;
     margin-bottom: 15px; }
     @media screen and (max-width: 768px) {
-      /* line 46, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+      /* line 56, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
       #indexPage #introSection .whiteContainer #welcomeSection p {
         max-width: 90vw; } }
-  /* line 57, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 67, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer .smallScreenImg {
     display: none; }
   @media screen and (max-width: 992px) {
-    /* line 61, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+    /* line 71, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
     #indexPage #introSection .whiteContainer .bigScreenImg {
       display: none; }
-    /* line 64, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+    /* line 74, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
     #indexPage #introSection .whiteContainer .smallScreenImg {
       display: block;
       margin-bottom: 40px; } }
-  /* line 69, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 79, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer p {
     text-align: justify; }
-  /* line 72, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 82, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer .center {
     text-align: center; }
-  /* line 75, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 85, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage #introSection .whiteContainer .textBox {
     padding: 0 10px 10px 10px; }
-    /* line 77, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+    /* line 87, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
     #indexPage #introSection .whiteContainer .textBox a {
       color: #0a4da3; }
 
-/* line 82, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 92, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection h1 {
   text-align: center; }
 
-/* line 85, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 95, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection h2 {
   text-align: center; }
   @media screen and (max-width: 992px) {
-    /* line 85, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+    /* line 95, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
     #indexPage #introSection h2 {
       display: none; } }
 
-/* line 91, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 101, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection p {
   text-align: justify; }
 
-/* line 94, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 104, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection .imgWrapper {
   padding-top: 50px;
   height: 100%;
@@ -348,13 +341,13 @@ body {
   justify-content: center;
   margin: 10px; }
 
-/* line 102, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 112, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection img {
   width: 100%;
-  margin: auto;
-  vertical-align: middle; }
+  max-height: 450px;
+  margin: inherit auto; }
 
-/* line 107, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 117, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #introSection .sidebarSection {
   margin: 20px 0; }
 
@@ -363,28 +356,71 @@ body {
   background: url("../img/png/aboutPattern.png") repeat center center; }
   /* line 4, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
   .aboutPages .container {
+    float: none;
     border-radius: 25px;
-    padding: 50px;
-    position: relative;
+    padding: 50px !important;
     margin: 90px auto;
     width: 75%;
+    text-align: center;
     background-color: white;
     box-shadow: 5px 5px 8px #1e1e1e; }
-    /* line 12, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
-    .aboutPages .container h2 {
-      color: #0a4da3; }
+    @media screen and (max-width: 480px) {
+      /* line 4, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+      .aboutPages .container {
+        border-radius: 0;
+        padding: 10px;
+        margin: 50px auto 0 auto; } }
+    @media screen and (max-width: 768px) {
+      /* line 4, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+      .aboutPages .container {
+        width: 90%; } }
+    @media screen and (max-width: 480px) {
+      /* line 4, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+      .aboutPages .container {
+        width: 100%; } }
+    /* line 6, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container h1 {
+      color: #0a4da3;
+      font-size: 1.8em;
+      text-align: left; }
+    /* line 11, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container #kensName {
+      text-align: center;
+      color: #333; }
     /* line 15, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container h2 {
+      color: #0a4da3;
+      text-align: left; }
+    /* line 20, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container ul li {
+      text-align: left;
+      font-size: 1.8em; }
+      @media screen and (max-width: 992px) {
+        /* line 20, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+        .aboutPages .container ul li {
+          font-size: 1.4em; } }
+      @media screen and (max-width: 768px) {
+        /* line 20, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+        .aboutPages .container ul li {
+          font-size: 1.1em; } }
+    /* line 31, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
     .aboutPages .container p {
-      text-indent: 50px; }
-    /* line 18, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
-    .aboutPages .container .profilePic {
-      height: 350px;
+      text-indent: 50px;
+      text-align: justify; }
+    /* line 35, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container #profilePic {
+      width: 80%; }
+      @media screen and (max-width: 768px) {
+        /* line 35, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+        .aboutPages .container #profilePic {
+          width: 60%;
+          margin: auto; } }
+    /* line 42, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    .aboutPages .container .additionalPic {
+      padding: 5px;
       float: right;
-      margin: 10px; }
-      /* line 22, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
-      .aboutPages .container .profilePic img {
-        height: 100%;
-        width: auto; }
+      width: 30%;
+      margin: auto; }
 
 /* line 2, C:/xampp/htdocs/elevate/sass/pages/_testimonial.scss */
 #testimonialPage {
@@ -408,20 +444,41 @@ body {
         right: auto;
         height: 200px; }
 
-/* line 3, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
-#contactForm h1 {
-  color: #0a4da3; }
-
-/* line 6, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
-#contactForm .contactForm {
-  border: 1px solid #0a4da3;
-  margin-top: 50px;
-  border-radius: 15px;
-  padding: 50px; }
-
-/* line 12, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
-#contactForm .navMargin {
-  margin-bottom: 30px; }
+/* line 2, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+#contactForm {
+  background: url("../img/png/aboutPattern.png") repeat center center; }
+  /* line 4, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+  #contactForm h1 {
+    color: #0a4da3; }
+  /* line 7, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+  #contactForm .formContainer {
+    float: none;
+    border-radius: 25px;
+    padding: 50px !important;
+    margin: 90px auto;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 8px #1e1e1e;
+    padding: 50px;
+    margin-top: 50px; }
+    @media screen and (max-width: 480px) {
+      /* line 7, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+      #contactForm .formContainer {
+        border-radius: 0;
+        padding: 10px;
+        margin: 50px auto 0 auto; } }
+    @media screen and (max-width: 768px) {
+      /* line 7, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+      #contactForm .formContainer {
+        width: 90%; } }
+    @media screen and (max-width: 480px) {
+      /* line 7, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+      #contactForm .formContainer {
+        width: 100%; } }
+  /* line 12, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+  #contactForm .navMargin {
+    margin-bottom: 30px; }
 
 /* line 1, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
 .pageFooter {

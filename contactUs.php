@@ -20,6 +20,8 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
 </head>
 
@@ -27,7 +29,7 @@
     <?php include "header.php"?>
         <div class="container-fluid navMargin">
             <div class="row">
-                <div class="contactForm col-sm-offset-1 col-sm-10">
+                <div class="formContainer col-sm-offset-1 col-sm-10">
                     <h1>Contact Us:</h1>
                     <?php  
                 
@@ -105,13 +107,6 @@ echo $resultMessage;
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
 
-        <!--            navigation class control-->
-        <script>
-            $(function () {
-                $('li').removeClass('active');
-                $('#navContact').addClass('active');
-            });
-        </script>
 </body>
 
 </html>

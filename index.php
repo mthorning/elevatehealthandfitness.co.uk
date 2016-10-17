@@ -8,11 +8,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Elevate Health &amp; Fitness</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
     <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +46,7 @@
                         <p class="center">•</p>
                         <p>With 1-to-1 personal training based in Truro or at a venue suitable for you, we aim to ensure you reach your peak health and fitness, with an eat-train-live smart philosophy focused on helping you improve your quality of life.</p>
                         <br />
-                        <hr />
+                        <br />
                         <br />
                     </div>
                     <img src="img/jpg/Elevate_Timelinecover.jpg" alt="Elevate Timeline Image">
@@ -111,7 +112,7 @@
                         </div>
                     </div>
                     <br />
-                    <hr />
+                    <br />
                     <br />
                     <div class="jumbotron custom">
                         <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
