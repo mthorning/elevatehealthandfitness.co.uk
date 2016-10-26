@@ -162,15 +162,13 @@ body {
   body .curvedImg {
     border-radius: 25px;
     height: auto; }
-  body .btnColor, body:visited {
+  body .btnColor {
     border: 1px solid #1e1e1e;
     background-color: #0a67de;
     color: white; }
-    body .btnColor:hover, body:visited:hover {
-      background-color: #e9e4ea;
-      color: #0a4da3;
-      border: 1px solid #1e1e1e;
-      box-shadow: 2px 2px 8px #1e1e1e; }
+    body .btnColor:hover {
+      color: white;
+      box-shadow: 2px 2px 8px #1c1c1c; }
 
 #smallScreenLogo {
   display: none; }
@@ -192,12 +190,11 @@ body {
     margin-top: 10px; } }
 #indexPage #introSection #tagline {
   width: 50%;
-  height: 75%;
-  text-align: center; }
+  height: 75%; }
 #indexPage #introSection .whiteContainer {
+  text-align: center;
   padding-top: 10px;
-  background-color: white;
-  text-align: center; }
+  background-color: white; }
   #indexPage #introSection .whiteContainer #paddedBox {
     height: 0; }
     @media screen and (max-width: 480px) {
@@ -209,11 +206,14 @@ body {
     padding-top: 60px; }
   #indexPage #introSection .whiteContainer h1 {
     padding: inherit 5px; }
+  #indexPage #introSection .whiteContainer #welcomeSection .bullets {
+    display: inline-block;
+    margin: auto; }
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
     margin-bottom: 30px;
-    color: #0a4da3; }
+    color: #0a4da3;
+    font-size: 2em; }
   #indexPage #introSection .whiteContainer #welcomeSection p {
-    text-align: center;
     max-width: 70vw;
     margin: auto;
     line-height: 30px;
@@ -229,23 +229,13 @@ body {
     #indexPage #introSection .whiteContainer .smallScreenImg {
       display: block;
       margin-bottom: 40px; } }
-  #indexPage #introSection .whiteContainer p {
-    text-align: justify; }
-  #indexPage #introSection .whiteContainer .center {
-    text-align: center; }
   #indexPage #introSection .whiteContainer .textBox {
     padding: 0 10px 10px 10px; }
     #indexPage #introSection .whiteContainer .textBox a {
       color: #0a4da3; }
-#indexPage #introSection h1 {
-  text-align: center; }
-#indexPage #introSection h2 {
-  text-align: center; }
-  @media screen and (max-width: 992px) {
-    #indexPage #introSection h2 {
-      display: none; } }
-#indexPage #introSection p {
-  text-align: justify; }
+@media screen and (max-width: 992px) {
+  #indexPage #introSection h2 {
+    display: none; } }
 #indexPage #introSection .imgWrapper {
   padding-top: 50px;
   height: 100%;
@@ -257,19 +247,16 @@ body {
   width: 100%;
   max-height: 450px;
   margin: inherit auto; }
-#indexPage #introSection .sidebarSection {
-  margin: 20px 0; }
 
 .aboutPages {
-  background: url("../img/png/aboutPattern.png") repeat center center; }
+  background: url("../img/png/aboutPattern.jpg"); }
   .aboutPages .container {
     float: none;
     border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
     width: 75%;
-    text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.89);
     box-shadow: 5px 5px 8px #1e1e1e; }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
@@ -282,6 +269,11 @@ body {
     @media screen and (max-width: 480px) {
       .aboutPages .container {
         width: 100%; } }
+    .aboutPages .container #ecLogo img {
+      width: 40%;
+      height: auto;
+      float: left;
+      margin: 5px; }
     .aboutPages .container h1 {
       color: #0a4da3;
       font-size: 1.8em;
@@ -316,65 +308,73 @@ body {
       width: 30%;
       margin: auto; }
 
-#testimonialPage {
-  background: url("../img/aboutPattern.png") repeat center center; }
-  #testimonialPage .container {
-    margin: 80px; }
-    #testimonialPage .container #myCarousel {
-      width: 100%;
-      margin: 0 auto; }
-      #testimonialPage .container #myCarousel .carousel-inner .item div {
-        padding-top: 30px;
-        height: 85vh; }
-      #testimonialPage .container #myCarousel .carousel-inner .carousel-caption {
-        width: 50%;
-        position: relative;
-        left: auto;
-        right: auto;
-        height: 200px; }
+#testimonialPage .container {
+  margin: 80px; }
+  #testimonialPage .container #myCarousel {
+    width: 100%;
+    margin: 0 auto; }
+    #testimonialPage .container #myCarousel .carousel-inner .item div {
+      padding-top: 30px;
+      height: 85vh; }
+    #testimonialPage .container #myCarousel .carousel-inner .carousel-caption {
+      width: 50%;
+      position: relative;
+      left: auto;
+      right: auto;
+      height: 200px; }
 
-#contactForm {
-  background: url("../img/png/aboutPattern.png") repeat center center; }
-  #contactForm h1 {
-    color: #0a4da3; }
-  #contactForm .formContainer {
-    float: none;
-    border-radius: 25px;
-    padding: 50px;
-    margin: 90px auto;
-    width: 75%;
-    text-align: center;
-    background-color: white;
-    box-shadow: 5px 5px 8px #1e1e1e;
-    padding: 50px;
-    margin-top: 50px; }
-    @media screen and (max-width: 480px) {
-      #contactForm .formContainer {
-        border-radius: 0;
-        padding: 10px;
-        margin: 50px auto 0 auto; } }
-    @media screen and (max-width: 768px) {
-      #contactForm .formContainer {
-        width: 90%; } }
-    @media screen and (max-width: 480px) {
-      #contactForm .formContainer {
-        width: 100%; } }
-  #contactForm .navMargin {
-    margin-bottom: 30px; }
+#contactForm h1 {
+  color: #0a4da3; }
+#contactForm .formContainer {
+  float: none;
+  border-radius: 25px;
+  padding: 50px;
+  margin: 90px auto;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.89);
+  box-shadow: 5px 5px 8px #1e1e1e;
+  padding: 50px;
+  margin-top: 50px; }
+  @media screen and (max-width: 480px) {
+    #contactForm .formContainer {
+      border-radius: 0;
+      padding: 10px;
+      margin: 50px auto 0 auto; } }
+  @media screen and (max-width: 768px) {
+    #contactForm .formContainer {
+      width: 90%; } }
+  @media screen and (max-width: 480px) {
+    #contactForm .formContainer {
+      width: 100%; } }
+  #contactForm .formContainer form-group {
+    text-align: left; }
+#contactForm .navMargin {
+  margin-bottom: 30px; }
 
-.pageFooter {
-  color: #cbbcbc;
+#pageFooter {
+  color: #e9e4ea;
   background-color: #1e1e1e;
   text-align: center; }
-  .pageFooter a {
-    color: #cbbcbc; }
-    .pageFooter a:hover {
+  #pageFooter p,
+  #pageFooter a {
+    font-size: 1.3em; }
+  #pageFooter a {
+    color: #e9e4ea; }
+    #pageFooter a:hover {
       color: #0a4da3;
       text-decoration: none; }
-  .pageFooter #shareBoxContainer {
+  #pageFooter #repsBadge {
+    text-align: right; }
+    #pageFooter #repsBadge img {
+      width: 15%;
+      height: auto; }
+  #pageFooter #shareBoxContainer {
     margin-bottom: 10px; }
-  .pageFooter #designCredit {
+  #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }
+    #pageFooter #designCredit p,
+    #pageFooter #designCredit a {
+      font-size: inherit; }
 
 /*# sourceMappingURL=style.css.map */

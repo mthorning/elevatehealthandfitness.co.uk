@@ -1,6 +1,5 @@
 //CONTACTFORM
 #contactForm {
-    background: url("../img/png/aboutPattern.png") repeat center center;
     h1 {
         color: $colHighlight;
     }
@@ -8,6 +7,9 @@
         @include standardContainer;
         padding: 50px;
         margin-top: 50px;
+        form-group {
+            text-align: left;
+        }
     }
     .navMargin {
         margin-bottom: 30px;

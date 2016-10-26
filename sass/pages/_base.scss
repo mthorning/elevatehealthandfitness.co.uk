@@ -68,16 +68,19 @@ body {
         border-radius: 25px;
         height: auto;
     }
-    .btnColor,
-    &:visited {
-        border: 1px solid $footerBG;
-        background-color: $colDefault;
-        color: white;
-        &:hover {
-            background-color: $bgHighlight;
-            color: $colHighlight;
-            border: 1px solid $footerBG;
-            box-shadow: 2px 2px 8px $footerBG;
-        }
+    .btnColor {
+        @include button ($buttonBorder, $buttonBG, $buttonColor, $hColor: $buttonColor);
     }
+//    .btnColor,
+//    &:visited {
+//        border: 1px solid $darkGrey;
+//        background-color: $colDefault;
+//        color: white;
+//        &:hover {
+//            background-color: $bgHighlight;
+//            color: $colHighlight;
+//            border: 1px solid $darkGrey;
+//            box-shadow: 2px 2px 8px $darkGrey;
+//        }
+//    }
 }

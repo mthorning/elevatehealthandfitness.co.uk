@@ -1,19 +1,34 @@
-.pageFooter {
-        color: $footerColor;
-        background-color: $footerBG;
-        a {
-            color: $footerColor;
-            &:hover {
-                color: $colHighlight;
-                text-decoration: none;
-            }
-        }
-        text-align: center;
-        #shareBoxContainer {
-            margin-bottom: 10px;
-        }
-        #designCredit {
-            text-align: right;
-            line-height: 100px;
+#pageFooter {
+    p,
+    a {
+        font-size: 1.3em;
+    }
+    color: $bgHighlight;
+    background-color: $darkGrey;
+    a {
+        color: $bgHighlight;
+        &:hover {
+            color: $colHighlight;
+            text-decoration: none;
         }
     }
+    #repsBadge {
+        text-align: right;
+        img {
+            width: 15%;
+            height: auto;
+        }
+    }
+    text-align: center;
+    #shareBoxContainer {
+        margin-bottom: 10px;
+    }
+    #designCredit {
+        text-align: right;
+        line-height: 100px;
+        p,
+        a {
+            font-size: inherit;
+        }
+    }
+}

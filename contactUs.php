@@ -5,28 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Contact Form</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    
+    <?php include 'components/headLinks.php'; ?>
 
 </head>
 
-<body id="contactForm">
-    <?php include "header.php"?>
+<body id="contactForm" class="aboutPages">
+    <?php include "components/header.php"?>
         <div class="container-fluid navMargin">
             <div class="row">
                 <div class="formContainer col-sm-offset-1 col-sm-10">
@@ -91,8 +78,7 @@ echo $resultMessage;
                             </div>
                             <div class="form-group">
                                 <label for="message">Message:</label>
-                                <textarea name="message" id="message" class="form-control" rows="5">
-                                    <?php echo $message; ?>
+                                <textarea name="message" id="message" class="form-control" rows="5"><?php echo $message; ?>
                                 </textarea>
                             </div>
                             <input value="Send Message" type="submit" name="submit" class="btn btn-lg btnColor pull-right">
@@ -100,13 +86,10 @@ echo $resultMessage;
                 </div>
             </div>
         </div>
-        <?php include "footer.php"; ?>
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-
+    
+        <?php include 'components/footer.php'; ?>
+    
+        <?php include 'modules/navigationClassControl.php'; ?>
 </body>
 
 </html>

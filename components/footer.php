@@ -1,4 +1,4 @@
-<footer class="pageFooter container-fluid">
+<footer id="pageFooter" class="container-fluid">
     <div class="row rowMargin">
         <div class="col-sm-6 col-lg-3">
             <p><b>&copy; Elevate Health &amp; Fitness</b></p>
@@ -16,6 +16,11 @@
         </div>
     </div>
     <div class="row">
+        <div id="repsBadge" class="col-sm-6 col-sm-offset-5">
+            <img src="img/png/REPs_Badge.png">
+        </div>
+    </div>
+    <div class="row">
         <div class="col-xs-7 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
             <div id="shareBoxContainer">
                 <?php include "shareBox.php"; ?>
@@ -26,19 +31,3 @@
         </div>
     </div>
 </footer>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
-
-            <!--            navigation class control-->
-            <script>
-                $(function () {
-                    $('li').removeClass('active');
-                    $('#<?php echo $title; ?>').addClass('active');
-                    $('#navToggleButton').click(function () {
-                        $('#dropdownNavMenu').toggleClass('pull-right');
-                    });
-                });
-            </script>

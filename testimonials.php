@@ -5,27 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Testimonials</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <?php include 'components/headLinks.php'; ?>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body id="testimonialPage">
-    <?php include "header.php"; ?>
+    <?php include "components/header.php"; ?>
         <div class="container">
             <div class="carousel slide" id="myCarousel" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -37,8 +25,8 @@
                     <!--                        first item-->
                     <div class="item active">
                         <div style="background: url(img/jpg/manright.jpg) no-repeat center center; background-size: cover; color: white;">
-                            <div  class="carousel-caption">
-                                <div >
+                            <div class="carousel-caption">
+                                <div>
                                     <div class="blockquote">
                                         <p class="m-b-0">"In three months Ken took my super unfit and very demotivated 16 year old son and turned him into a fitness enthusiast. Day one and he couldn't do two pushups, or run anywhere further than 50 yards. We had a goal, that seemed unattainable to be honest, and Ken made it possible. Our son passed his officer selection tests for the Air Force and we couldn't be happier! Sit ups like a machine, press ups in a hurry and a level 9 bleep test. I would recommend Ken to anyone he is a really nice guy who gets results!"</p>
                                         <footer class="blockquote-footer pull-right">
@@ -46,11 +34,11 @@
                                         </footer>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
-                    
+
                     <!--                        next item-->
                     <div class="item">
                         <div style="background-color: blue; color: white;">
@@ -60,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!--                        next item-->
                     <div class="item">
                         <div style="background-color: green; color: white;">
@@ -78,7 +66,9 @@
             </div>
         </div>
 
-        <?php include "footer.php" ?>
+        <?php include 'components/footer.php' ?>
+
+        <?php include 'modules/navigationClassControl.php'; ?>
 
 
             <!--            Carousel-->
@@ -89,7 +79,6 @@
                     });
                 });
             </script>
-
 
 </body>
 

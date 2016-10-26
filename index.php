@@ -2,33 +2,23 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Elevate Health &amp; Fitness</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
-    <link href="css/shareStyle.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <?php include 'components/headLinks.php'; ?>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body id="indexPage">
-    <?php include "header.php"; ?>
+    <?php include "components/header.php"; ?>
         <div id="introSection" class="container-fluid navMargin">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                    <img id="bigScreenLogo" src="img/png/Elevate-Logo.png" alt="Elevate Logo">
+                    <img id="bigScreenLogo" src="img/png/Elevate-LogoSmoothed.png" alt="Elevate Logo">
                 </div>
             </div>
             <img id="smallScreenLogo" src="img/jpg/Scenery-Logo.jpg" alt="Elevate Logo">
@@ -42,9 +32,36 @@
                     <!--                        Main Section-->
                     <div id="welcomeSection" class="textBox">
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
-                        <p>Do you suffer from stress, back pain, constant fatigue, low energy levels, weight control, postural problems, injuries or struggle to improve your fitness/sports performance levels? Whatever the reason, here at Elevate Health &amp; Fitness we provide bespoke, holistic personal training programmes incorporating exercise, nutrition and lifestyle strategies designed to help you achieve your health and fitness goals.</p>
-                        <p class="center">•</p>
-                        <p>With 1-to-1 personal training based in Truro or at a venue suitable for you, we aim to ensure you reach your peak health and fitness, with an eat-train-live smart philosophy focused on helping you improve your quality of life.</p>
+                        <p class="text-left">Do you need help to:</p>
+                        <br />
+                        <div class="text-left bullets">
+                            <p><em>• reduce your stress levels?
+                            <br />
+                            <br />
+                            • alleviate back pain?
+                            <br />
+                            <br />
+                            • overcome constant fatigue and low energy levels?
+                            <br />
+                            <br />
+                            • be in control of your weight?
+                            <br />
+                            <br />
+                            • address postural problems or injuries?
+                            <br />
+                            <br />
+                            • improve your fitness/sports performance levels?
+                            </em></p>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <p class="text-left"><strong>If so, you’ve come to the right place!</strong></p>
+                        <br />
+                        <br />
+                        <p class="text-justify">Here at Elevate Health &amp; Fitness, we provide bespoke, holistic personal training programs incorporating exercise, nutrition and lifestyle strategies, designed to help you achieve your health and fitness goals.</p>
+                        <br />
+                        <p class="text-justify">With 1-to-1 personal training based in Truro or at a venue suitable for you, we follow an eat-train-live smart philosophy to help you reach your peak health and fitness, improving your sense of well-being and leading to an improved quality of life for you!</p>
                         <br />
                         <br />
                         <br />
@@ -59,7 +76,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div class="textBox">
-                                <h2>EAT SMART</h2>
+                                <h2 class="text-center">EAT SMART</h2>
                                 <p><em>‘You are what you eat’</em> (and drink)! <em>‘You can’t outrun a bad diet’</em>! These are a couple of common phrases banded about in nutrition / dietary circles and they are spot on! The fuel you put into your body has a massive impact on your health! Eat junk = poor health / Eat Smart = elevated health! That’s why here at Elevate Health &amp; Fitness one of our main priorities is to focus on what you eat and drink. We will provide you with a bespoke nutrition program that <strong style="text-decoration: underline;">WILL</strong> improve your health and vitality, providing your body with all the nutrients it needs to function in its optimal state. <a href="#"><em>Discover more...</em></a>
 
                                 </p>
@@ -85,7 +102,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div class="textBox">
-                                <h2>TRAIN SMART</h2>
+                                <h2 class="text-center">TRAIN SMART</h2>
                                 <p>Whether you are returning from injury, looking to alleviate postural problems or back pain, want to improve your fitness or sports performance, or even just trying to improve your energy levels, here at Elevate Health &amp; Fitness, we will provide you with a unique exercise program based on your needs, goals and assessments taken at the beginning of your journey. This program will ensure you can function at your best and will be tailored around your life. <a href="#"><em>Discover more...</em></a>
                                 </p>
                             </div>
@@ -100,7 +117,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div class="textBox">
-                                <h2>LIVE SMART</h2>
+                                <h2 class="text-center">LIVE SMART</h2>
                                 <p>So you eat and train smart, but the rest of your life is a hectic, stressful merry-go-round that leaves you exhausted and struggling to cope? To get the most out of your training and nutrition programs we emphasise the importance of lifestyle factors such as sleep and relaxation and the massive benefits they can have on your overall health and wellbeing. We will provide you with strategies to help you function at your best and get the most from your program! <a href="#"><em>Discover more...</em></a>
                                 </p>
                             </div>
@@ -116,57 +133,17 @@
                     <br />
                     <div class="jumbotron custom">
                         <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
-                        <a class="btn btn-lg btnColor" href="contactform.php">Contact us!</a>
+                        <a class="btn btn-lg btnColor" href="pages/contactUs.php">Contact us!</a>
                     </div>
-
-                    <!--                    Sidebar-->
-                    <!--
-                        <div class="col-xs-3 well well-lg sidebarSection">
-                            <h4>A sidebar is sometimes useful, depends what you want:</h4>
-                            <div>
-                                <p>This could be some sort of menu structure or list of blog entries.</p>
-                                <ul>
-                                    <li><a href='#'>List item 1</a></li>
-                                    <li><a href='#'>List item 2</a></li>
-                                    <li><a href='#'>List item 3</a></li>
-                                    <li><a href='#'>List item 4</a></li>
-                                    <li><a href='#'>List item 5</a></li>
-                                    <li><a href='#'>List item 6</a></li>
-                                </ul>
-                            </div>
-                            <div class="sidebarSection">
-                                <p>You could put extra links in to important places:</p>
-                                <a target="_blank" href="http://chekinstitute.com/">CHEK Institute</a>
-                            </div>
-                            <div class="sidebarSection">
-                                <p>or calls to action:</p>
-                                <a class="btn btn-lg btnColor" href="contactform.php">Get in touch!</a>
-                            </div>
-                            <div class="sidebarSection">
-                                <p>or Share buttons:</p>
-                               THIS IS WHERE THE SHAREBOX WAS
-                            </div>
-                        </div>
--->
                 </div>
             </div>
-            <!--
-            <div class="row">
-                <div class="col-xs-12">
-                    <img src="img/Elevate_Timelinecover.png">
-                </div>
-            </div>
--->
         </div>
-        <?php include "footer.php" ?>
 
+        <?php include 'components/footer.php' ?>
 
-            <!--            Front page background image script-->
-            <script>
-                $(function () {
-                    $('#indexPage').addClass('fixedScenery');
-                });
-            </script>
+            <script type="text/javascript" src="js/frontPageBGImage.js"></script>
+            <?php include 'modules/navigationClassControl.php'; ?>
+
 </body>
 
 </html>

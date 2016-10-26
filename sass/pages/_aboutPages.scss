@@ -1,8 +1,16 @@
 //ABOUTPAGES
 .aboutPages {
-    background: url("../img/png/aboutPattern.png") repeat center center;
+    background: url("../img/png/aboutPattern.jpg");
     .container {
         @include standardContainer;
+        #ecLogo {
+            img {
+                width: 40%;
+                height: auto;
+                float: left;
+                margin: 5px;
+            }
+        }
         h1 {
             color: $colHighlight;
             font-size: 1.8em;
