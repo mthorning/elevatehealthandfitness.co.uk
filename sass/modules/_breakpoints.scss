@@ -1,3 +1,9 @@
+@mixin lg {
+    @media screen and (max-width: 1200px) {
+        @content
+    }
+}
+
 @mixin md {
     @media screen and (max-width: 992px) {
         @content

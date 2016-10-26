@@ -13,14 +13,31 @@
         }
     }
     #repsBadge {
-        text-align: right;
+        margin-bottom: 10px;
+        text-align: center;
         img {
-            width: 15%;
-            height: auto;
+            width: 30%;
+            @include md {
+                width: 40%;
+            }
+            @include sm {
+                width: 50%;
+            }
+            @include xs {
+                width: 80%;
+            }
+             height: auto;
         }
     }
     text-align: center;
     #shareBoxContainer {
+        padding: 20px;
+        @include sm {
+            padding: 100px;
+        }
+        @include xs {
+            padding: 10px;
+        }
         margin-bottom: 10px;
     }
     #designCredit {
