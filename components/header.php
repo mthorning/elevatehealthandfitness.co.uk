@@ -20,7 +20,7 @@
                 <li id="about" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="about_aboutMe.php">About me</a></li>
+                        <li><a href="about_aboutMe.php">About Me</a></li>
                         <li><a href="about_aboutElevate.php">About Elevate</a></li>
                         <li><a href="#">CHEK philosophy</a></li>
                         <li><a href="#">Eat Smart</a></li>

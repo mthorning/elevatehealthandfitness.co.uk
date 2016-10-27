@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>About Me</title>
-    
+
     <?php include 'components/headLinks.php'; ?>
 
 </head>
@@ -16,32 +16,38 @@
     <?php include "components/header.php"; ?>
         <div class="container">
             <div class="row">
-                <div class="col-xs-11 col-xs-offset-1 col-sm-3 col-sm-offset-0">
-                    <h1>ABOUT ME:</h1>
-                </div>
-                <div id="ecLogo" class="col-xs-11 col-xs-offset-1 col-sm-2 col-sm-offset-7">
-                    <img src="img/png/EC_logo_2013.png">
-                    <img src="img/png/HLC-logo_2013.png">
+                <div class="col-xs-12 col-sm-4">
+                    <h1 class="text-left">ABOUT ME:</h1>
                 </div>
             </div>
             <br />
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-xs-12 col-md-6">
                     <img id="profilePic" src="img/jpg/KenProfile.jpg" alt="Ken Profile Picture">
                 </div>
-                <div class="col-sm-6">
-                    <h1 id="kensName">KEN WALKER</h1>
-                    <br />
-                    <h2>Qualifications:</h2>
-                    <ul>
-                        <li>BSc (Hons) Sports Performance &amp; Coaching (1st Class)</li>
-                        <li>C.H.E.K Exercise Coach</li>
-                        <li>C.H.E.K Holistic Lifestyle Coach Level 1</li>
-                        <li>FdSc Personal Trainer</li>
-                    </ul>
-                    <br />
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <h1 id="kensName">KEN WALKER</h1>
+                        </div>
+                        <div id="badges" class="col-xs-6">
+                            <img src="img/png/badges.png" </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2>Qualifications:</h2>
+                            <ul>
+                                <li>BSc (Hons) Sports Performance &amp; Coaching (1st Class)</li>
+                                <li>C.H.E.K Exercise Coach</li>
+                                <li>C.H.E.K Holistic Lifestyle Coach Level 1</li>
+                                <li>FdSc Personal Trainer</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <br />
             <h2>Bio:</h2>
             <p>Following a lifelong passion for health, fitness, sport and leading a healthy, active lifestyle, as well having a strong work ethic, working as a postman in Truro for over 26 years, I began my career in the fitness industry in 2009 with a view to helping others achieve their own health and fitness goals.</p>
             <p>My journey began by successfully completing the intensive 2 year FdSc Personal Trainer qualification at Truro College, covering aspects such as exercise physiology, nutrition, anatomy, injuries, rehabilitation and exercise psychology. I then trained as a C.H.E.K Institute level 1 Holistic Lifestyle Coach to further enhance my skills and knowledge as a personal trainer. This knowledge was then applied through work as a personal trainer in Truro, successfully helping clients achieve their health and fitness goals.</p>
@@ -70,10 +76,10 @@
                 <li>Ken is first-aid qualified and holds Public Liability Insurance to £5m</li>
             </ul>
         </div>
-        
+
         <?php include 'components/footer.php' ?>
-        
-        <?php include 'modules/navigationClassControl.php'; ?>
+
+            <?php include 'modules/navigationClassControl.php'; ?>
 
 </body>
 

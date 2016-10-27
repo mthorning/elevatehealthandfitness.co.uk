@@ -1,14 +1,15 @@
 //ABOUTPAGES
 .aboutPages {
-    background: url("../img/png/aboutPattern.jpg");
+    background: url("../img/png/aboutPattern.png") repeat;
     .container {
         @include standardContainer;
-        #ecLogo {
+        div {
+            text-align: center;
+        }
+        #badges {
             img {
-                width: 40%;
+                width: 100%;
                 height: auto;
-                float: left;
-                margin: 5px;
             }
         }
         h1 {
@@ -17,9 +18,12 @@
             text-align: left;
         }
         #kensName {
-                text-align: center;
-                color: #333;
+            text-align: center;
+            color: #333;
+            @include xs {
+                font-size: 1.5em;
             }
+        }
         h2 {
             color: $colHighlight;
             text-align: left;
@@ -42,9 +46,12 @@
         }
         #profilePic {
             width: 80%;
-            @include sm {
+            margin: 30px auto;
+            @include lg {
+                width: 100%;
+            }
+            @include md {
                 width: 60%;
-                margin: auto;
             }
         }
         .additionalPic {
