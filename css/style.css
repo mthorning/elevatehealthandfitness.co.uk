@@ -210,7 +210,7 @@ body {
     display: inline-block;
     margin: auto; }
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #0a4da3;
     font-size: 2em; }
   #indexPage #introSection .whiteContainer #welcomeSection p {
@@ -364,12 +364,29 @@ body {
       color: #0a4da3;
       text-decoration: none; }
   #pageFooter #repsBadge {
-    text-align: right; }
+    margin-bottom: 10px;
+    text-align: center; }
     #pageFooter #repsBadge img {
-      width: 15%;
+      width: 30%;
       height: auto; }
+      @media screen and (max-width: 992px) {
+        #pageFooter #repsBadge img {
+          width: 40%; } }
+      @media screen and (max-width: 768px) {
+        #pageFooter #repsBadge img {
+          width: 50%; } }
+      @media screen and (max-width: 480px) {
+        #pageFooter #repsBadge img {
+          width: 80%; } }
   #pageFooter #shareBoxContainer {
+    padding: 20px;
     margin-bottom: 10px; }
+    @media screen and (max-width: 768px) {
+      #pageFooter #shareBoxContainer {
+        padding: 100px; } }
+    @media screen and (max-width: 480px) {
+      #pageFooter #shareBoxContainer {
+        padding: 10px; } }
   #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }

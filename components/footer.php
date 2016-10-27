@@ -16,12 +16,12 @@
         </div>
     </div>
     <div class="row">
-        <div id="repsBadge" class="col-sm-6 col-sm-offset-5">
+        <div id="repsBadge" class="col-xs-7 col-xs-offset-2 col-sm-6 col-sm-offset-6">
             <img src="img/png/REPs_Badge.png">
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-7 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
             <div id="shareBoxContainer">
                 <?php include "shareBox.php"; ?>
             </div>

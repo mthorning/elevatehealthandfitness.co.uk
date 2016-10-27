@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-11 col-xs-offset-1 col-sm-3 col-sm-offset-0">
-                <h1>About Elevate:</h1>
+                <h1>ABOUT ELEVATE:</h1>
                 <br />
                 <br />
             </div>

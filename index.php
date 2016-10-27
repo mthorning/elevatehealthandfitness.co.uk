@@ -33,38 +33,17 @@
                     <div id="welcomeSection" class="textBox">
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
                         <p class="text-left">Do you need help to:</p>
-                        <br />
                         <div class="text-left bullets">
-                            <p><em>• reduce your stress levels?
-                            <br />
-                            <br />
-                            • alleviate back pain?
-                            <br />
-                            <br />
-                            • overcome constant fatigue and low energy levels?
-                            <br />
-                            <br />
-                            • be in control of your weight?
-                            <br />
-                            <br />
-                            • address postural problems or injuries?
-                            <br />
-                            <br />
-                            • improve your fitness/sports performance levels?
+                            <p><em>• reduce your stress levels?<br />• alleviate back pain?<br />
+                            • overcome constant fatigue and low energy levels?<br />
+                            • be in control of your weight?<br />
+                            • address postural problems or injuries?<br />
+                            • improve your fitness/sports performance levels?<br />
                             </em></p>
                         </div>
-                        <br />
-                        <br />
-                        <br />
                         <p class="text-left"><strong>If so, you’ve come to the right place!</strong></p>
-                        <br />
-                        <br />
                         <p class="text-justify">Here at Elevate Health &amp; Fitness, we provide bespoke, holistic personal training programs incorporating exercise, nutrition and lifestyle strategies, designed to help you achieve your health and fitness goals.</p>
-                        <br />
                         <p class="text-justify">With 1-to-1 personal training based in Truro or at a venue suitable for you, we follow an eat-train-live smart philosophy to help you reach your peak health and fitness, improving your sense of well-being and leading to an improved quality of life for you!</p>
-                        <br />
-                        <br />
-                        <br />
                     </div>
                     <img src="img/jpg/Elevate_Timelinecover.jpg" alt="Elevate Timeline Image">
                     <br />
