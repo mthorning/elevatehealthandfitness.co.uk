@@ -53,6 +53,8 @@
                         <div class="col-sm-12">
                             <img src="img/jpg/eatsmart.jpg" alt="Eat Smart banner" class="smallScreenImg">
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <div class="textBox">
                                 <h2 class="text-center">EAT SMART</h2>

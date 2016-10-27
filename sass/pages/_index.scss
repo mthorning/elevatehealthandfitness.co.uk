@@ -23,6 +23,14 @@
 }
 
 #indexPage {
+    .container {
+        > div {
+            margin: 0 auto 100px auto;
+            @include md {
+                margin: 0 auto 20px auto;
+            }
+        }
+    }
     #introSection {
         #tagline {
             width: 50%;

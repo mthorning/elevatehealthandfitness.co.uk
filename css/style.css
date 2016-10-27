@@ -130,7 +130,7 @@ body {
   body h3,
   body h4,
   body p {
-    font-size: 1.8em; }
+    font-size: 1.6em; }
     @media screen and (max-width: 992px) {
       body h1,
       body h2,
@@ -145,6 +145,13 @@ body {
       body h4,
       body p {
         font-size: 1.1em; } }
+    @media screen and (max-width: 480px) {
+      body h1,
+      body h2,
+      body h3,
+      body h4,
+      body p {
+        font-size: 1em; } }
   body .navMargin {
     margin-top: 60px; }
     @media screen and (max-width: 992px) {
@@ -212,6 +219,11 @@ body {
   #smallScreenLogo {
     display: block;
     margin-top: 10px; } }
+#indexPage .container > div {
+  margin: 0 auto 100px auto; }
+  @media screen and (max-width: 992px) {
+    #indexPage .container > div {
+      margin: 0 auto 20px auto; } }
 #indexPage #introSection #tagline {
   width: 50%;
   height: 75%; }
@@ -276,6 +288,7 @@ body {
   background: url("../img/png/aboutPattern.png") repeat; }
   .aboutPages .container {
     float: none;
+    border: 1px solid #423c3c;
     padding: 50px;
     margin: 90px auto;
     width: 75%;
@@ -312,13 +325,16 @@ body {
       text-align: left; }
     .aboutPages .container ul li {
       text-align: left;
-      font-size: 1.8em; }
+      font-size: 1.6em; }
       @media screen and (max-width: 992px) {
         .aboutPages .container ul li {
           font-size: 1.4em; } }
       @media screen and (max-width: 768px) {
         .aboutPages .container ul li {
           font-size: 1.1em; } }
+      @media screen and (max-width: 480px) {
+        .aboutPages .container ul li {
+          font-size: 1em; } }
     .aboutPages .container p {
       text-indent: 50px;
       text-align: justify; }
@@ -332,7 +348,7 @@ body {
         .aboutPages .container #profilePic {
           width: 60%; } }
     .aboutPages .container .additionalPic {
-      padding: 5px;
+      padding: 15px;
       float: right;
       width: 30%;
       margin: auto; }
@@ -356,6 +372,7 @@ body {
   color: #0a4da3; }
 #contactForm .formContainer {
   float: none;
+  border: 1px solid #423c3c;
   padding: 50px;
   margin: 90px auto;
   width: 75%;
