@@ -1,6 +1,11 @@
 <?php include "modules/inc.title.php"; ?>
 <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
     <div id="navWrapper">
+<!--        temporary indicator-->
+        <div id="screenIndicator">
+                
+        </div>
+        
         <div class="navbar-header">
             <a class="navbar-brand" href="#"><a href="index.php"><img src="img/png/navbarLogo.png" id="navbarLogo"></a></a>
             <button id="navToggleButton" type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
