@@ -43,11 +43,11 @@
                                   • improve your fitness/sports performance levels?
                             </pre>
                         <p class="text-left"><strong>If so, you’ve come to the right place!</strong></p>
-                        <img src="img/jpg/happyPeople.jpg" alt="happy people" class="additionalPicRight">
+                        <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
                         <p class="text-justify">Here at Elevate Health &amp; Fitness, we provide bespoke, holistic personal training programs incorporating exercise, nutrition and lifestyle strategies, designed to help you achieve your health and fitness goals.</p>
                         <p class="text-justify">With 1-to-1 personal training based in Truro or at a venue suitable for you, we follow an eat-train-live smart philosophy to help you reach your peak health and fitness, improving your sense of well-being and leading to an improved quality of life for you!</p>
                     </div>
-                    <img src="img/jpg/Elevate_Timelinecover.jpg" alt="Elevate Timeline Image">
+                    <img id="timelineCover" src="img/jpg/Elevate_Timelinecover.jpg" alt="Elevate Timeline Image">
                     <hr />
                     <div class="row">
                         <div class="col-sm-12">
