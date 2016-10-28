@@ -1,0 +1,13 @@
+#servicesPage {
+    p {
+        text-indent: 0;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        img {
+            width: 80px;
+        }
+    }
+}

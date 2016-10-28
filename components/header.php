@@ -28,7 +28,7 @@
                         <li><a href="#">Live Smart</a></li>
                     </ul>
                 </li>
-                <li id="services"><a href="#">Services</a></li>
+                <li id="services"><a href="services.php">Services</a></li>
                 <li id="testimonials"><a href="testimonials.php">Testimonials</a></li>
                 <li id="FAQ"><a href="#">FAQ</a></li>
                 <li id="blog"><a href="#">Blog<span class="caret"></span></a></li>

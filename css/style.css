@@ -382,6 +382,15 @@ body {
 #contactForm .navMargin {
   margin-bottom: 30px; }
 
+#servicesPage p {
+  text-indent: 0; }
+#servicesPage .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; }
+  #servicesPage .row img {
+    width: 80px; }
+
 #pageFooter {
   color: #e9e4ea;
   background-color: #1e1e1e;
