@@ -12,12 +12,12 @@
 
 </head>
 
-<body class="aboutPages" id="servicesPage">
+<body class="aboutPages">
     <?php include "components/header.php"; ?>
-        <div class="container">
-                    <h1>SERVICES:</h1>
-                    <br />
-                    <br />
+        <div class="container" id="servicesPage">
+            <h1>SERVICES:</h1>
+            <br />
+            <br />
             <p>Here at Elevate Health &amp; Fitness we provide 1-to-1 personal training (couple or small group training available if preferred, please contact us for more information), at various venues in and around Truro (weather and client preference dependant).</p>
             <p>Your journey to elevate your health follows this process:</p>
             <div class="row">
