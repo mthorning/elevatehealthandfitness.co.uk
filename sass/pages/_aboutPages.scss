@@ -1,6 +1,7 @@
 //ABOUTPAGES
 .aboutPages {
-    background: url("../img/png/aboutPattern.png") repeat;
+    background: url("../img/jpg/aboutPattern.jpg") no-repeat;
+    background-size: cover;
     .container {
         @include standardContainer;
         div {
@@ -14,14 +15,14 @@
         }
         h1 {
             color: $colHighlight;
-            font-size: 1.8em;
+//            font-size: 1.8em;
             text-align: left;
         }
         #kensName {
             text-align: center;
             color: #333;
             @include xs {
-                font-size: 1.5em;
+//                font-size: 1.5em;
             }
         }
         h2 {
@@ -31,16 +32,6 @@
         ul {
             li {
                 text-align: left;
-                font-size: 1.6em;
-                @include md {
-                    font-size: 1.4em;
-                }
-                @include sm {
-                    font-size: 1.1em;
-                }
-                @include xs {
-                    font-size: 1em;
-                }
             }
         }
         p {
@@ -56,12 +47,6 @@
             @include md {
                 width: 60%;
             }
-        }
-        .additionalPic {
-            padding: 15px;
-            float: right;
-            width: 30%;
-            margin: auto;
         }
     }
 }

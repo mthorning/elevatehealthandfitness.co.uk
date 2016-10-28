@@ -125,33 +125,6 @@ body {
 
 body {
   font-family: 'Open Sans', sans-serif; }
-  body h1,
-  body h2,
-  body h3,
-  body h4,
-  body p {
-    font-size: 1.6em; }
-    @media screen and (max-width: 992px) {
-      body h1,
-      body h2,
-      body h3,
-      body h4,
-      body p {
-        font-size: 1.4em; } }
-    @media screen and (max-width: 768px) {
-      body h1,
-      body h2,
-      body h3,
-      body h4,
-      body p {
-        font-size: 1.1em; } }
-    @media screen and (max-width: 480px) {
-      body h1,
-      body h2,
-      body h3,
-      body h4,
-      body p {
-        font-size: 1em; } }
   body .navMargin {
     margin-top: 60px; }
     @media screen and (max-width: 992px) {
@@ -192,6 +165,9 @@ body {
       padding-right: 2px; } }
   body .curvedImg {
     border-radius: 25px;
+    padding: 15px;
+    border: 1px solid #e9e4ea;
+    width: 100%;
     height: auto; }
   body .btnColor {
     border: 1px solid #1e1e1e;
@@ -200,6 +176,17 @@ body {
     body .btnColor:hover {
       color: white;
       box-shadow: 2px 2px 8px #1c1c1c; }
+  body .additionalPic, body .additionalPicRight, body .additionalPicLeft {
+    background-color: white;
+    border: 1px solid #e9e4ea;
+    margin: 0 15px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 8px; }
+  body .additionalPicRight {
+    float: right; }
+  body .additionalPicLeft {
+    float: left; }
 
 #smallScreenLogo {
   display: none; }
@@ -219,8 +206,18 @@ body {
   #smallScreenLogo {
     display: block;
     margin-top: 10px; } }
+@media screen and (min-width: 1500px) {
+  #bigScreenLogo {
+    display: none; }
+
+  .fixedScenery {
+    background: none; }
+
+  #smallScreenLogo {
+    display: block;
+    margin-top: 10px; } }
 #indexPage .container > div {
-  margin: 0 auto 100px auto; }
+  margin: 0 auto 60px auto; }
   @media screen and (max-width: 992px) {
     #indexPage .container > div {
       margin: 0 auto 20px auto; } }
@@ -242,13 +239,17 @@ body {
     padding-top: 60px; }
   #indexPage #introSection .whiteContainer h1 {
     padding: inherit 5px; }
-  #indexPage #introSection .whiteContainer #welcomeSection .bullets {
+  #indexPage #introSection .whiteContainer #welcomeSection pre {
     display: inline-block;
-    margin: auto; }
+    padding: 0 50px;
+    margin: auto;
+    border: inherit;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit; }
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
     margin-bottom: 10px;
-    color: #0a4da3;
-    font-size: 2em; }
+    color: #0a4da3; }
   #indexPage #introSection .whiteContainer #welcomeSection p {
     max-width: 70vw;
     margin: auto;
@@ -269,6 +270,9 @@ body {
     padding: 0 10px 10px 10px; }
     #indexPage #introSection .whiteContainer .textBox a {
       color: #0a4da3; }
+  #indexPage #introSection .whiteContainer .verticalAlign {
+    display: flex;
+    align-items: center; }
 @media screen and (max-width: 992px) {
   #indexPage #introSection h2 {
     display: none; } }
@@ -279,16 +283,17 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 10px; }
-#indexPage #introSection img {
+#indexPage #introSection > div > div > img {
   width: 100%;
   max-height: 450px;
   margin: inherit auto; }
 
 .aboutPages {
-  background: url("../img/png/aboutPattern.png") repeat; }
+  background: url("../img/jpg/aboutPattern.jpg") no-repeat;
+  background-size: cover; }
   .aboutPages .container {
     float: none;
-    border: 1px solid #423c3c;
+    border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
     width: 75%;
@@ -312,29 +317,15 @@ body {
       height: auto; }
     .aboutPages .container h1 {
       color: #0a4da3;
-      font-size: 1.8em;
       text-align: left; }
     .aboutPages .container #kensName {
       text-align: center;
       color: #333; }
-      @media screen and (max-width: 480px) {
-        .aboutPages .container #kensName {
-          font-size: 1.5em; } }
     .aboutPages .container h2 {
       color: #0a4da3;
       text-align: left; }
     .aboutPages .container ul li {
-      text-align: left;
-      font-size: 1.6em; }
-      @media screen and (max-width: 992px) {
-        .aboutPages .container ul li {
-          font-size: 1.4em; } }
-      @media screen and (max-width: 768px) {
-        .aboutPages .container ul li {
-          font-size: 1.1em; } }
-      @media screen and (max-width: 480px) {
-        .aboutPages .container ul li {
-          font-size: 1em; } }
+      text-align: left; }
     .aboutPages .container p {
       text-indent: 50px;
       text-align: justify; }
@@ -347,11 +338,6 @@ body {
       @media screen and (max-width: 992px) {
         .aboutPages .container #profilePic {
           width: 60%; } }
-    .aboutPages .container .additionalPic {
-      padding: 15px;
-      float: right;
-      width: 30%;
-      margin: auto; }
 
 #testimonialPage .container {
   margin: 80px; }
@@ -372,7 +358,7 @@ body {
   color: #0a4da3; }
 #contactForm .formContainer {
   float: none;
-  border: 1px solid #423c3c;
+  border-radius: 25px;
   padding: 50px;
   margin: 90px auto;
   width: 75%;
@@ -400,9 +386,6 @@ body {
   color: #e9e4ea;
   background-color: #1e1e1e;
   text-align: center; }
-  #pageFooter p,
-  #pageFooter a {
-    font-size: 1.3em; }
   #pageFooter a {
     color: #e9e4ea; }
     #pageFooter a:hover {

@@ -22,10 +22,24 @@
     }
 }
 
+//for widescreen monitors
+@media screen and (min-width: 1500px) {
+    #bigScreenLogo {
+        display: none;
+    }
+    .fixedScenery {
+        background: none;
+    }
+    #smallScreenLogo {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
 #indexPage {
     .container {
         > div {
-            margin: 0 auto 100px auto;
+            margin: 0 auto 60px auto;
             @include md {
                 margin: 0 auto 20px auto;
             }
@@ -56,14 +70,19 @@
                 padding: inherit 5px;
             }
             #welcomeSection {
-                .bullets {
-                    display: inline-block;
-                    margin: auto;
-                }
+                    pre {
+                        display: inline-block;
+                        padding: 0 50px;
+                        margin: auto;
+                        border: inherit;
+                        background-color: inherit;
+                        font-family: inherit;
+                        font-size: inherit;
+                    }
                 h1 {
                     margin-bottom: 10px;
                     color: $colHighlight;
-                    font-size: 2em;
+                    //                    font-size: 2em;
                 }
                 p {
                     max-width: 70vw;
@@ -93,6 +112,10 @@
                     color: $colHighlight;
                 }
             }
+            .verticalAlign {
+                display: flex;
+                align-items: center;
+            }
         }
         h2 {
             @include md {
@@ -107,7 +130,7 @@
             justify-content: center;
             margin: 10px;
         }
-        img {
+        > div > div >img {
             width: 100%;
             max-height: 450px;
             margin: inherit auto;

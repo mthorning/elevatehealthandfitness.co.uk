@@ -31,7 +31,7 @@
                             <h1 id="kensName">KEN WALKER</h1>
                         </div>
                         <div id="badges" class="col-xs-6">
-                            <img src="img/png/badges.png" </div>
+                            <img src="img/png/badges.png" alt="qualification badges"> 
                         </div>
                     </div>
                     <div class="row">
@@ -50,9 +50,9 @@
             <br />
             <h2>Bio:</h2>
             <p>Following a lifelong passion for health, fitness, sport and leading a healthy, active lifestyle, as well having a strong work ethic, working as a postman in Truro for over 26 years, I began my career in the fitness industry in 2009 with a view to helping others achieve their own health and fitness goals.</p>
+            <img class="additionalPicRight" src="img/jpg/KenRunning.jpg" alt="Ken Finishing a Race">
             <p>My journey began by successfully completing the intensive 2 year FdSc Personal Trainer qualification at Truro College, covering aspects such as exercise physiology, nutrition, anatomy, injuries, rehabilitation and exercise psychology. I then trained as a C.H.E.K Institute level 1 Holistic Lifestyle Coach to further enhance my skills and knowledge as a personal trainer. This knowledge was then applied through work as a personal trainer in Truro, successfully helping clients achieve their health and fitness goals.</p>
             <p>Understanding the importance of continual professional development in the area of health and fitness and keeping up with the latest research, I further enhanced my education and knowledge in the field by successfully completing the BSc Sports Performance and Coaching degree at Truro College, graduating with 1st class honors in 2014.</p>
-            <img class="additionalPic" src="img/jpg/KenRunning.jpg" alt="Ken Finishing a Race">
             <p>Having completed the C.H.E.K Holistic Lifestyle Coach course and being very impressed by the C.H.E.K approach to holistic health, I subsequently completed the C.H.E.K Exercise Coach course in September 2016. This provided me the skills to carry out complex assessments, vital for designing bespoke training programs that meet individual clients’ needs.
             </p>
             <p>My own personal passions includes a love of running, with a long background of competing in running and triathlon events, including marathons and Olympic distance triathlons, being an active member of Newquay Road Runners. Having returned from serious injury in 2008, when I was told I may not be able to run again, I went on to improve on my previous fitness levels, winning Truro Half Marathon in 2014 and running London Marathon in 2016 in a time of 2hrs 42mins (a 16min pb!).
