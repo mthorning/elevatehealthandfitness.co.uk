@@ -1,0 +1,64 @@
+@mixin lg {
+    @media screen and (max-width: 1200px) {
+        @content
+    }
+}
+
+@mixin md {
+    @media screen and (max-width: 992px) {
+        @content
+    }
+}
+
+@mixin sm {
+    @media screen and (max-width: 768px) {
+        @content
+    }
+}
+
+@mixin xs {
+    @media screen and (max-width: 480px) {
+        @content
+    }
+}
+
+@mixin button ($border, $bg, $color, $hBg: null, $hColor: null) {
+    border: 1px solid $border;
+    background-color: $bg;
+    color: $color;
+    &:hover {
+        background-color: $hBg;
+        color: $hColor;
+        box-shadow: 2px 2px 8px #1c1c1c;
+    }
+}
+
+@mixin standardContainer {
+    float: none;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 90px auto;
+    @include xs {
+        border-radius: 0;
+        padding: 10px;
+        margin: 50px auto 0 auto;
+    }
+    width: 75%;
+    @include sm {
+        width: 90vw;
+    }
+    @include xs {
+        width: 100%;
+    }
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 8px $darkGrey;
+}
+
+@mixin additionalPic {
+    background-color: white;
+    border: 1px solid $bgHighlight;
+    margin: 0 15px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 8px;
+}

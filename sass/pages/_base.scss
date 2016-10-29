@@ -62,19 +62,14 @@ body {
         @include button ($buttonBorder, $buttonBG, $buttonColor, $hColor: $buttonColor);
     }
     .additionalPic {
-        background-color: white;
-        border: 1px solid $bgHighlight;
-        margin: 0 15px;
-        padding: 5px;
-        width: 30%;
-        border-radius: 8px;
+        @include additionalPic;
     }
     .additionalPicRight {
-        @extend .additionalPic;
+        @include additionalPic;
         float: right;
     }
     .additionalPicLeft {
-        @extend .additionalPic;
+        @include additionalPic;
         float: left;
     }
 }
