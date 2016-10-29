@@ -15,7 +15,7 @@
 <body id="contactUsPage" class="aboutPages">
     <?php include "components/header.php"?>
     <div class="container">
-        <h1>Contact Us:</h1>
+        <h1>CONTACT US</h1>
         <?php include 'components/contactForm.php'; ?>
     </div>
 

@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
-                    <h1 class="text-left">ABOUT ME:</h1>
+                    <h1 class="text-left">ABOUT ME</h1>
                 </div>
             </div>
             <br />

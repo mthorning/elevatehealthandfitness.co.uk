@@ -107,7 +107,7 @@
                     <br />
                     <div class="jumbotron custom">
                         <h3>Start the journey to Elevate your health by contacting us to arrange your free, no obligation consultation.</h3>
-                        <a class="btn btn-lg btnColor" href="pages/contactUs.php">Contact us!</a>
+                        <a class="btn btn-lg btnColor" href="contactUs.php">Contact us!</a>
                     </div>
                 </div>
             </div>
