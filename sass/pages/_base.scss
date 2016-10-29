@@ -53,27 +53,21 @@ body {
     }
     .curvedImg {
         border-radius: 25px;
-        padding: 15px;
-        border: 1px solid $bgHighlight;
         width: 100%;
         height: auto;
     }
     .btnColor {
         @include button ($buttonBorder, $buttonBG, $buttonColor, $hColor: $buttonColor);
     }
-    .additionalPic {
-        @include additionalPic;
-    }
     .additionalPicRight {
-        @include additionalPic;
+        @include borderedPic;
         float: right;
     }
     .additionalPicLeft {
-        @include additionalPic;
+        @include borderedPic;
         float: left;
     }
     .verticalAlign {
-        display: flex;
-        align-items: center;
+        @include verticalAlign;
     }
 }

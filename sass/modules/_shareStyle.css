@@ -1,0 +1,52 @@
+/* line 3, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+.shareBox {
+  text-align: center;
+  padding: 7px 15px;
+  border: 1px solid #7a7a7a;
+  border-radius: 20px;
+  overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    /* line 3, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+    .shareBox {
+      padding: 3px 7px; } }
+  @media screen and (max-width: 480px) {
+    /* line 3, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+    .shareBox {
+      border: none;
+      overflow: visible; } }
+  /* line 17, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+  .shareBox .shareIcon {
+    border-right: 1px solid #7a7a7a; }
+    /* line 19, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+    .shareBox .shareIcon:last-child {
+      border-right: none; }
+    @media screen and (max-width: 480px) {
+      /* line 17, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+      .shareBox .shareIcon {
+        border: none; } }
+    @media screen and (max-width: 992px) {
+      /* line 17, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+      .shareBox .shareIcon {
+        padding-left: 5px;
+        padding-right: 5px; } }
+    @media screen and (max-width: 480px) {
+      /* line 17, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+      .shareBox .shareIcon {
+        padding: 0; } }
+  /* line 33, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+  .shareBox img {
+    width: 100%;
+    border: 0;
+    box-shadow: 0; }
+    @media screen and (max-width: 768px) {
+      /* line 33, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+      .shareBox img {
+        width: 75%;
+        padding: 0 1px; } }
+    @media screen and (max-width: 480px) {
+      /* line 33, C:/xampp/htdocs/elevate/sass/modules/_shareStyle.scss */
+      .shareBox img {
+        width: 80%;
+        padding: 1px; } }
+
+/*# sourceMappingURL=_shareStyle.css.map */

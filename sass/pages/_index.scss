@@ -74,13 +74,10 @@
             #welcomeSection {
                 min-height: 90vh;
                 .welcomeSectionImg {
-                    background-color: white;
-                    border: 1px solid $bgHighlight;
                     margin: 0 5px 0 30px;
-                    padding: 5px;
                     width: 30%;
-                    border-radius: 8px;
                     float: right;
+                    @include borderedPic;
                     @include sm {
                         padding: 0;
                     }
@@ -89,7 +86,7 @@
                     }
                 }
                 #bullets {
-                    margin-left: 150px;
+                margin-left: 150px;
                     @include sm {
                         margin-left: 50px;
                     }
@@ -133,8 +130,8 @@
                     color: $colHighlight;
                 }
             }
-            .verticalAlign1 {
-                @extend .verticalAlign;
+            .verticalAlignLgOnly {
+                @include verticalAlign;
                 @include sm {
                     display: block;
                 }

@@ -165,8 +165,6 @@ body {
       padding-right: 2px; } }
   body .curvedImg {
     border-radius: 25px;
-    padding: 15px;
-    border: 1px solid #e9e4ea;
     width: 100%;
     height: auto; }
   body .btnColor {
@@ -176,18 +174,29 @@ body {
     body .btnColor:hover {
       color: white;
       box-shadow: 2px 2px 8px #1c1c1c; }
-  body .additionalPic, body .additionalPicRight, body .additionalPicLeft {
+  body .additionalPicRight {
     background-color: white;
     border: 1px solid #e9e4ea;
     margin: 0 15px;
     padding: 5px;
     width: 30%;
-    border-radius: 8px; }
-  body .additionalPicRight {
+    border-radius: 8px;
     float: right; }
+    @media screen and (max-width: 480px) {
+      body .additionalPicRight {
+        padding: 0; } }
   body .additionalPicLeft {
+    background-color: white;
+    border: 1px solid #e9e4ea;
+    margin: 0 15px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 8px;
     float: left; }
-  body .verticalAlign, body #indexPage #introSection .whiteContainer .verticalAlign1, #indexPage #introSection .whiteContainer body .verticalAlign1 {
+    @media screen and (max-width: 480px) {
+      body .additionalPicLeft {
+        padding: 0; } }
+  body .verticalAlign {
     display: flex;
     align-items: center; }
 
@@ -251,13 +260,18 @@ body {
   #indexPage #introSection .whiteContainer #welcomeSection {
     min-height: 90vh; }
     #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
+      margin: 0 5px 0 30px;
+      width: 30%;
+      float: right;
       background-color: white;
       border: 1px solid #e9e4ea;
-      margin: 0 5px 0 30px;
+      margin: 0 15px;
       padding: 5px;
       width: 30%;
-      border-radius: 8px;
-      float: right; }
+      border-radius: 8px; }
+      @media screen and (max-width: 480px) {
+        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
+          padding: 0; } }
       @media screen and (max-width: 768px) {
         #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
           padding: 0; } }
@@ -297,9 +311,12 @@ body {
     padding: 0 10px 10px 10px; }
     #indexPage #introSection .whiteContainer .textBox a {
       color: #0a4da3; }
-  @media screen and (max-width: 768px) {
-    #indexPage #introSection .whiteContainer .verticalAlign1 {
-      display: block; } }
+  #indexPage #introSection .whiteContainer .verticalAlignLgOnly {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection .whiteContainer .verticalAlignLgOnly {
+        display: block; } }
 @media screen and (max-width: 992px) {
   #indexPage #introSection h2 {
     display: none; } }
