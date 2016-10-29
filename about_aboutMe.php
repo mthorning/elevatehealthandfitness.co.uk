@@ -26,7 +26,7 @@
                     <img id="profilePic" src="img/jpg/KenProfile.jpg" alt="Ken Profile Picture">
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <div class="row">
+                    <div class="row verticalAlign">
                         <div class="col-xs-6">
                             <h1 id="kensName">KEN WALKER</h1>
                         </div>

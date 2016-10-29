@@ -61,7 +61,7 @@
             #welcome {
                 padding-top: 50px;
                 img {
-                    width:100%;
+                    width: 100%;
                 }
             }
             #welcomeSection {
@@ -118,9 +118,8 @@
                     color: $colHighlight;
                 }
             }
-            .verticalAlign {
-                display: flex;
-                align-items: center;
+            .verticalAlign1 {
+                @extend .verticalAlign;
                 @include sm {
                     display: block;
                 }

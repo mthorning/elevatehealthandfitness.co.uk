@@ -187,6 +187,9 @@ body {
     float: right; }
   body .additionalPicLeft {
     float: left; }
+  body .verticalAlign, body #indexPage #introSection .whiteContainer .verticalAlign1, #indexPage #introSection .whiteContainer body .verticalAlign1 {
+    display: flex;
+    align-items: center; }
 
 #smallScreenLogo {
   display: none;
@@ -277,12 +280,9 @@ body {
     padding: 0 10px 10px 10px; }
     #indexPage #introSection .whiteContainer .textBox a {
       color: #0a4da3; }
-  #indexPage #introSection .whiteContainer .verticalAlign {
-    display: flex;
-    align-items: center; }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer .verticalAlign {
-        display: block; } }
+  @media screen and (max-width: 768px) {
+    #indexPage #introSection .whiteContainer .verticalAlign1 {
+      display: block; } }
 @media screen and (max-width: 992px) {
   #indexPage #introSection h2 {
     display: none; } }
@@ -327,6 +327,9 @@ body {
     .aboutPages .container #kensName {
       text-align: center;
       color: #333; }
+      @media screen and (max-width: 480px) {
+        .aboutPages .container #kensName {
+          font-size: 1.5em; } }
     .aboutPages .container h2 {
       color: #0a4da3;
       text-align: left; }
