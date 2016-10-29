@@ -223,14 +223,22 @@ body {
   text-align: center;
   padding-top: 10px;
   background-color: white; }
-  @media screen and (max-width: 768px) {
-    #indexPage #introSection .whiteContainer h1 {
-      font-size: 1.75em; } }
-  @media screen and (max-width: 480px) {
-    #indexPage #introSection .whiteContainer h1 {
-      font-size: 1.4em; } }
+  #indexPage #introSection .whiteContainer h1 {
+    margin: 10px 0 0 0; }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection .whiteContainer h1 {
+        font-size: 1.75em; } }
+    @media screen and (max-width: 480px) {
+      #indexPage #introSection .whiteContainer h1 {
+        font-size: 1.4em; } }
   #indexPage #introSection .whiteContainer #paddedBox {
     height: 0; }
+    @media screen and (max-width: 992px) {
+      #indexPage #introSection .whiteContainer #paddedBox {
+        height: 15vh; } }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection .whiteContainer #paddedBox {
+        height: 35vh; } }
     @media screen and (max-width: 480px) {
       #indexPage #introSection .whiteContainer #paddedBox {
         height: 50vh; } }
@@ -240,34 +248,43 @@ body {
     padding-top: 50px; }
     #indexPage #introSection .whiteContainer #welcome img {
       width: 100%; }
-  #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-    background-color: white;
-    border: 1px solid #e9e4ea;
-    margin: 0 15px;
-    padding: 5px;
-    width: 30% !important;
-    border-radius: 8px;
-    float: right; }
-  #indexPage #introSection .whiteContainer #welcomeSection #bullets {
-    margin-left: 150px;
-    text-align: left; }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer #welcomeSection #bullets {
-        margin-left: 50px; } }
-    #indexPage #introSection .whiteContainer #welcomeSection #bullets p {
-      line-height: 15px; }
-  #indexPage #introSection .whiteContainer #welcomeSection strong {
-    font-size: 1.2em; }
-  #indexPage #introSection .whiteContainer #welcomeSection h1 {
-    margin-bottom: 10px;
-    color: #0a4da3; }
-  #indexPage #introSection .whiteContainer #welcomeSection p {
-    max-width: 70vw;
-    margin: auto;
-    margin-bottom: 15px; }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer #welcomeSection p {
-        max-width: 90vw; } }
+  #indexPage #introSection .whiteContainer #welcomeSection {
+    min-height: 90vh; }
+    #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
+      background-color: white;
+      border: 1px solid #e9e4ea;
+      margin: 0 5px 0 30px;
+      padding: 5px;
+      width: 30%;
+      border-radius: 8px;
+      float: right; }
+      @media screen and (max-width: 768px) {
+        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
+          padding: 0; } }
+      @media screen and (max-width: 480px) {
+        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
+          display: none; } }
+    #indexPage #introSection .whiteContainer #welcomeSection #bullets {
+      margin-left: 150px;
+      text-align: left; }
+      @media screen and (max-width: 768px) {
+        #indexPage #introSection .whiteContainer #welcomeSection #bullets {
+          margin-left: 50px; } }
+      #indexPage #introSection .whiteContainer #welcomeSection #bullets p {
+        line-height: 15px; }
+    #indexPage #introSection .whiteContainer #welcomeSection strong {
+      font-size: 1.2em; }
+    #indexPage #introSection .whiteContainer #welcomeSection h1 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #0a4da3; }
+    #indexPage #introSection .whiteContainer #welcomeSection p {
+      max-width: 70vw;
+      margin: auto;
+      margin-bottom: 15px; }
+      @media screen and (max-width: 768px) {
+        #indexPage #introSection .whiteContainer #welcomeSection p {
+          max-width: 90vw; } }
   #indexPage #introSection .whiteContainer .smallScreenImg {
     display: none; }
   @media screen and (max-width: 992px) {
@@ -363,42 +380,24 @@ body {
       right: auto;
       height: 200px; }
 
-#contactForm h1 {
-  color: #0a4da3; }
-#contactForm .formContainer {
-  float: none;
-  border-radius: 25px;
-  padding: 50px;
-  margin: 90px auto;
-  width: 75%;
-  background-color: white;
-  box-shadow: 5px 5px 8px #1e1e1e;
-  padding: 50px;
-  margin-top: 50px; }
-  @media screen and (max-width: 480px) {
-    #contactForm .formContainer {
-      border-radius: 0;
-      padding: 10px;
-      margin: 50px auto 0 auto; } }
-  @media screen and (max-width: 768px) {
-    #contactForm .formContainer {
-      width: 90vw; } }
-  @media screen and (max-width: 480px) {
-    #contactForm .formContainer {
-      width: 100%; } }
-  #contactForm .formContainer form-group {
-    text-align: left; }
-#contactForm .navMargin {
-  margin-bottom: 30px; }
+#contactUsPage label {
+  display: block;
+  text-align: left; }
 
 #servicesPage p {
   text-indent: 0; }
-#servicesPage .row {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px; }
-  #servicesPage .row img {
-    width: 80px; }
+#servicesPage .row .col-xs-3 {
+  margin: 10px 0;
+  text-align: right; }
+  @media screen and (max-width: 768px) {
+    #servicesPage .row .col-xs-3 {
+      padding: 0; } }
+#servicesPage .row img {
+  width: 80px; }
+  @media screen and (max-width: 480px) {
+    #servicesPage .row img {
+      padding: 0;
+      width: 60px; } }
 
 #pageFooter {
   color: #e9e4ea;

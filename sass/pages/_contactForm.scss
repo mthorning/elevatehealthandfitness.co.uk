@@ -1,17 +1,6 @@
-//CONTACTFORM
-#contactForm {
-    h1 {
-        color: $colHighlight;
-    }
-    .formContainer {
-        @include standardContainer;
-        padding: 50px;
-        margin-top: 50px;
-        form-group {
-            text-align: left;
-        }
-    }
-    .navMargin {
-        margin-bottom: 30px;
+#contactUsPage {
+    label {
+        display: block;
+        text-align: left;
     }
 }

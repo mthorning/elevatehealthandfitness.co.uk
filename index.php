@@ -34,8 +34,8 @@
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
                         <br />
                         <p class="text-left">Do you need help to:</p>
-                        <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
                         <div id="bullets">
+                            <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
                             <p>• reduce your stress levels?</p>
                             <p> • alleviate back pain?</p>
                             <p> • overcome constant fatigue and low energy levels?</p>

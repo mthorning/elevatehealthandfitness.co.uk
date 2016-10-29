@@ -3,11 +3,19 @@
         text-indent: 0;
     }
     .row {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
+        .col-xs-3 {
+            margin: 10px 0;
+            text-align: right;
+            @include sm {
+                padding: 0;
+            }
+        }
         img {
             width: 80px;
+            @include xs {
+                padding: 0;
+                width: 60px;
+            }
         }
     }
 }
