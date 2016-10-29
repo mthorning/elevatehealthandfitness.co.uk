@@ -72,4 +72,8 @@ body {
         @include additionalPic;
         float: left;
     }
+    .verticalAlign {
+        display: flex;
+        align-items: center;
+    }
 }

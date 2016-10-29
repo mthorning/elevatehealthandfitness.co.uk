@@ -29,7 +29,7 @@
             </div>
         </div>
         <div id="designCredit" class="col-xs-11 col-sm-5 col-sm-offset-1 credit">
-            <p>Created by <a href="http://stack-design.co.uk">Stack-Design</a></p>
+            <p>Website designed by <a href="http://stack-design.co.uk">Stack-Design</a></p>
         </div>
     </div>
 </footer>
