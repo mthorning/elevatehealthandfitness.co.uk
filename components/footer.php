@@ -16,8 +16,10 @@
         </div>
     </div>
     <div class="row">
-        <div id="repsBadge" class="col-xs-7 col-xs-offset-2 col-sm-6 col-sm-offset-6">
-            <img src="img/png/REPs_Badge.png">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-8">
+            <div id="repsBadge">
+                <img src="img/png/REPs_Badge.png">
+            </div>
         </div>
     </div>
     <div class="row">

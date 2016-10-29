@@ -34,16 +34,18 @@
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
                         <br />
                         <p class="text-left">Do you need help to:</p>
-                        <pre class="text-left">
-• reduce your stress levels?
-       • alleviate back pain?
-              • overcome constant fatigue and low energy levels?
-                    • be in control of your weight?
-                          • address postural problems or injuries?
-                                  • improve your fitness/sports performance levels?
-                            </pre>
-                        <p class="text-left"><strong>If so, you’ve come to the right place!</strong></p>
                         <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
+                        <div id="bullets">
+                            <p>• reduce your stress levels?</p>
+                            <p> • alleviate back pain?</p>
+                            <p> • overcome constant fatigue and low energy levels?</p>
+                            <p> • be in control of your weight?</p>
+                            <p> • address postural problems or injuries?</p>
+                            <p> • improve your fitness/sports performance levels?</p>
+                        </div>
+                        <br />
+                        <p class="text-center"><strong>If so, you’ve come to the right place!</strong></p>
+                        <br />
                         <p class="text-justify">Here at Elevate Health &amp; Fitness, we provide bespoke, holistic personal training programs incorporating exercise, nutrition and lifestyle strategies, designed to help you achieve your health and fitness goals.</p>
                         <p class="text-justify">With 1-to-1 personal training based in Truro or at a venue suitable for you, we follow an eat-train-live smart philosophy to help you reach your peak health and fitness, improving your sense of well-being and leading to an improved quality of life for you!</p>
                     </div>

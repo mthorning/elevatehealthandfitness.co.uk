@@ -14,33 +14,6 @@
     background-attachment: fixed;
 }
 
-//@include md {
-//    #bigScreenLogo {
-//        display: none;
-//    }
-//    .fixedScenery {
-//        background: none;
-//    }
-//    #smallScreenLogo {
-//        display: block;
-//        margin-top: 10px;
-//    }
-//}
-
-//for widescreen monitors
-//@media screen and (min-width: 1500px) {
-//    #bigScreenLogo {
-//        display: none;
-//    }
-//    .fixedScenery {
-//        background: none;
-//    }
-//    #smallScreenLogo {
-//        display: block;
-//        margin-top: 10px;
-//    }
-//}
-
 #indexPage {
     #bigScreenLogo,
     #timelineCover {
@@ -53,7 +26,7 @@
     }
     .container {
         > div {
-            margin: 0 auto 60px auto;
+            margin: 15px auto 15px auto;
             @include md {
                 margin: 0 auto 20px auto;
             }
@@ -66,6 +39,14 @@
         }
         .whiteContainer {
             text-align: center;
+            h1 {
+                @include sm {
+                    font-size: 1.75em;
+                }
+                @include xs {
+                    font-size: 1.4em;
+                }
+            }
             #paddedBox {
                 height: 0;
                 @include xs {
@@ -78,13 +59,13 @@
                 margin: 10px;
             }
             #welcome {
-                padding-top: 60px;
-            }
-            h1 {
-                padding: inherit 5px;
+                padding-top: 50px;
+                img {
+                    width:100%;
+                }
             }
             #welcomeSection {
-                img {
+                .welcomeSectionImg {
                     background-color: white;
                     border: 1px solid $bgHighlight;
                     margin: 0 15px;
@@ -93,19 +74,22 @@
                     border-radius: 8px;
                     float: right;
                 }
-                pre {
-                    display: inline-block;
-                    padding: 0 50px;
-                    margin: auto;
-                    border: inherit;
-                    background-color: inherit;
-                    font-family: inherit;
-                    font-size: inherit;
+                #bullets {
+                    margin-left: 150px;
+                    @include sm {
+                        margin-left: 50px;
+                    }
+                    text-align: left;
+                    p {
+                        line-height: 15px;
+                    }
+                }
+                strong {
+                    font-size: 1.2em;
                 }
                 h1 {
                     margin-bottom: 10px;
                     color: $colHighlight;
-                    //                    font-size: 2em;
                 }
                 p {
                     max-width: 70vw;
@@ -113,7 +97,6 @@
                         max-width: 90vw;
                     }
                     margin: auto;
-                    line-height: 30px;
                     margin-bottom: 15px;
                 }
             }
@@ -138,6 +121,9 @@
             .verticalAlign {
                 display: flex;
                 align-items: center;
+                @include sm {
+                    display: block;
+                }
             }
         }
         h2 {

@@ -209,7 +209,7 @@ body {
 #indexPage #timelineCover {
   border: 1px solid #e9e4ea; }
 #indexPage .container > div {
-  margin: 0 auto 60px auto; }
+  margin: 15px auto 15px auto; }
   @media screen and (max-width: 992px) {
     #indexPage .container > div {
       margin: 0 auto 20px auto; } }
@@ -220,6 +220,12 @@ body {
   text-align: center;
   padding-top: 10px;
   background-color: white; }
+  @media screen and (max-width: 768px) {
+    #indexPage #introSection .whiteContainer h1 {
+      font-size: 1.75em; } }
+  @media screen and (max-width: 480px) {
+    #indexPage #introSection .whiteContainer h1 {
+      font-size: 1.4em; } }
   #indexPage #introSection .whiteContainer #paddedBox {
     height: 0; }
     @media screen and (max-width: 480px) {
@@ -228,10 +234,10 @@ body {
   #indexPage #introSection .whiteContainer a {
     margin: 10px; }
   #indexPage #introSection .whiteContainer #welcome {
-    padding-top: 60px; }
-  #indexPage #introSection .whiteContainer h1 {
-    padding: inherit 5px; }
-  #indexPage #introSection .whiteContainer #welcomeSection img {
+    padding-top: 50px; }
+    #indexPage #introSection .whiteContainer #welcome img {
+      width: 100%; }
+  #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
     background-color: white;
     border: 1px solid #e9e4ea;
     margin: 0 15px;
@@ -239,21 +245,22 @@ body {
     width: 30% !important;
     border-radius: 8px;
     float: right; }
-  #indexPage #introSection .whiteContainer #welcomeSection pre {
-    display: inline-block;
-    padding: 0 50px;
-    margin: auto;
-    border: inherit;
-    background-color: inherit;
-    font-family: inherit;
-    font-size: inherit; }
+  #indexPage #introSection .whiteContainer #welcomeSection #bullets {
+    margin-left: 150px;
+    text-align: left; }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection .whiteContainer #welcomeSection #bullets {
+        margin-left: 50px; } }
+    #indexPage #introSection .whiteContainer #welcomeSection #bullets p {
+      line-height: 15px; }
+  #indexPage #introSection .whiteContainer #welcomeSection strong {
+    font-size: 1.2em; }
   #indexPage #introSection .whiteContainer #welcomeSection h1 {
     margin-bottom: 10px;
     color: #0a4da3; }
   #indexPage #introSection .whiteContainer #welcomeSection p {
     max-width: 70vw;
     margin: auto;
-    line-height: 30px;
     margin-bottom: 15px; }
     @media screen and (max-width: 768px) {
       #indexPage #introSection .whiteContainer #welcomeSection p {
@@ -273,6 +280,9 @@ body {
   #indexPage #introSection .whiteContainer .verticalAlign {
     display: flex;
     align-items: center; }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection .whiteContainer .verticalAlign {
+        display: block; } }
 @media screen and (max-width: 992px) {
   #indexPage #introSection h2 {
     display: none; } }
@@ -397,20 +407,16 @@ body {
       color: #0a4da3;
       text-decoration: none; }
   #pageFooter #repsBadge {
-    margin-bottom: 10px;
-    text-align: center; }
+    width: 50%;
+    margin: auto; }
     #pageFooter #repsBadge img {
-      width: 30%;
-      height: auto; }
+      width: 50%; }
       @media screen and (max-width: 992px) {
         #pageFooter #repsBadge img {
-          width: 40%; } }
+          width: 80%; } }
       @media screen and (max-width: 768px) {
         #pageFooter #repsBadge img {
           width: 50%; } }
-      @media screen and (max-width: 480px) {
-        #pageFooter #repsBadge img {
-          width: 80%; } }
   #pageFooter #shareBoxContainer {
     padding: 20px;
     margin-bottom: 10px; }
