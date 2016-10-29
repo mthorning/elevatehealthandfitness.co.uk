@@ -5,37 +5,41 @@
 }
 
 .fixedScenery {
-    background: url("../img/jpg/Scenery.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("../img/jpg/Scenery.jpg") no-repeat;
+    background-position: 0px 70px;
+    @include md {
+        background-position: 0px 50px;
+    }
+    background-size: 100%;
     background-attachment: fixed;
 }
 
-@include md {
-    #bigScreenLogo {
-        display: none;
-    }
-    .fixedScenery {
-        background: none;
-    }
-    #smallScreenLogo {
-        display: block;
-        margin-top: 10px;
-    }
-}
+//@include md {
+//    #bigScreenLogo {
+//        display: none;
+//    }
+//    .fixedScenery {
+//        background: none;
+//    }
+//    #smallScreenLogo {
+//        display: block;
+//        margin-top: 10px;
+//    }
+//}
 
 //for widescreen monitors
-@media screen and (min-width: 1500px) {
-    #bigScreenLogo {
-        display: none;
-    }
-    .fixedScenery {
-        background: none;
-    }
-    #smallScreenLogo {
-        display: block;
-        margin-top: 10px;
-    }
-}
+//@media screen and (min-width: 1500px) {
+//    #bigScreenLogo {
+//        display: none;
+//    }
+//    .fixedScenery {
+//        background: none;
+//    }
+//    #smallScreenLogo {
+//        display: block;
+//        margin-top: 10px;
+//    }
+//}
 
 #indexPage {
     #bigScreenLogo,
