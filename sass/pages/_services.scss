@@ -3,6 +3,12 @@
         text-indent: 0;
     }
     .row {
+        .dropcaps {
+            font-size: 1.1em;
+            font-weight: bold;
+            float: left;
+            padding: 0;
+        }
         .col-xs-3 {
             margin: 10px 0;
             text-align: right;

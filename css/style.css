@@ -134,30 +134,31 @@ body {
     margin: 50px 0; }
   body .container-fluid {
     padding: 0; }
-    body .container-fluid .jumbotron .custom {
+    body .container-fluid .jumbotron {
       margin: auto;
       margin-bottom: 50px;
       max-width: 75%;
-      padding-right: 130px;
-      padding-left: 130px; }
+      padding-right: 100x;
+      padding-left: 100px;
+      max-width: 80%; }
       @media screen and (max-width: 992px) {
-        body .container-fluid .jumbotron .custom {
+        body .container-fluid .jumbotron {
           padding-right: 60px;
           padding-left: 60px;
           max-width: 90%; } }
       @media screen and (max-width: 768px) {
-        body .container-fluid .jumbotron .custom {
+        body .container-fluid .jumbotron {
           padding-right: 30px;
           padding-left: 30px;
           width: 70%;
           margin: 0; } }
       @media screen and (max-width: 480px) {
-        body .container-fluid .jumbotron .custom {
+        body .container-fluid .jumbotron {
           width: 80%;
           padding-right: 0;
           padding-left: 0;
           margin: 0; } }
-      body .container-fluid .jumbotron .custom h3 {
+      body .container-fluid .jumbotron h3 {
         line-height: 40px; }
   @media screen and (max-width: 768px) {
     body .container {
@@ -403,6 +404,11 @@ body {
 
 #servicesPage p {
   text-indent: 0; }
+#servicesPage .row .dropcaps {
+  font-size: 1.1em;
+  font-weight: bold;
+  float: left;
+  padding: 0; }
 #servicesPage .row .col-xs-3 {
   margin: 10px 0;
   text-align: right; }
