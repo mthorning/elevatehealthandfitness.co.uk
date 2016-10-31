@@ -52,11 +52,6 @@ body {
             padding-right: 2px;
         }
     }
-    .curvedImg {
-        border-radius: 25px;
-        width: 100%;
-        height: auto;
-    }
     .btnColor {
         @include button ($buttonBorder, $buttonBG, $buttonColor, $hColor: $buttonColor);
     }

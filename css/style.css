@@ -164,10 +164,6 @@ body {
     body .container {
       padding-left: 2px;
       padding-right: 2px; } }
-  body .curvedImg {
-    border-radius: 25px;
-    width: 100%;
-    height: auto; }
   body .btnColor {
     border: 1px solid #1e1e1e;
     background-color: #0a67de;
@@ -258,11 +254,16 @@ body {
     padding-top: 50px; }
     #indexPage #introSection .whiteContainer #welcome img {
       width: 100%; }
+    #indexPage #introSection .whiteContainer #welcome .curvedImg {
+      border-radius: 25px;
+      width: 80%;
+      height: auto;
+      margin: auto; }
   #indexPage #introSection .whiteContainer #welcomeSection {
     min-height: 90vh; }
     #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
       margin: 0 5px 0 30px;
-      width: 30%;
+      width: 20%;
       float: right;
       background-color: white;
       border: 1px solid #e9e4ea;
@@ -281,17 +282,16 @@ body {
           display: none; } }
     #indexPage #introSection .whiteContainer #welcomeSection #bullets {
       margin-left: 150px;
+      margin-top: 20px;
       text-align: left; }
       @media screen and (max-width: 768px) {
         #indexPage #introSection .whiteContainer #welcomeSection #bullets {
           margin-left: 50px; } }
       #indexPage #introSection .whiteContainer #welcomeSection #bullets p {
+        font-weight: bold;
         line-height: 15px; }
-    #indexPage #introSection .whiteContainer #welcomeSection strong {
-      font-size: 1.2em; }
     #indexPage #introSection .whiteContainer #welcomeSection h1 {
       margin-top: 30px;
-      margin-bottom: 10px;
       color: #0a4da3; }
     #indexPage #introSection .whiteContainer #welcomeSection p {
       max-width: 70vw;
