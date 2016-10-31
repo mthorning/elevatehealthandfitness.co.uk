@@ -35,9 +35,7 @@
 @mixin borderedPic {
     background-color: white;
     border: 1px solid $bgHighlight;
-    margin: 0 15px;
     padding: 5px;
-    width: 30%;
     border-radius: 8px;
     @include xs {
         padding: 0;

@@ -33,15 +33,19 @@
                     <div id="welcomeSection" class="textBox">
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
                         <br />
-                        <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
                         <h4 class="text-left display-1">Do you need help to:</h4>
-                        <div id="bullets">
-                            <p>• reduce your stress levels?</p>
-                            <p> • alleviate back pain?</p>
-                            <p> • overcome constant fatigue and low energy levels?</p>
-                            <p> • be in control of your weight?</p>
-                            <p> • address postural problems or injuries?</p>
-                            <p> • improve your fitness/sports performance levels?</p>
+                        <div class="row verticalAlign">
+                            <div id="bullets" class="col-xs-12 col-md-7">
+                                <p>• reduce your stress levels?</p>
+                                <p> • alleviate back pain?</p>
+                                <p> • overcome constant fatigue and low energy levels?</p>
+                                <p> • be in control of your weight?</p>
+                                <p> • address postural problems or injuries?</p>
+                                <p> • improve your fitness/sports performance levels?</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
+                            </div>
                         </div>
                         <br />
                         <h3 class="text-center">If so, you’ve come to the right place!</h3>

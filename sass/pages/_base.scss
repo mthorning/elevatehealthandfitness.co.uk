@@ -1,4 +1,6 @@
-//ALL PAGES
+//div {
+//    border: 1px solid red;
+//}
 html,
 body {
     overflow-x: hidden;
@@ -57,10 +59,12 @@ body {
     }
     .additionalPicRight {
         @include borderedPic;
+        width: 30%;
         float: right;
     }
     .additionalPicLeft {
         @include borderedPic;
+        width: 30%;
         float: left;
     }
     .verticalAlign {

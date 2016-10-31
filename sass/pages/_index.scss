@@ -1,4 +1,3 @@
-//INDEX 
 #smallScreenLogo {
     display: none;
     width: 100%;
@@ -80,10 +79,9 @@
             #welcomeSection {
                 min-height: 90vh;
                 .welcomeSectionImg {
-                    margin: 0 5px 0 30px;
-                    width: 20%;
-                    float: right;
                     @include borderedPic;
+                    margin: auto;
+                    width: 60%;
                     @include sm {
                         padding: 0;
                     }

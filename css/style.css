@@ -174,10 +174,9 @@ body {
   body .additionalPicRight {
     background-color: white;
     border: 1px solid #e9e4ea;
-    margin: 0 15px;
     padding: 5px;
-    width: 30%;
     border-radius: 8px;
+    width: 30%;
     float: right; }
     @media screen and (max-width: 480px) {
       body .additionalPicRight {
@@ -185,10 +184,9 @@ body {
   body .additionalPicLeft {
     background-color: white;
     border: 1px solid #e9e4ea;
-    margin: 0 15px;
     padding: 5px;
-    width: 30%;
     border-radius: 8px;
+    width: 30%;
     float: left; }
     @media screen and (max-width: 480px) {
       body .additionalPicLeft {
@@ -262,15 +260,12 @@ body {
   #indexPage #introSection .whiteContainer #welcomeSection {
     min-height: 90vh; }
     #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-      margin: 0 5px 0 30px;
-      width: 20%;
-      float: right;
       background-color: white;
       border: 1px solid #e9e4ea;
-      margin: 0 15px;
       padding: 5px;
-      width: 30%;
-      border-radius: 8px; }
+      border-radius: 8px;
+      margin: auto;
+      width: 60%; }
       @media screen and (max-width: 480px) {
         #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
           padding: 0; } }
