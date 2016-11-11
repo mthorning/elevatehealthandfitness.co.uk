@@ -351,7 +351,9 @@ body {
     .aboutPages .container #badges img {
       width: 100%;
       height: auto; }
-    .aboutPages .container h1 {
+    .aboutPages .container h1,
+    .aboutPages .container h3,
+    .aboutPages .container a {
       color: #0a4da3;
       text-align: left; }
     .aboutPages .container #kensName {
@@ -416,6 +418,13 @@ body {
     #servicesPage .row img {
       padding: 0;
       width: 60px; } }
+
+#blogPage .container {
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
+#blogPage #menu {
+  height: 100%;
+  border-left: 1px dashed #8f8d8d; }
 
 #pageFooter {
   color: #e9e4ea;

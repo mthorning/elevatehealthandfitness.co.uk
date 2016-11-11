@@ -37,7 +37,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h2>Qualifications:</h2>
-                            <ul>
+                            <br />
+                            <ul class="h4">
                                 <li>BSc (Hons) Sports Performance &amp; Coaching (1st Class)</li>
                                 <li>C.H.E.K Exercise Coach</li>
                                 <li>C.H.E.K Holistic Lifestyle Coach Level 1</li>
