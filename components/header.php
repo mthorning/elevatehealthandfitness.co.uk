@@ -28,12 +28,18 @@
                         <li><a href="#">Live Smart</a></li>
                     </ul>
                 </li>
+                <li id="blog" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+                    <ul class="dropdown-menu" id="navBlog">
+                        
+                    </ul>
+                </li>
                 <li id="services"><a href="services.php">Services</a></li>
                 <li id="testimonials"><a href="testimonials.php">Testimonials</a></li>
                 <li id="FAQ"><a href="#">FAQ</a></li>
-                <li id="blog"><a href="blog.php">Blog</a></li>
                 <li id="contactUs"><a href="contactUs.php">Contact Us</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script type="text/javascript" src="js/header.js"></script>

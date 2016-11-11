@@ -13,20 +13,17 @@
 
 @mixin standardContainer {
     float: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
     border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
     @include xs {
         border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
         padding: 10px;
         margin: 50px auto 0 auto;
-    }
-    width: 75%;
-    @include sm {
-        width: 90vw;
-    }
-    @include xs {
-        width: 100%;
     }
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 5px 5px 8px $darkGrey;
@@ -37,6 +34,8 @@
     border: 1px solid $bgHighlight;
     padding: 5px;
     border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     @include xs {
         padding: 0;
     }

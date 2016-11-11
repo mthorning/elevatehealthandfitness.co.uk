@@ -176,6 +176,8 @@ body {
     border: 1px solid #e9e4ea;
     padding: 5px;
     border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     width: 30%;
     float: right; }
     @media screen and (max-width: 480px) {
@@ -186,6 +188,8 @@ body {
     border: 1px solid #e9e4ea;
     padding: 5px;
     border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     width: 30%;
     float: left; }
     @media screen and (max-width: 480px) {
@@ -264,6 +268,8 @@ body {
       border: 1px solid #e9e4ea;
       padding: 5px;
       border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
       margin: auto;
       width: 60%; }
       @media screen and (max-width: 480px) {
@@ -329,15 +335,19 @@ body {
   background-size: cover; }
   .aboutPages .container {
     float: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
     border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
-    width: 75%;
     background-color: white;
-    box-shadow: 5px 5px 8px #1e1e1e; }
+    box-shadow: 5px 5px 8px #1e1e1e;
+    width: 75%; }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
         border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
         padding: 10px;
         margin: 50px auto 0 auto; } }
     @media screen and (max-width: 768px) {
@@ -421,10 +431,40 @@ body {
 
 #blogPage .container {
   padding-left: 10px !important;
-  padding-right: 10px !important; }
-#blogPage #menu {
-  height: 100%;
-  border-left: 1px dashed #8f8d8d; }
+  padding-right: 10px !important;
+  width: 75%; }
+  @media screen and (max-width: 992px) {
+    #blogPage .container {
+      width: 90vw; } }
+  @media screen and (max-width: 480px) {
+    #blogPage .container {
+      width: 100%; } }
+  #blogPage .container #content .headImg {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #9c9a9a;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: auto; }
+  #blogPage .container #content h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px; }
+  #blogPage .container #content img {
+    max-width: 20%;
+    max-height: 200px; }
+    #blogPage .container #content img:nth-child(even) {
+      float: right; }
+    #blogPage .container #content img:nth-child(odd) {
+      float: left; }
+  #blogPage .container #menu {
+    height: 100%;
+    border-left: 1px dashed #8f8d8d; }
+    @media screen and (max-width: 768px) {
+      #blogPage .container #menu {
+        display: none; } }
 
 #pageFooter {
   color: #e9e4ea;

@@ -15,15 +15,16 @@
 <body id ="blogPage" class="aboutPages">
     <?php include "components/header.php"; ?>
         <div class="container">
-            <div id="content" class="col-lg-9">
+            <div id="content" class="col-sm-9">
             </div>
-            <div id="menu" class="col-lg-3 menu">
+            <div id="menu" class="col-sm-3 menu">
                 <h3>Menu:</h3>
                 <ul id="menuItems" class="pull-right">
 
                 </ul>
             </div>
         </div>
+        
         
         <?php include 'components/footer.php' ?>
         
