@@ -18,7 +18,7 @@
             <div id="content" class="col-sm-9">
             </div>
             <div id="menu" class="col-sm-3 menu">
-                <h3>Menu:</h3>
+                <h3>Read More:</h3>
                 <ul id="menuItems" class="pull-right">
 
                 </ul>
