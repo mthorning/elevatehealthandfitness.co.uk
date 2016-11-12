@@ -6,7 +6,7 @@
                 
         </div>
         
-        <div class="navbar-header">
+        <div id="etlSmartPage" class="navbar-header">
             <a class="navbar-brand" href="#"><a href="index.php"><img src="img/png/navbarLogo.png" id="navbarLogo"></a></a>
             <button id="navToggleButton" type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -20,12 +20,10 @@
                 <li id="about" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="about_aboutMe.php">About Me</a></li>
-                        <li><a href="about_aboutElevate.php">About Elevate</a></li>
+                        <li><a href="about.aboutMe.php">About Me</a></li>
+                        <li><a href="about.aboutElevate.php">About Elevate</a></li>
                         <li><a href="#">CHEK philosophy</a></li>
-                        <li><a href="#">Eat Smart</a></li>
-                        <li><a href="#">Train Smart</a></li>
-                        <li><a href="#">Live Smart</a></li>
+                        <li><a href="about.etlSmart.php">Eat Train Live Smart</a></li>
                     </ul>
                 </li>
                 <li id="blog" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
