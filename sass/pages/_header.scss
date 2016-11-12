@@ -5,6 +5,13 @@
         height: 45px;
     }
 }
+li {
+    > ul {
+        display: inline-block;
+        left: -100px!important;
+//        right: -100px!important;
+    }
+}
 //Navigation Bar from Gen
 .navbar-default {
     background-color: $bgDefault;

@@ -61,9 +61,6 @@
 
 #etlPage {
     padding-top: 50px;
-    img {
-        width: 100%;
-    }
     .curvedImg {
         border-radius: 25px;
         width: 80%;
@@ -80,6 +77,7 @@
         .smallScreenImg {
             display: block;
             margin-bottom: 40px;
+            width: 100%;
         }
     }
    

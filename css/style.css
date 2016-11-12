@@ -44,6 +44,10 @@
     #navbarLogo {
       height: 45px; } }
 
+li > ul {
+  display: inline-block;
+  left: -100px !important; }
+
 .navbar-default {
   background-color: #ffffff;
   border-color: #e9e4ea; }
@@ -362,8 +366,6 @@ body {
 
 #etlPage {
   padding-top: 50px; }
-  #etlPage img {
-    width: 100%; }
   #etlPage .curvedImg {
     border-radius: 25px;
     width: 80%;
@@ -376,7 +378,8 @@ body {
       display: none; }
     #etlPage .smallScreenImg {
       display: block;
-      margin-bottom: 40px; } }
+      margin-bottom: 40px;
+      width: 100%; } }
   @media screen and (max-width: 992px) {
     #etlPage h2 {
       display: none; } }
