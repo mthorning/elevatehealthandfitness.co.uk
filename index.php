@@ -32,27 +32,24 @@
                     <!--                        Main Section-->
                     <div id="welcomeSection" class="textBox">
                         <h1>Welcome to Elevate Health &amp; Fitness</h1>
-                        <br />
-                        <h4 class="text-left display-1">Do you need help to:</h4>
-                        <div class="row verticalAlign">
-                            <div id="bullets" class="col-xs-12 col-md-7">
-                                <p>• reduce your stress levels?</p>
-                                <p> • alleviate back pain?</p>
-                                <p> • overcome constant fatigue and low energy levels?</p>
-                                <p> • be in control of your weight?</p>
-                                <p> • address postural problems or injuries?</p>
-                                <p> • improve your fitness/sports performance levels?</p>
+                        <div id="welcomePicBox">
+                            <div id="welcomeTextBox1" class="welcomeTextBox">
+                                <h4 class="text-left display-1">We specialise in helping you to:</h4>
+                                <div class="row">
+                                    <div id="bullets" class="col-xs-12 col-md-7">
+                                        <p>• Reduce your stress levels</p>
+                                        <p> • Relieve back pain</p>
+                                        <p> • Overcome constant fatigue and low energy levels?</p>
+                                        <p> • Be in control of your weight?</p>
+                                        <p> • Address postural problems or injuries?</p>
+                                        <p> • I     mprove your fitness/sports performance levels?</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-5">
-                                <img src="img/jpg/happyPeople.jpg" alt="happy people" class="welcomeSectionImg">
+                            <div id="welcomeTextBox2" class="welcomeTextBox">
+                                <p class="text-justify">Here at Elevate Health &amp; Fitness Truro, we provide 1-to-1 personal training with holistic programs incorporating exercise, nutrition and lifestyle strategies, designed specifically for you to help you achieve your health and fitness goals, improving your sense of well-being, and elevate your quality of life!</p>
                             </div>
                         </div>
-                        <br />
-                        <h3 class="text-center">If so, you’ve come to the right place!</h3>
-                        <br />
-                        <br />
-                        <p class="text-justify">Here at Elevate Health &amp; Fitness, we provide bespoke, holistic personal training programs incorporating exercise, nutrition and lifestyle strategies, designed to help you achieve your health and fitness goals.</p>
-                        <p class="text-justify">With 1-to-1 personal training based in Truro or at a venue suitable for you, we follow an eat-train-live smart philosophy to help you reach your peak health and fitness, improving your sense of well-being and leading to an improved quality of life for you!</p>
                     </div>
                     <img id="timelineCover" src="img/jpg/Elevate_Timelinecover.jpg" alt="Elevate Timeline Image">
                     <br />

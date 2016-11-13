@@ -256,35 +256,37 @@ body {
         height: 50vh; } }
   #indexPage #introSection .whiteContainer a {
     margin: 10px; }
+  #indexPage #introSection .whiteContainer #welcome {
+    padding-top: 50px; }
   #indexPage #introSection .whiteContainer #welcomeSection {
     min-height: 90vh; }
-    #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-      background-color: white;
-      border: 1px solid #e9e4ea;
-      padding: 5px;
-      border-radius: 8px;
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      margin: auto;
-      width: 60%; }
-      @media screen and (max-width: 480px) {
-        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-          padding: 0; } }
-      @media screen and (max-width: 768px) {
-        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-          padding: 0; } }
-      @media screen and (max-width: 480px) {
-        #indexPage #introSection .whiteContainer #welcomeSection .welcomeSectionImg {
-          display: none; } }
+    #indexPage #introSection .whiteContainer #welcomeSection #welcomePicBox {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      margin: 0 auto 100px;
+      background: url("../img/jpg/happyPeople.jpg") no-repeat center center;
+      background-size: contain; }
+      #indexPage #introSection .whiteContainer #welcomeSection #welcomePicBox .welcomeTextBox {
+        width: 30%;
+        background: white;
+        border: 1px solid black;
+        border-radius: 0 25px 0 25px;
+        -webkit-border-radius: 0 25px 0 25px;
+        -moz-border-radius: 0 25px 0 25px;
+        position: absolute;
+        padding: 20px; }
+      #indexPage #introSection .whiteContainer #welcomeSection #welcomePicBox #welcomeTextBox1 {
+        top: 5%;
+        left: 5%; }
+      #indexPage #introSection .whiteContainer #welcomeSection #welcomePicBox #welcomeTextBox2 {
+        bottom: 5%;
+        right: 5%; }
     #indexPage #introSection .whiteContainer #welcomeSection #bullets {
-      margin-left: 150px;
-      margin-top: 20px;
-      text-align: left; }
-      @media screen and (max-width: 768px) {
-        #indexPage #introSection .whiteContainer #welcomeSection #bullets {
-          margin-left: 50px; } }
+      float: right;
+      text-align: left;
+      width: 75%; }
       #indexPage #introSection .whiteContainer #welcomeSection #bullets p {
-        font-weight: bold;
         line-height: 15px; }
     #indexPage #introSection .whiteContainer #welcomeSection h1 {
       margin-top: 30px;
