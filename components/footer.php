@@ -24,8 +24,8 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
-            <div id="shareBoxContainer">
-                <?php include "shareBox.php"; ?>
+            <div id="followBoxContainer">
+                <?php include "followBox.php"; ?>
             </div>
         </div>
         <div id="designCredit" class="col-xs-11 col-sm-5 col-sm-offset-1 credit">

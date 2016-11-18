@@ -354,7 +354,7 @@ body {
     .aboutPages .container ul li {
       text-align: left; }
     .aboutPages .container p {
-      text-indent: 50px;
+      text-indent: 30px;
       text-align: justify; }
     .aboutPages .container #profilePic {
       width: 80%;
@@ -492,14 +492,14 @@ body {
       @media screen and (max-width: 768px) {
         #pageFooter #repsBadge img {
           width: 50%; } }
-  #pageFooter #shareBoxContainer {
+  #pageFooter #followBoxContainer {
     padding: 20px;
     margin-bottom: 10px; }
     @media screen and (max-width: 768px) {
-      #pageFooter #shareBoxContainer {
+      #pageFooter #followBoxContainer {
         padding: 100px; } }
     @media screen and (max-width: 480px) {
-      #pageFooter #shareBoxContainer {
+      #pageFooter #followBoxContainer {
         padding: 10px; } }
   #pageFooter #designCredit {
     text-align: right;

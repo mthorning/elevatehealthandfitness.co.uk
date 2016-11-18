@@ -1,3 +1,4 @@
+<?php include 'modules/userControl.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
