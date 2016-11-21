@@ -1,34 +1,11 @@
 .shareBox {
   text-align: center;
-  padding: 7px 15px;
-  border: 1px solid #7a7a7a;
-  border-radius: 20px;
-  overflow: hidden; }
+  padding: 7px 15px; }
   @media screen and (max-width: 768px) {
     .shareBox {
       padding: 3px 7px; } }
-  @media screen and (max-width: 480px) {
-    .shareBox {
-      border: none;
-      overflow: visible; } }
-  .shareBox .shareIcon {
-    border-right: 1px solid #7a7a7a; }
-    .shareBox .shareIcon:last-child {
-      border-right: none; }
-    @media screen and (max-width: 480px) {
-      .shareBox .shareIcon {
-        border: none; } }
-    @media screen and (max-width: 992px) {
-      .shareBox .shareIcon {
-        padding-left: 5px;
-        padding-right: 5px; } }
-    @media screen and (max-width: 480px) {
-      .shareBox .shareIcon {
-        padding: 0; } }
   .shareBox img {
-    width: 100%;
-    border: 0;
-    box-shadow: 0; }
+    width: 100%; }
     @media screen and (max-width: 768px) {
       .shareBox img {
         width: 75%;
@@ -445,7 +422,7 @@ body {
   @media screen and (max-width: 480px) {
     #blogPage .container {
       width: 100%; } }
-  #blogPage .container #content .headImg {
+  #blogPage .container #contentContainer #content .headImg {
     background-size: cover;
     width: 150px;
     height: 150px;
@@ -454,17 +431,26 @@ body {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     margin: auto; }
-  #blogPage .container #content h1 {
+  #blogPage .container #contentContainer #content h1 {
     width: 100%;
     text-align: center;
     margin-bottom: 30px; }
-  #blogPage .container #content img {
+  #blogPage .container #contentContainer #content img {
     max-width: 20%;
     max-height: 200px; }
-    #blogPage .container #content img:nth-child(even) {
+    #blogPage .container #contentContainer #content img:nth-child(even) {
       float: right; }
-    #blogPage .container #content img:nth-child(odd) {
+    #blogPage .container #contentContainer #content img:nth-child(odd) {
       float: left; }
+  #blogPage .container #contentContainer #shareBoxContainer {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse; }
+    #blogPage .container #contentContainer #shareBoxContainer .shareBox {
+      width: 25%; }
+      #blogPage .container #contentContainer #shareBoxContainer .shareBox .shareIcon {
+        padding: 5px; }
   #blogPage .container #menu {
     height: 100%;
     border-left: 1px dashed #8f8d8d; }
@@ -501,6 +487,28 @@ body {
     @media screen and (max-width: 480px) {
       #pageFooter #followBoxContainer {
         padding: 10px; } }
+    #pageFooter #followBoxContainer .shareBox {
+      border: 1px solid #7a7a7a;
+      border-radius: 20px;
+      overflow: hidden; }
+      @media screen and (max-width: 480px) {
+        #pageFooter #followBoxContainer .shareBox {
+          border: none;
+          overflow: visible; } }
+      #pageFooter #followBoxContainer .shareBox .shareIcon {
+        border-right: 1px solid #7a7a7a; }
+        #pageFooter #followBoxContainer .shareBox .shareIcon:last-child {
+          border-right: none; }
+        @media screen and (max-width: 480px) {
+          #pageFooter #followBoxContainer .shareBox .shareIcon {
+            border: none; } }
+        @media screen and (max-width: 992px) {
+          #pageFooter #followBoxContainer .shareBox .shareIcon {
+            padding-left: 5px;
+            padding-right: 5px; } }
+        @media screen and (max-width: 480px) {
+          #pageFooter #followBoxContainer .shareBox .shareIcon {
+            padding: 0; } }
   #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }

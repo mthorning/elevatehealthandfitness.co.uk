@@ -1,25 +1,20 @@
-<?php
-$siteName = "Elevate Health and Fitness";
-$siteAddress = "http://elevatehealthandfitness.co.uk";
-?>
-
 <div class="shareBox">
     <div class="row">
-        <div class="shareIcon col-xs-3">
+        <div class="shareIcon col-xs-4">
             <!-- Facebook -->
-            <a href="http://www.facebook.com/sharer.php?u=<?php echo $siteAddress; ?>" target="_blank">
+            <a href="https://www.facebook.com/ElevatePersonalTrainingTruro/" target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
             </a>
         </div>
-        <div class="shareIcon col-xs-3">
+        <div class="shareIcon col-xs-4">
             <!-- LinkedIn -->
-            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php echo $siteAddress; ?>" target="_blank">
+            <a href="https://uk.linkedin.com/in/kenwalkerpersonaltrainertruro" target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
             </a>
         </div>
-        <div class="shareIcon col-xs-3">
+        <div class="shareIcon col-xs-4">
             <!-- Twitter -->
-            <a href="https://twitter.com/share?url=<?php echo $siteAddress; ?>&amp;text=<?php echo $siteName; ?>&amp;hashtags=<?php echo $siteName; ?>" target="_blank">
+            <a href="https://twitter.com/KenWalkerPT" target="_blank">
                 <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
             </a>
         </div>

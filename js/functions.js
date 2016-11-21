@@ -66,9 +66,9 @@ function updateContent(id) {
 
 function equaliseHeights() {
     $('#menu').css('height', 'auto');
-    $('#content').css('height', 'auto');
+    $('#contentContainer').css('height', 'auto');
     var menuHeight = $('#menu').height();
-    var contentHeight = $('#content').height();
+    var contentHeight = $('#contentContainer').height();
 
     if (contentHeight > menuHeight) {
         $('#menu').height(contentHeight);

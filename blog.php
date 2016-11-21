@@ -16,7 +16,13 @@
 <body id ="blogPage" class="aboutPages">
     <?php include "components/header.php"; ?>
         <div class="container">
-            <div id="content" class="col-sm-9">
+            <div id="contentContainer" class="col-sm-9">
+                <div id="content">
+
+                </div>
+                <div id="shareBoxContainer">
+                        <?php include 'components/shareBox.php'; ?>
+                </div>
             </div>
             <div id="menu" class="col-sm-3 menu">
                 <h3>Read More:</h3>
