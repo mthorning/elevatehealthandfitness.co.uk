@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "_share.css",
+  "sources": [
+    "_share.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AACI,SAAS,CAAC,MAAM,CAAT;EACH,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,WAAY;EAC5B,aAAa,EAAE,YAAa,GAJxB;;EAKF,SAAS,CAAC,MAAM,GAAG,GAAG,CAAlB;IACF,MAAM,EAAE,GAAI,GADT",
+  "names": []
+}

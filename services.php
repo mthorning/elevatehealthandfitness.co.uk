@@ -80,7 +80,8 @@
         </div>
 
         <?php include 'components/footer.php' ?>
-
+        <script src="js/twitter.js">
+                </script>
             <?php include 'modules/navigationClassControl.php'; ?>
 
 </body>

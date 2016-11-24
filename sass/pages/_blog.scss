@@ -37,18 +37,6 @@
                     }
                 }
             }
-            #shareBoxContainer {
-	           width: 100%;
-                text-align: right;
-                display: flex;
-                flex-direction: row-reverse;
-                .shareBox {
-                    width: 25%;
-                    .shareIcon {
-                        padding: 5px;
-                    }
-                }
-            }
         }
         #menu {
             height: 100%;

@@ -1,0 +1,11 @@
+.shareBox {
+    .share {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: space-around;
+        > div {
+            margin: 5px;
+        }
+    }
+}

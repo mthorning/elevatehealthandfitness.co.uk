@@ -1,19 +1,10 @@
-.shareBox {
-  text-align: center;
-  padding: 7px 15px; }
-  @media screen and (max-width: 768px) {
-    .shareBox {
-      padding: 3px 7px; } }
-  .shareBox img {
-    width: 100%; }
-    @media screen and (max-width: 768px) {
-      .shareBox img {
-        width: 75%;
-        padding: 0 1px; } }
-    @media screen and (max-width: 480px) {
-      .shareBox img {
-        width: 80%;
-        padding: 1px; } }
+.shareBox .share {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-around; }
+  .shareBox .share > div {
+    margin: 5px; }
 
 #navbarLogo {
   height: 70px; }
@@ -442,15 +433,6 @@ body {
       float: right; }
     #blogPage .container #contentContainer #content img:nth-child(odd) {
       float: left; }
-  #blogPage .container #contentContainer #shareBoxContainer {
-    width: 100%;
-    text-align: right;
-    display: flex;
-    flex-direction: row-reverse; }
-    #blogPage .container #contentContainer #shareBoxContainer .shareBox {
-      width: 25%; }
-      #blogPage .container #contentContainer #shareBoxContainer .shareBox .shareIcon {
-        padding: 5px; }
   #blogPage .container #menu {
     height: 100%;
     border-left: 1px dashed #8f8d8d; }
@@ -468,7 +450,7 @@ body {
       color: #0a4da3;
       text-decoration: none; }
   #pageFooter #repsBadge {
-    width: 50%;
+    width: 60%;
     margin: auto; }
     #pageFooter #repsBadge img {
       width: 50%; }
@@ -478,37 +460,6 @@ body {
       @media screen and (max-width: 768px) {
         #pageFooter #repsBadge img {
           width: 50%; } }
-  #pageFooter #followBoxContainer {
-    padding: 20px;
-    margin-bottom: 10px; }
-    @media screen and (max-width: 768px) {
-      #pageFooter #followBoxContainer {
-        padding: 100px; } }
-    @media screen and (max-width: 480px) {
-      #pageFooter #followBoxContainer {
-        padding: 10px; } }
-    #pageFooter #followBoxContainer .shareBox {
-      border: 1px solid #7a7a7a;
-      border-radius: 20px;
-      overflow: hidden; }
-      @media screen and (max-width: 480px) {
-        #pageFooter #followBoxContainer .shareBox {
-          border: none;
-          overflow: visible; } }
-      #pageFooter #followBoxContainer .shareBox .shareIcon {
-        border-right: 1px solid #7a7a7a; }
-        #pageFooter #followBoxContainer .shareBox .shareIcon:last-child {
-          border-right: none; }
-        @media screen and (max-width: 480px) {
-          #pageFooter #followBoxContainer .shareBox .shareIcon {
-            border: none; } }
-        @media screen and (max-width: 992px) {
-          #pageFooter #followBoxContainer .shareBox .shareIcon {
-            padding-left: 5px;
-            padding-right: 5px; } }
-        @media screen and (max-width: 480px) {
-          #pageFooter #followBoxContainer .shareBox .shareIcon {
-            padding: 0; } }
   #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }
