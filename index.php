@@ -63,10 +63,10 @@
             </div>
 
             <?php include 'components/footer.php' ?>
-                <script src="js/twitter.js">
-                </script>
-                <script type="text/javascript" src="js/frontPageBGImage.js"></script>
-                <?php include 'modules/navigationClassControl.php'; ?>
+            <script src="js/twitter.js">
+            </script>
+            <script type="text/javascript" src="js/frontPageBGImage.js"></script>
+            <?php include 'modules/navigationClassControl.php'; ?>
 
     </body>
 

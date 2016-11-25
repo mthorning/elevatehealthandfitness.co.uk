@@ -1,4 +1,4 @@
-function updateMenu(menu, setClass) {
+function updateMenu(menu) {
     //side menu creation
     var itemId = '';
     //clear menu
@@ -12,8 +12,7 @@ function updateMenu(menu, setClass) {
             $(xml).find('section').each(function () {
                 var itemName = $(this).find('title').text();
                 itemId = $(this).find('id').text();
-                $(menu).prepend('<li><a href="#" id="' + itemId + '" class="' + setClass + '">' + itemName + '</a></li>');
-                console.log('in loop id: ' + itemId);
+                $(menu).prepend('<li><a href="blog.php#' + itemId + '">' + itemName + '</a></li>');
             });
         }
         , error: function (XMLHttpRequest, textStatus, errorThrown) {

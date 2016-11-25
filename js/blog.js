@@ -1,18 +1,17 @@
 $(function () {
     
+    var id = '';
+    var location = '';
+    
     updateMenu('#menuItems', 'xmlChange');
     
-    //display content
-    var id = localStorage.getItem('blogPage');
-    updateContent(id);
+    $(window).on('hashchange', function () {
+        location = window.location.href;
+        id = window.location.hash.substring(1);
+        updateContent(id);
+    });    
     
-    //on side menu click
-    $('#menuItems').on('click', '.xmlChange', function (e) {
-        e.preventDefault();
-        console.log(this + ' clicked');
-        updateContent(this.id);
-    });
-    
+    $(window).trigger('hashchange');
 });
 
 

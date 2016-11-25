@@ -14,6 +14,7 @@
     </head>
 
     <body id="blogPage" class="aboutPages">
+
         <!--    facebook code-->
         <div id="fb-root"></div>
         <script>
@@ -22,11 +23,10 @@
                 if (d.getElementById(id)) return;
                 js = d.createElement(s);
                 js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+                js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
-
 
         <?php include "components/header.php"; ?>
             <div class="container">
@@ -46,12 +46,14 @@
 
 
             <?php include 'components/footer.php' ?>
-            <script src="js/twitter.js">
-            </script>
-            <?php include 'modules/navigationClassControl.php'; ?>
-            <script type="text/javascript" src="js/blog.js"></script>
-            <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <script src="js/twitter.js">
+                </script>
+                <?php include 'modules/navigationClassControl.php'; ?>
+                    <script type="text/javascript" src="js/blog.js"></script>
+                    <script src="https://apis.google.com/js/platform.js" async defer></script>
+             <!--    Pinterest-->
+        <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
-    < /body>
+    </body>
 
-< /html>
+    </html>

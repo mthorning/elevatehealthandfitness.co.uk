@@ -21,7 +21,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-5 col-sm-offset-1">
             <!--            share-->
-            <a class="twitter-timeline" href="https://twitter.com/KenWalkerPT" data-width="400" data-height="250" data-chrome="noborder nofooter">
+            <a class="twitter-timeline" href="https://twitter.com/KenWalkerPT" data-width="400" data-height="250" data-theme="light">Tweets by @KenWalkerPT
             </a>
         </div>
         <div class="col-xs-12 col-sm-5 col-sm-offset-1">
