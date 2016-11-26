@@ -65,65 +65,111 @@
                 margin: 10px;
             }
             #welcome {
-                padding-top: 50px;
-            }
-            #welcomeSection {
-                min-height: 90vh;
-                #welcomePicBox {
-                    position: relative;
-                    width: 100%;
-                    height: 500px;
-                    margin: 0 auto 100px;
-                    background: url('../img/jpg/happyPeople.jpg') no-repeat center center;
-                    background-size: contain;
+                padding-top: 70px;
+                margin-top: 100px;
+                #welcomeSection {
+                    height: 100vh;
+                    background: url("../img/png/aboutPattern.png") no-repeat center center;
+                    background-size: cover;
+                    #headingDiv {
+                        padding-top: 25px;
+                        height: 20%;
+                        h1 {
+                            text-align: center;
+                            text-shadow: 3px 3px 5px white;
+                            font-size: 50px;
+                        }
+                    }
+                    #etlLogo {
+                        width: 80%;
+                        height: auto;
+                    }
                     .welcomeTextBox {
-                        width: 30%;
-                        background: white;
-                        border: 1px solid black;
-                        border-radius: 0 25px 0 25px;
-                        -webkit-border-radius: 0 25px 0 25px;
-                        -moz-border-radius: 0 25px 0 25px;
-                        position: absolute;
-                        padding: 20px;
-                    }
-                    #welcomeTextBox1 {
-                        top: 5%;
-                        left: 5%;
-                    }
-                    #welcomeTextBox2 {
-                        bottom: 5%;
-                        right: 5%;
+                        height: 100%;
+                        padding: 30px;
+                        h4 {
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            font-weight: 500;
+                            line-height: 25px;
+                            text-align: justify;
+                        }
+                        p {
+                            padding-left: 30px;
+                            text-align: left;
+                        }
                     }
                 }
-                #bullets {
-                    float: right;
-                    text-align: left;
-                    width: 75%;
-                    p {
-                        line-height: 15px;
-                    }
+            }
+        }
+        #etlSection {
+            background: #fff;
+            padding-top: 50px;
+            .curvedImg {
+                border-radius: 25px;
+                width: 80%;
+                height: auto;
+                margin: auto;
+            }
+            .smallScreenImg {
+                display: none;
+            }
+            @include md {
+                .bigScreenImg {
+                    display: none;
                 }
-                h1 {
-                    margin-top: 30px;
+                .smallScreenImg {
+                    display: block;
+                    margin-bottom: 40px;
+                    width: 100%;
+                }
+            }
+            h2 {
+                @include md {
+                    display: none;
+                }
+            }
+            .textBox {
+                padding: 0 10px 10px 10px;
+                a {
                     color: $colHighlight;
                 }
-                p {
-                    max-width: 70vw;
-                    @include sm {
-                        max-width: 90vw;
-                    }
-                    margin: auto;
-                    margin-bottom: 15px;
+            }
+            .verticalAlignLgOnly {
+                @include verticalAlign;
+                @include sm {
+                    display: block;
                 }
             }
         }
-        .imgWrapper {
-            padding-top: 50px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 10px;
+    }
+    
+    .jumbotron {
+	   margin: 100px auto!important;
+    }
+    .window {
+        h2,
+        h3 {
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            margin: 30px auto;
+            text-shadow: 3px 3px 4px $darkGrey;
+            letter-spacing: 20px;
         }
+        h2 {
+            font-size: 145px;
+        }
+        h3 {
+            font-size: 80px;
+        }
+    }
+    .imgWrapper {
+        padding-top: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
     }
 }

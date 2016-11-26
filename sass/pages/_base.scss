@@ -8,6 +8,7 @@ body {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: $darkGrey;
     .navMargin {
         margin-top: 60px;
         @include md {
