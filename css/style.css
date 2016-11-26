@@ -96,7 +96,8 @@ body {
   overflow-x: hidden; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #1c1c1c; }
   body .navMargin {
     margin-top: 60px; }
     @media screen and (max-width: 992px) {
@@ -137,7 +138,7 @@ body {
       padding-left: 2px;
       padding-right: 2px; } }
   body .btnColor {
-    border: 1px solid #1e1e1e;
+    border: 1px solid #1c1c1c;
     background-color: #0a67de;
     color: white; }
     body .btnColor:hover {
@@ -236,7 +237,8 @@ body {
         height: 20%; }
         #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
           text-align: center;
-          color: #1e1e1e; }
+          text-shadow: 3px 3px 5px white;
+          font-size: 50px; }
       #indexPage #introSection .whiteContainer #welcome #welcomeSection #etlLogo {
         width: 80%;
         height: auto; }
@@ -302,7 +304,7 @@ body {
     padding: 50px;
     margin: 90px auto;
     background-color: white;
-    box-shadow: 5px 5px 8px #1e1e1e;
+    box-shadow: 5px 5px 8px #1c1c1c;
     width: 75%; }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
@@ -429,7 +431,7 @@ body {
 
 #pageFooter {
   color: #e9e4ea;
-  background-color: #1e1e1e;
+  background-color: #1c1c1c;
   text-align: center; }
   #pageFooter a {
     color: #e9e4ea; }
