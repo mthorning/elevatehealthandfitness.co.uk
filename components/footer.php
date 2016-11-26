@@ -24,7 +24,7 @@
             <a class="twitter-timeline" href="https://twitter.com/KenWalkerPT" data-width="400" data-height="250" data-theme="light">Tweets by @KenWalkerPT
             </a>
         </div>
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <div id="reps" class="col-xs-12 col-sm-5 col-sm-offset-1">
             <div id="repsBadge">
                 <img src="img/png/REPs_Badge.png">
             </div>

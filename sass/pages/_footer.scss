@@ -10,9 +10,14 @@
             text-decoration: none;
         }
     }
+    #reps {
+        height: 100%;
+    }
     #repsBadge {
         width: 60%;
         margin: auto;
+        height: 100%;
+        @include verticalAlign;
         img {
             width: 50%;
             @include md {

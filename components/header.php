@@ -22,7 +22,6 @@
                         <li><a href="about.aboutMe.php">About Me</a></li>
                         <li><a href="about.aboutElevate.php">About Elevate</a></li>
                         <li><a href="#">CHEK philosophy</a></li>
-                        <li><a href="about.etlSmart.php">Eat Train Live Smart</a></li>
                     </ul>
                 </li>
                 <li id="blog" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
