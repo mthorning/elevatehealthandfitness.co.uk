@@ -6,7 +6,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        
+        <link rel="canonical" href="http://elevatehealthandfitness.co.ukblog.php">
+        
+<!--        facebook props-->
+        <meta property="og:image" content="img/jpg/Scenery-Logo.jpg">
+        <meta property="og:title" content="Elevate Health & Fitness Blog">
+        
         <title>Elevate Blog</title>
 
         <?php include 'components/headLinks.php'; ?>

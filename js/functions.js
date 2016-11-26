@@ -46,8 +46,6 @@ function updateContent(id) {
                     var title = $(this).find('title').text();
                     //write img div
                     $('#content').append('<div class="headImg" style="background-image: url(' + imageUrl + ');"></div>');
-                    // change FB share image
-                    $('meta[name=og\\:url]').attr('content', imageUrl);
                     //write title
                     $('#content').append('<h1>' + title + '</h1>');
                     //write paragraphs

@@ -100,9 +100,6 @@ body {
   color: #1c1c1c; }
   body .navMargin {
     margin-top: 60px; }
-    @media screen and (max-width: 992px) {
-      body .navMargin {
-        margin-top: 45px; } }
   body .rowMargin {
     margin: 50px 0; }
   body .container-fluid {
@@ -172,10 +169,6 @@ body {
     display: flex;
     align-items: center; }
 
-#smallScreenLogo {
-  display: none;
-  width: 100%; }
-
 .fixedScenery {
   background: url("../img/jpg/Scenery.jpg") no-repeat;
   background-position: 0px 70px;
@@ -183,8 +176,14 @@ body {
   background-attachment: fixed; }
   @media screen and (max-width: 992px) {
     .fixedScenery {
-      background-position: 0px 50px; } }
+      background-position: 0px 50px;
+      background-position: center center; } }
+  @media screen and (max-width: 992px) {
+    .fixedScenery {
+      background-size: cover; } }
 
+#indexPage #topWindow {
+  min-height: 240px; }
 #indexPage #bigScreenLogo,
 #indexPage #timelineCover {
   width: 100%;
@@ -204,14 +203,15 @@ body {
   text-align: center;
   padding-top: 10px;
   background-color: white; }
-  #indexPage #introSection .whiteContainer h1 {
-    margin: 10px 0 0 0; }
+  #indexPage #introSection .whiteContainer .headline {
+    margin: 10px 0 0 0;
+    display: inline; }
     @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer h1 {
-        font-size: 1.75em; } }
+      #indexPage #introSection .whiteContainer .headline {
+        display: block; } }
     @media screen and (max-width: 480px) {
-      #indexPage #introSection .whiteContainer h1 {
-        font-size: 1.4em; } }
+      #indexPage #introSection .whiteContainer .headline {
+        font-size: 21px; } }
   #indexPage #introSection .whiteContainer #paddedBox {
     height: 0; }
     @media screen and (max-width: 992px) {
@@ -229,16 +229,28 @@ body {
     padding-top: 70px;
     margin-top: 100px; }
     #indexPage #introSection .whiteContainer #welcome #welcomeSection {
-      height: 100vh;
+      padding-top: 50px;
+      min-height: 825px;
       background: url("../img/png/aboutPattern.png") no-repeat center center;
       background-size: cover; }
+      @media screen and (min-width: 992px) {
+        #indexPage #introSection .whiteContainer #welcome #welcomeSection #textBoxContainer {
+          display: flex;
+          align-items: center; } }
       #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
         padding-top: 25px;
+        padding-bottom: 40px;
         height: 20%; }
         #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
           text-align: center;
           text-shadow: 3px 3px 5px white;
           font-size: 50px; }
+          @media screen and (max-width: 768px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+              font-size: 40px; } }
+          @media screen and (max-width: 480px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+              font-size: 30px; } }
       #indexPage #introSection .whiteContainer #welcome #welcomeSection #etlLogo {
         width: 80%;
         height: auto; }
@@ -251,9 +263,21 @@ body {
           font-weight: 500;
           line-height: 25px;
           text-align: justify; }
+          @media screen and (max-width: 768px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+              text-align: center; } }
+          @media screen and (max-width: 480px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+              text-align: justify; } }
         #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
           padding-left: 30px;
           text-align: left; }
+          @media screen and (max-width: 768px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+              text-align: center; } }
+          @media screen and (max-width: 480px) {
+            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+              text-align: justify; } }
 #indexPage #introSection #etlSection {
   background: #fff;
   padding-top: 50px; }
@@ -278,6 +302,13 @@ body {
     padding: 0 10px 10px 10px; }
     #indexPage #introSection #etlSection .textBox a {
       color: #0a4da3; }
+    #indexPage #introSection #etlSection .textBox h2 {
+      text-align: center; }
+    #indexPage #introSection #etlSection .textBox h4 {
+      text-align: left; }
+      @media screen and (max-width: 768px) {
+        #indexPage #introSection #etlSection .textBox h4 {
+          text-align: justify; } }
   #indexPage #introSection #etlSection .verticalAlignLgOnly {
     display: flex;
     align-items: center; }
@@ -286,6 +317,15 @@ body {
         display: block; } }
 #indexPage .jumbotron {
   margin: 100px auto !important; }
+  @media screen and (max-width: 768px) {
+    #indexPage .jumbotron {
+      width: 90%; }
+      #indexPage .jumbotron h3 {
+        font-size: 20px; } }
+    @media screen and (max-width: 768px) and (max-width: 480px) {
+      #indexPage .jumbotron h3 {
+        font-size: 15px; } }
+
 #indexPage .window h2,
 #indexPage .window h3 {
   text-align: center;
@@ -293,11 +333,45 @@ body {
   font-weight: 100;
   margin: 30px auto;
   text-shadow: 3px 3px 4px #1c1c1c;
-  letter-spacing: 20px; }
+  letter-spacing: 15px; }
 #indexPage .window h2 {
-  font-size: 145px; }
+  font-size: 140px; }
 #indexPage .window h3 {
   font-size: 80px; }
+@media screen and (max-width: 1200px) {
+  #indexPage .window h2,
+  #indexPage .window h3 {
+    letter-spacing: 15px; }
+  #indexPage .window h2 {
+    font-size: 130px; }
+  #indexPage .window h3 {
+    font-size: 65px; } }
+@media screen and (max-width: 992px) {
+  #indexPage .window h2,
+  #indexPage .window h3 {
+    letter-spacing: 11px; }
+  #indexPage .window h2 {
+    font-size: 115px; }
+  #indexPage .window h3 {
+    font-size: 50px; } }
+@media screen and (max-width: 768px) {
+  #indexPage .window h2,
+  #indexPage .window h3 {
+    letter-spacing: 9px; }
+  #indexPage .window h2 {
+    font-size: 100px; }
+  #indexPage .window h3 {
+    font-size: 35px; } }
+@media screen and (max-width: 480px) {
+  #indexPage .window h2,
+  #indexPage .window h3 {
+    letter-spacing: 2px; }
+  #indexPage .window h2 {
+    font-size: 60px; }
+  #indexPage .window h3 {
+    font-size: 25px; } }
+#indexPage #etlWindow {
+  height: 70px; }
 #indexPage .imgWrapper {
   padding-top: 50px;
   height: 100%;

@@ -1,19 +1,21 @@
-#smallScreenLogo {
-    display: none;
-    width: 100%;
-}
-
 .fixedScenery {
     background: url("../img/jpg/Scenery.jpg") no-repeat;
     background-position: 0px 70px;
     @include md {
         background-position: 0px 50px;
+        background-position: center center;
     }
     background-size: 100%;
+    @include md {
+        background-size: cover;
+    }
     background-attachment: fixed;
 }
 
 #indexPage {
+    #topWindow {
+        min-height: 240px;
+    }
     #bigScreenLogo,
     #timelineCover {
         width: 100%;
@@ -38,13 +40,14 @@
         }
         .whiteContainer {
             text-align: center;
-            h1 {
+            .headline {
                 margin: 10px 0 0 0;
+                display: inline;
                 @include sm {
-                    font-size: 1.75em;
+                    display: block;
                 }
                 @include xs {
-                    font-size: 1.4em;
+                    font-size: 21px;
                 }
             }
             #paddedBox {
@@ -68,16 +71,29 @@
                 padding-top: 70px;
                 margin-top: 100px;
                 #welcomeSection {
-                    height: 100vh;
+                    padding-top: 50px;
+                    min-height: 825px;
                     background: url("../img/png/aboutPattern.png") no-repeat center center;
                     background-size: cover;
+                    #textBoxContainer {
+                        @media screen and (min-width: 992px) {
+                            @include verticalAlign;
+                        }
+                    }
                     #headingDiv {
                         padding-top: 25px;
+                        padding-bottom: 40px;
                         height: 20%;
                         h1 {
                             text-align: center;
                             text-shadow: 3px 3px 5px white;
                             font-size: 50px;
+                            @include sm {
+                                font-size: 40px;
+                            }
+                            @include xs {
+                                font-size: 30px;
+                            }
                         }
                     }
                     #etlLogo {
@@ -93,10 +109,22 @@
                             font-weight: 500;
                             line-height: 25px;
                             text-align: justify;
+                            @include sm {
+                                text-align: center;
+                            }
+                            @include xs {
+                                text-align: justify;
+                            }
                         }
                         p {
                             padding-left: 30px;
                             text-align: left;
+                            @include sm {
+                                text-align: center;
+                            }
+                            @include xs {
+                                text-align: justify;
+                            }
                         }
                     }
                 }
@@ -134,6 +162,15 @@
                 a {
                     color: $colHighlight;
                 }
+                h2 {
+                    text-align: center;
+                }
+                h4 {
+                    text-align: left;
+                    @include sm {
+                        text-align: justify;
+                    }
+                }
             }
             .verticalAlignLgOnly {
                 @include verticalAlign;
@@ -143,9 +180,17 @@
             }
         }
     }
-    
     .jumbotron {
-	   margin: 100px auto!important;
+        margin: 100px auto!important;
+        @include sm {
+            width: 90%;
+            h3 {
+                font-size: 20px;
+                @include xs {
+                    font-size: 15px;
+                }
+            }
+        }
     }
     .window {
         h2,
@@ -155,15 +200,68 @@
             font-weight: 100;
             margin: 30px auto;
             text-shadow: 3px 3px 4px $darkGrey;
-            letter-spacing: 20px;
+            letter-spacing: 15px;
         }
         h2 {
-            font-size: 145px;
+            font-size: 140px;
         }
         h3 {
             font-size: 80px;
         }
+        @include lg {
+            h2,
+            h3 {
+                letter-spacing: 15px;
+            }
+            h2 {
+                font-size: 130px;
+            }
+            h3 {
+                font-size: 65px;
+            }
+        }
+        @include md {
+            h2,
+            h3 {
+                letter-spacing: 11px;
+            }
+            h2 {
+                font-size: 115px;
+            }
+            h3 {
+                font-size: 50px;
+            }
+        }
+        @include sm {
+            h2,
+            h3 {
+                letter-spacing: 9px;
+            }
+            h2 {
+                font-size: 100px;
+            }
+            h3 {
+                font-size: 35px;
+            }
+        }
+        @include xs {
+            h2,
+            h3 {
+                letter-spacing: 2px;
+            }
+            h2 {
+                font-size: 60px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
     }
+    
+    #etlWindow {
+            height: 70px;
+        }
+    
     .imgWrapper {
         padding-top: 50px;
         height: 100%;
