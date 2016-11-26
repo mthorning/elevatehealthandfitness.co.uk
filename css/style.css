@@ -286,16 +286,17 @@ body {
         display: block; } }
 #indexPage .jumbotron {
   margin: 100px auto !important; }
-#indexPage #window h2,
-#indexPage #window h3 {
+#indexPage .window h2,
+#indexPage .window h3 {
   text-align: center;
   color: white;
   font-weight: 100;
-  margin: 40px auto; }
-#indexPage #window h2 {
-  font-size: 145px;
+  margin: 30px auto;
+  text-shadow: 3px 3px 4px #1c1c1c;
   letter-spacing: 20px; }
-#indexPage #window h3 {
+#indexPage .window h2 {
+  font-size: 145px; }
+#indexPage .window h3 {
   font-size: 80px; }
 #indexPage .imgWrapper {
   padding-top: 50px;

@@ -30,8 +30,9 @@ function updateContent(id) {
 
     //clear content
     $('#content').html('');
-    //which page am I looking for?
-    var id = id;
+    
+    var imageUrl = 'img/blogPage/' + id + '.jpg';
+    
 
     $.ajax({
         type: 'GET'
@@ -44,7 +45,9 @@ function updateContent(id) {
                 if (idCheck == id) {
                     var title = $(this).find('title').text();
                     //write img div
-                    $('#content').append('<div class="headImg" style="background-image: url(\'img/blogPage/' + id +'.jpg\');"></div>');
+                    $('#content').append('<div class="headImg" style="background-image: url(' + imageUrl + ');"></div>');
+                    // change FB share image
+                    $('meta[name=og\\:url]').attr('content', imageUrl);
                     //write title
                     $('#content').append('<h1>' + title + '</h1>');
                     //write paragraphs

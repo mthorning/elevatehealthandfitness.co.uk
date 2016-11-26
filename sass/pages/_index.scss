@@ -147,17 +147,18 @@
     .jumbotron {
 	   margin: 100px auto!important;
     }
-    #window {
+    .window {
         h2,
         h3 {
             text-align: center;
             color: white;
             font-weight: 100;
-            margin: 40px auto;
+            margin: 30px auto;
+            text-shadow: 3px 3px 4px $darkGrey;
+            letter-spacing: 20px;
         }
         h2 {
             font-size: 145px;
-            letter-spacing: 20px;
         }
         h3 {
             font-size: 80px;
