@@ -254,38 +254,50 @@ body {
         #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
           padding-left: 30px;
           text-align: left; }
-  #indexPage #introSection .whiteContainer #etlSection {
-    padding-top: 50px; }
-    #indexPage #introSection .whiteContainer #etlSection #etlTaglineImg {
-      width: 50%; }
-    #indexPage #introSection .whiteContainer #etlSection .curvedImg {
-      border-radius: 25px;
-      width: 80%;
-      height: auto;
-      margin: auto; }
-    #indexPage #introSection .whiteContainer #etlSection .smallScreenImg {
+#indexPage #introSection #etlSection {
+  background: #fff;
+  padding-top: 50px; }
+  #indexPage #introSection #etlSection .curvedImg {
+    border-radius: 25px;
+    width: 80%;
+    height: auto;
+    margin: auto; }
+  #indexPage #introSection #etlSection .smallScreenImg {
+    display: none; }
+  @media screen and (max-width: 992px) {
+    #indexPage #introSection #etlSection .bigScreenImg {
       display: none; }
-    @media screen and (max-width: 992px) {
-      #indexPage #introSection .whiteContainer #etlSection .bigScreenImg {
-        display: none; }
-      #indexPage #introSection .whiteContainer #etlSection .smallScreenImg {
-        display: block;
-        margin-bottom: 40px;
-        width: 100%; } }
-    @media screen and (max-width: 992px) {
-      #indexPage #introSection .whiteContainer #etlSection h2 {
-        display: none; } }
-    #indexPage #introSection .whiteContainer #etlSection .textBox {
-      padding: 0 10px 10px 10px; }
-      #indexPage #introSection .whiteContainer #etlSection .textBox a {
-        color: #0a4da3; }
-    #indexPage #introSection .whiteContainer #etlSection .verticalAlignLgOnly {
-      display: flex;
-      align-items: center; }
-      @media screen and (max-width: 768px) {
-        #indexPage #introSection .whiteContainer #etlSection .verticalAlignLgOnly {
-          display: block; } }
-#indexPage #introSection .imgWrapper {
+    #indexPage #introSection #etlSection .smallScreenImg {
+      display: block;
+      margin-bottom: 40px;
+      width: 100%; } }
+  @media screen and (max-width: 992px) {
+    #indexPage #introSection #etlSection h2 {
+      display: none; } }
+  #indexPage #introSection #etlSection .textBox {
+    padding: 0 10px 10px 10px; }
+    #indexPage #introSection #etlSection .textBox a {
+      color: #0a4da3; }
+  #indexPage #introSection #etlSection .verticalAlignLgOnly {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      #indexPage #introSection #etlSection .verticalAlignLgOnly {
+        display: block; } }
+#indexPage .jumbotron {
+  margin: 100px auto !important; }
+#indexPage #window h2,
+#indexPage #window h3 {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  margin: 40px auto; }
+#indexPage #window h2 {
+  font-size: 145px;
+  letter-spacing: 20px; }
+#indexPage #window h3 {
+  font-size: 80px; }
+#indexPage .imgWrapper {
   padding-top: 50px;
   height: 100%;
   display: flex;

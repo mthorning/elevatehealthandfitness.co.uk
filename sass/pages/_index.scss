@@ -101,56 +101,74 @@
                     }
                 }
             }
-            #etlSection {
-                padding-top: 50px;
-                #etlTaglineImg {
-                    width: 50%;
-                }
-                .curvedImg {
-                    border-radius: 25px;
-                    width: 80%;
-                    height: auto;
-                    margin: auto;
-                }
-                .smallScreenImg {
+        }
+        #etlSection {
+            background: #fff;
+            padding-top: 50px;
+            .curvedImg {
+                border-radius: 25px;
+                width: 80%;
+                height: auto;
+                margin: auto;
+            }
+            .smallScreenImg {
+                display: none;
+            }
+            @include md {
+                .bigScreenImg {
                     display: none;
                 }
+                .smallScreenImg {
+                    display: block;
+                    margin-bottom: 40px;
+                    width: 100%;
+                }
+            }
+            h2 {
                 @include md {
-                    .bigScreenImg {
-                        display: none;
-                    }
-                    .smallScreenImg {
-                        display: block;
-                        margin-bottom: 40px;
-                        width: 100%;
-                    }
+                    display: none;
                 }
-                h2 {
-                    @include md {
-                        display: none;
-                    }
+            }
+            .textBox {
+                padding: 0 10px 10px 10px;
+                a {
+                    color: $colHighlight;
                 }
-                .textBox {
-                    padding: 0 10px 10px 10px;
-                    a {
-                        color: $colHighlight;
-                    }
-                }
-                .verticalAlignLgOnly {
-                    @include verticalAlign;
-                    @include sm {
-                        display: block;
-                    }
+            }
+            .verticalAlignLgOnly {
+                @include verticalAlign;
+                @include sm {
+                    display: block;
                 }
             }
         }
-        .imgWrapper {
-            padding-top: 50px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 10px;
+    }
+    
+    .jumbotron {
+	   margin: 100px auto!important;
+    }
+    #window {
+        h2,
+        h3 {
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            margin: 40px auto;
         }
+        h2 {
+            font-size: 145px;
+            letter-spacing: 20px;
+        }
+        h3 {
+            font-size: 80px;
+        }
+    }
+    .imgWrapper {
+        padding-top: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
     }
 }
