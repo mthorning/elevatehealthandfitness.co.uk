@@ -4,7 +4,7 @@
   flex-direction: row-reverse;
   align-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: stretch;
   align-content: stretch; }
   .shareBox .share > div {
@@ -149,6 +149,7 @@ body {
     background-color: white;
     border: 1px solid #e9e4ea;
     padding: 5px;
+    margin: 5px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -161,6 +162,7 @@ body {
     background-color: white;
     border: 1px solid #e9e4ea;
     padding: 5px;
+    margin: 5px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -229,7 +231,7 @@ body {
   #indexPage #introSection .whiteContainer #welcome #welcomeSection {
     margin-top: 50px;
     min-height: 825px;
-    background: url("../img/png/aboutPattern.png") no-repeat center center;
+    background: url("../img/jpg/aboutPatternfaded.jpg") no-repeat center center;
     background-size: cover; }
     @media screen and (min-width: 992px) {
       #indexPage #introSection .whiteContainer #welcome #welcomeSection #textBoxContainer {

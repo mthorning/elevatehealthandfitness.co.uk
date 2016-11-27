@@ -3,10 +3,6 @@
         <div class="col-xs-12">
             <div class="share">
                 <div>
-                    <!--        google-->
-                    <div class="g-plusone"></div>
-                </div>
-                <div>
                     <!--        linkedin-->
                     <script src="//platform.linkedin.com/in.js" type="text/javascript">
                         lang: en_US
@@ -25,6 +21,10 @@
                 <div>
                     <!--        facebook-->
                     <div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                </div>
+                <div>
+                    <!--        google-->
+                    <div class="g-plusone" data-align="right"></div>
                 </div>
             </div>
         </div>
