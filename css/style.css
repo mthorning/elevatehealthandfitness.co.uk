@@ -527,22 +527,25 @@ body {
     #pageFooter a:hover {
       color: #0a4da3;
       text-decoration: none; }
+  #pageFooter .col-sm-6 {
+    text-align: center;
+    padding: 10px; }
   #pageFooter #reps {
-    height: 100%; }
-  #pageFooter #repsBadge {
-    width: 60%;
-    margin: auto;
     height: 100%;
     display: flex;
-    align-items: center; }
-    #pageFooter #repsBadge img {
+    align-items: center;
+    justify-content: center; }
+    #pageFooter #reps #repsBadge {
+      padding: 20px;
       width: 50%; }
-      @media screen and (max-width: 992px) {
-        #pageFooter #repsBadge img {
-          width: 80%; } }
-      @media screen and (max-width: 768px) {
-        #pageFooter #repsBadge img {
-          width: 50%; } }
+      #pageFooter #reps #repsBadge img {
+        width: 80%; }
+        @media screen and (max-width: 992px) {
+          #pageFooter #reps #repsBadge img {
+            width: 80%; } }
+        @media screen and (max-width: 768px) {
+          #pageFooter #reps #repsBadge img {
+            width: 70%; } }
   #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }
