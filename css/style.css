@@ -2,7 +2,11 @@
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  align-content: space-around; }
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch; }
   .shareBox .share > div {
     margin: 5px; }
 
@@ -199,6 +203,14 @@ body {
 #indexPage #introSection #tagline {
   width: 50%;
   height: 75%; }
+#indexPage #introSection #paddedBox {
+  height: 50px; }
+  @media screen and (max-width: 1200px) {
+    #indexPage #introSection #paddedBox {
+      height: 70px; } }
+  @media screen and (max-width: 992px) {
+    #indexPage #introSection #paddedBox {
+      height: 120px; } }
 #indexPage #introSection .whiteContainer {
   text-align: center;
   padding-top: 10px;
@@ -212,72 +224,62 @@ body {
     @media screen and (max-width: 480px) {
       #indexPage #introSection .whiteContainer .headline {
         font-size: 21px; } }
-  #indexPage #introSection .whiteContainer #paddedBox {
-    height: 0; }
-    @media screen and (max-width: 992px) {
-      #indexPage #introSection .whiteContainer #paddedBox {
-        height: 15vh; } }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer #paddedBox {
-        height: 35vh; } }
-    @media screen and (max-width: 480px) {
-      #indexPage #introSection .whiteContainer #paddedBox {
-        height: 50vh; } }
   #indexPage #introSection .whiteContainer a {
     margin: 10px; }
-  #indexPage #introSection .whiteContainer #welcome {
-    padding-top: 70px;
-    margin-top: 100px; }
-    #indexPage #introSection .whiteContainer #welcome #welcomeSection {
-      padding-top: 50px;
-      min-height: 825px;
-      background: url("../img/png/aboutPattern.png") no-repeat center center;
-      background-size: cover; }
-      @media screen and (min-width: 992px) {
-        #indexPage #introSection .whiteContainer #welcome #welcomeSection #textBoxContainer {
-          display: flex;
-          align-items: center; } }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
-        padding-top: 25px;
-        padding-bottom: 40px;
-        height: 20%; }
-        #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-          text-align: center;
-          text-shadow: 3px 3px 5px white;
-          font-size: 50px; }
-          @media screen and (max-width: 768px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-              font-size: 40px; } }
-          @media screen and (max-width: 480px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-              font-size: 30px; } }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection #etlLogo {
-        width: 80%;
-        height: auto; }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox {
-        height: 100%;
-        padding: 30px; }
-        #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-          font-size: 20px;
-          margin-bottom: 10px;
-          font-weight: 500;
-          line-height: 25px;
-          text-align: justify; }
-          @media screen and (max-width: 768px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-              text-align: center; } }
-          @media screen and (max-width: 480px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-              text-align: justify; } }
-        #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-          padding-left: 30px;
-          text-align: left; }
-          @media screen and (max-width: 768px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-              text-align: center; } }
-          @media screen and (max-width: 480px) {
-            #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-              text-align: justify; } }
+  #indexPage #introSection .whiteContainer #welcome #welcomeSection {
+    margin-top: 50px;
+    min-height: 825px;
+    background: url("../img/png/aboutPattern.png") no-repeat center center;
+    background-size: cover; }
+    @media screen and (min-width: 992px) {
+      #indexPage #introSection .whiteContainer #welcome #welcomeSection #textBoxContainer {
+        display: flex;
+        align-items: center; } }
+    #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
+      padding-top: 25px;
+      padding-bottom: 40px;
+      height: 20%; }
+      @media screen and (max-width: 480px) {
+        #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
+          padding-top: 5px;
+          padding-bottom: 10px; } }
+      #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+        text-align: center;
+        text-shadow: 3px 3px 5px white;
+        font-size: 50px; }
+        @media screen and (max-width: 768px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+            font-size: 40px; } }
+        @media screen and (max-width: 480px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+            font-size: 30px; } }
+    #indexPage #introSection .whiteContainer #welcome #welcomeSection #etlLogo {
+      width: 80%;
+      height: auto; }
+    #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox {
+      height: 100%;
+      padding: 30px; }
+      #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: justify; }
+        @media screen and (max-width: 768px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+            text-align: center; } }
+        @media screen and (max-width: 480px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+            text-align: justify; } }
+      #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+        padding-left: 30px;
+        text-align: left; }
+        @media screen and (max-width: 768px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+            text-align: center; } }
+        @media screen and (max-width: 480px) {
+          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+            text-align: justify; } }
 #indexPage #introSection #etlSection {
   background: #fff;
   padding-top: 50px; }

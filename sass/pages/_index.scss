@@ -38,6 +38,15 @@
             width: 50%;
             height: 75%;
         }
+        #paddedBox {
+            height: 50px;
+            @include lg {
+                height: 70px;
+            }
+            @include md {
+                height: 120px;
+            }
+        }
         .whiteContainer {
             text-align: center;
             .headline {
@@ -50,28 +59,14 @@
                     font-size: 21px;
                 }
             }
-            #paddedBox {
-                height: 0;
-                @include md {
-                    height: 15vh;
-                }
-                @include sm {
-                    height: 35vh;
-                }
-                @include xs {
-                    height: 50vh;
-                }
-            }
             padding-top: 10px;
             background-color: white;
             a {
                 margin: 10px;
             }
             #welcome {
-                padding-top: 70px;
-                margin-top: 100px;
                 #welcomeSection {
-                    padding-top: 50px;
+                    margin-top: 50px;
                     min-height: 825px;
                     background: url("../img/png/aboutPattern.png") no-repeat center center;
                     background-size: cover;
@@ -83,6 +78,10 @@
                     #headingDiv {
                         padding-top: 25px;
                         padding-bottom: 40px;
+                        @include xs {
+                            padding-top: 5px;
+                            padding-bottom: 10px;
+                        }
                         height: 20%;
                         h1 {
                             text-align: center;

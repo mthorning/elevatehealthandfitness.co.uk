@@ -30,7 +30,7 @@
                     <br />
                     <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>
                     <div id="paddedBox">
-
+                    
                     </div>
                     <div id="welcome" class="container-fluid">
                         <!--                        Main Section-->

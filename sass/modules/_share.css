@@ -3,8 +3,12 @@
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  align-content: space-around; }
-  /* line 7, C:/xampp/htdocs/elevate/sass/modules/_share.scss */
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch; }
+  /* line 11, C:/xampp/htdocs/elevate/sass/modules/_share.scss */
   .shareBox .share > div {
     margin: 5px; }
 
