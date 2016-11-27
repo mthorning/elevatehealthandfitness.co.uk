@@ -11,6 +11,10 @@ $(function () {
         updateContent(id);
     });    
     
+    $('#navBlog').delegate('li a', 'click', function () {
+        $('#navToggleButton').trigger('click');
+    });
+    
     $(window).trigger('hashchange');
 });
 
