@@ -179,14 +179,18 @@ body {
   background: url("../img/jpg/Scenery.jpg") no-repeat;
   background-position: 0px 70px;
   background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  -moz-background-size: 100%;
   background-attachment: fixed; }
   @media screen and (max-width: 992px) {
     .fixedScenery {
       background-position: 0px 50px;
-      background-position: center center; } }
-  @media screen and (max-width: 992px) {
-    .fixedScenery {
-      background-size: cover; } }
+      background-position: center center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; } }
 
 #indexPage section {
   min-height: 100vh; }
