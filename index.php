@@ -16,22 +16,28 @@
 
     <body id="indexPage">
         <?php include "components/header.php"; ?>
-            <div id="introSection" class="container-fluid navMargin">
-                <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1">
-                        <div id="topWindow" class="window">
-                            <img id="bigScreenLogo" src="img/png/Elevate-LogoSmoothed.png" alt="Elevate Logo">
-                            <h3>HEALTH &amp; FITNESS</h3>
+            <section id="topSection">
+                <div id="introSection" class="container-fluid navMargin">
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <div id="topWindow" class="window">
+                                <img id="bigScreenLogo" src="img/png/Elevate-LogoSmoothed.png" alt="Elevate Logo">
+                                <h3>HEALTH &amp; FITNESS</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="whiteContainer">
-                    <h1 class="headline">PERSONAL TRAINING</h1> <h1 id="dot" class="headline">•</h1> <h1 class="headline">TRURO, CORNWALL</h1>
-                    <br />
-                    <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>
-                    <div id="paddedBox">
-                    
+                    <div class="whiteContainer">
+                        <h1 class="headline">PERSONAL TRAINING</h1>
+                        <h1 id="dot" class="headline">•</h1>
+                        <h1 class="headline">TRURO, CORNWALL</h1>
+                        <br />
+                        <a class="btn btn-lg btnColor" href="#welcome">Elevate your health</a>
                     </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="whiteContainer">
                     <div id="welcome" class="container-fluid">
                         <!--                        Main Section-->
                         <div id="welcomeSection" class="container-fluid">
@@ -59,10 +65,10 @@
                             </div>
                         </div>
                     </div>
-                    <div id="etlWindow">
-
-                    </div>
                 </div>
+            </section>
+
+            <section>
                 <div class="window">
                     <h3>Eat &bull; Train &bull; Live</h3>
                     <h2>SMART</h2>
@@ -129,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <?php include 'components/footer.php' ?>
                 <script src="js/twitter.js">

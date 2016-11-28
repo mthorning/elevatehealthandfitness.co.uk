@@ -13,8 +13,21 @@
 }
 
 #indexPage {
+    section {
+        min-height: 100vh;
+    }
+    #topSection {
+        height: 100vh;
+        overflow: hidden;
+        #introSection {
+	       height: 100vh;
+        }
+        .whiteContainer {
+            height: 100%;
+        }
+    }
     #topWindow {
-        min-height: 240px;
+        min-height: 40vh;
     }
     #bigScreenLogo,
     #timelineCover {
@@ -33,6 +46,88 @@
             }
         }
     }
+    .whiteContainer {
+        text-align: center;
+        .headline {
+            margin: 10px 0 0 0;
+            display: inline;
+            @include sm {
+                display: block;
+            }
+            @include xs {
+                font-size: 21px;
+            }
+        }
+        padding-top: 10px;
+        background-color: white;
+        a {
+            margin: 10px;
+        }
+        #welcome {
+            #welcomeSection {
+                margin-top: 50px;
+                min-height: 825px;
+                background: url("../img/jpg/aboutPatternfaded.jpg") no-repeat center center;
+                background-size: cover;
+                #textBoxContainer {
+                    @media screen and (min-width: 992px) {
+                        @include verticalAlign;
+                    }
+                }
+                #headingDiv {
+                    padding-top: 25px;
+                    padding-bottom: 40px;
+                    @include xs {
+                        padding-top: 5px;
+                        padding-bottom: 10px;
+                    }
+                    height: 20%;
+                    h1 {
+                        text-align: center;
+                        text-shadow: 3px 3px 5px white;
+                        font-size: 50px;
+                        @include sm {
+                            font-size: 40px;
+                        }
+                        @include xs {
+                            font-size: 30px;
+                        }
+                    }
+                }
+                #etlLogo {
+                    width: 80%;
+                    height: auto;
+                }
+                .welcomeTextBox {
+                    height: 100%;
+                    padding: 30px;
+                    h4 {
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                        font-weight: 500;
+                        line-height: 25px;
+                        text-align: justify;
+                        @include sm {
+                            text-align: center;
+                        }
+                        @include xs {
+                            text-align: justify;
+                        }
+                    }
+                    p {
+                        padding-left: 30px;
+                        text-align: left;
+                        @include sm {
+                            text-align: center;
+                        }
+                        @include xs {
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
     #introSection {
         #tagline {
             width: 50%;
@@ -47,137 +142,6 @@
                 height: 120px;
             }
         }
-        .whiteContainer {
-            text-align: center;
-            .headline {
-                margin: 10px 0 0 0;
-                display: inline;
-                @include sm {
-                    display: block;
-                }
-                @include xs {
-                    font-size: 21px;
-                }
-            }
-            padding-top: 10px;
-            background-color: white;
-            a {
-                margin: 10px;
-            }
-            #welcome {
-                #welcomeSection {
-                    margin-top: 50px;
-                    min-height: 825px;
-                    background: url("../img/jpg/aboutPatternfaded.jpg") no-repeat center center;
-                    background-size: cover;
-                    #textBoxContainer {
-                        @media screen and (min-width: 992px) {
-                            @include verticalAlign;
-                        }
-                    }
-                    #headingDiv {
-                        padding-top: 25px;
-                        padding-bottom: 40px;
-                        @include xs {
-                            padding-top: 5px;
-                            padding-bottom: 10px;
-                        }
-                        height: 20%;
-                        h1 {
-                            text-align: center;
-                            text-shadow: 3px 3px 5px white;
-                            font-size: 50px;
-                            @include sm {
-                                font-size: 40px;
-                            }
-                            @include xs {
-                                font-size: 30px;
-                            }
-                        }
-                    }
-                    #etlLogo {
-                        width: 80%;
-                        height: auto;
-                    }
-                    .welcomeTextBox {
-                        height: 100%;
-                        padding: 30px;
-                        h4 {
-                            font-size: 20px;
-                            margin-bottom: 10px;
-                            font-weight: 500;
-                            line-height: 25px;
-                            text-align: justify;
-                            @include sm {
-                                text-align: center;
-                            }
-                            @include xs {
-                                text-align: justify;
-                            }
-                        }
-                        p {
-                            padding-left: 30px;
-                            text-align: left;
-                            @include sm {
-                                text-align: center;
-                            }
-                            @include xs {
-                                text-align: justify;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        #etlSection {
-            background: #fff;
-            padding-top: 50px;
-            .curvedImg {
-                border-radius: 25px;
-                width: 80%;
-                height: auto;
-                margin: auto;
-            }
-            .smallScreenImg {
-                display: none;
-            }
-            @include md {
-                .bigScreenImg {
-                    display: none;
-                }
-                .smallScreenImg {
-                    display: block;
-                    margin-bottom: 40px;
-                    width: 100%;
-                }
-            }
-            h2 {
-                @include md {
-                    display: none;
-                }
-            }
-            .textBox {
-                padding: 0 10px 10px 10px;
-                a {
-                    color: $colHighlight;
-                }
-                h2 {
-                    text-align: center;
-                }
-                h4 {
-                    text-align: left;
-                    @include sm {
-                        text-align: justify;
-                    }
-                }
-            }
-            .verticalAlignLgOnly {
-                @include verticalAlign;
-                @include sm {
-                    display: block;
-                }
-            }
-        }
     }
     .jumbotron {
         margin: 100px auto!important;
@@ -188,6 +152,55 @@
                 @include xs {
                     font-size: 15px;
                 }
+            }
+        }
+    }
+    #etlSection {
+        background: #fff;
+        padding-top: 50px;
+        .curvedImg {
+            border-radius: 25px;
+            width: 80%;
+            height: auto;
+            margin: auto;
+        }
+        .smallScreenImg {
+            display: none;
+        }
+        @include md {
+            .bigScreenImg {
+                display: none;
+            }
+            .smallScreenImg {
+                display: block;
+                margin-bottom: 40px;
+                width: 100%;
+            }
+        }
+        h2 {
+            @include md {
+                display: none;
+            }
+        }
+        .textBox {
+            padding: 0 10px 10px 10px;
+            a {
+                color: $colHighlight;
+            }
+            h2 {
+                text-align: center;
+            }
+            h4 {
+                text-align: left;
+                @include sm {
+                    text-align: justify;
+                }
+            }
+        }
+        .verticalAlignLgOnly {
+            @include verticalAlign;
+            @include sm {
+                display: block;
             }
         }
     }
@@ -256,11 +269,9 @@
             }
         }
     }
-    
     #etlWindow {
-            height: 70px;
-        }
-    
+        height: 70px;
+    }
     .imgWrapper {
         padding-top: 50px;
         height: 100%;

@@ -188,8 +188,17 @@ body {
     .fixedScenery {
       background-size: cover; } }
 
+#indexPage section {
+  min-height: 100vh; }
+#indexPage #topSection {
+  height: 100vh;
+  overflow: hidden; }
+  #indexPage #topSection #introSection {
+    height: 100vh; }
+  #indexPage #topSection .whiteContainer {
+    height: 100%; }
 #indexPage #topWindow {
-  min-height: 240px; }
+  min-height: 40vh; }
 #indexPage #bigScreenLogo,
 #indexPage #timelineCover {
   width: 100%;
@@ -202,6 +211,75 @@ body {
   @media screen and (max-width: 992px) {
     #indexPage .container > div {
       margin: 0 auto 20px auto; } }
+#indexPage .whiteContainer {
+  text-align: center;
+  padding-top: 10px;
+  background-color: white; }
+  #indexPage .whiteContainer .headline {
+    margin: 10px 0 0 0;
+    display: inline; }
+    @media screen and (max-width: 768px) {
+      #indexPage .whiteContainer .headline {
+        display: block; } }
+    @media screen and (max-width: 480px) {
+      #indexPage .whiteContainer .headline {
+        font-size: 21px; } }
+  #indexPage .whiteContainer a {
+    margin: 10px; }
+  #indexPage .whiteContainer #welcome #welcomeSection {
+    margin-top: 50px;
+    min-height: 825px;
+    background: url("../img/jpg/aboutPatternfaded.jpg") no-repeat center center;
+    background-size: cover; }
+    @media screen and (min-width: 992px) {
+      #indexPage .whiteContainer #welcome #welcomeSection #textBoxContainer {
+        display: flex;
+        align-items: center; } }
+    #indexPage .whiteContainer #welcome #welcomeSection #headingDiv {
+      padding-top: 25px;
+      padding-bottom: 40px;
+      height: 20%; }
+      @media screen and (max-width: 480px) {
+        #indexPage .whiteContainer #welcome #welcomeSection #headingDiv {
+          padding-top: 5px;
+          padding-bottom: 10px; } }
+      #indexPage .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+        text-align: center;
+        text-shadow: 3px 3px 5px white;
+        font-size: 50px; }
+        @media screen and (max-width: 768px) {
+          #indexPage .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+            font-size: 40px; } }
+        @media screen and (max-width: 480px) {
+          #indexPage .whiteContainer #welcome #welcomeSection #headingDiv h1 {
+            font-size: 30px; } }
+    #indexPage .whiteContainer #welcome #welcomeSection #etlLogo {
+      width: 80%;
+      height: auto; }
+    #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox {
+      height: 100%;
+      padding: 30px; }
+      #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: justify; }
+        @media screen and (max-width: 768px) {
+          #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+            text-align: center; } }
+        @media screen and (max-width: 480px) {
+          #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
+            text-align: justify; } }
+      #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+        padding-left: 30px;
+        text-align: left; }
+        @media screen and (max-width: 768px) {
+          #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+            text-align: center; } }
+        @media screen and (max-width: 480px) {
+          #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
+            text-align: justify; } }
 #indexPage #introSection #tagline {
   width: 50%;
   height: 75%; }
@@ -213,112 +291,6 @@ body {
   @media screen and (max-width: 992px) {
     #indexPage #introSection #paddedBox {
       height: 120px; } }
-#indexPage #introSection .whiteContainer {
-  text-align: center;
-  padding-top: 10px;
-  background-color: white; }
-  #indexPage #introSection .whiteContainer .headline {
-    margin: 10px 0 0 0;
-    display: inline; }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection .whiteContainer .headline {
-        display: block; } }
-    @media screen and (max-width: 480px) {
-      #indexPage #introSection .whiteContainer .headline {
-        font-size: 21px; } }
-  #indexPage #introSection .whiteContainer a {
-    margin: 10px; }
-  #indexPage #introSection .whiteContainer #welcome #welcomeSection {
-    margin-top: 50px;
-    min-height: 825px;
-    background: url("../img/jpg/aboutPatternfaded.jpg") no-repeat center center;
-    background-size: cover; }
-    @media screen and (min-width: 992px) {
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection #textBoxContainer {
-        display: flex;
-        align-items: center; } }
-    #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
-      padding-top: 25px;
-      padding-bottom: 40px;
-      height: 20%; }
-      @media screen and (max-width: 480px) {
-        #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv {
-          padding-top: 5px;
-          padding-bottom: 10px; } }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-        text-align: center;
-        text-shadow: 3px 3px 5px white;
-        font-size: 50px; }
-        @media screen and (max-width: 768px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-            font-size: 40px; } }
-        @media screen and (max-width: 480px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection #headingDiv h1 {
-            font-size: 30px; } }
-    #indexPage #introSection .whiteContainer #welcome #welcomeSection #etlLogo {
-      width: 80%;
-      height: auto; }
-    #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox {
-      height: 100%;
-      padding: 30px; }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-        font-size: 20px;
-        margin-bottom: 10px;
-        font-weight: 500;
-        line-height: 25px;
-        text-align: justify; }
-        @media screen and (max-width: 768px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-            text-align: center; } }
-        @media screen and (max-width: 480px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox h4 {
-            text-align: justify; } }
-      #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-        padding-left: 30px;
-        text-align: left; }
-        @media screen and (max-width: 768px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-            text-align: center; } }
-        @media screen and (max-width: 480px) {
-          #indexPage #introSection .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
-            text-align: justify; } }
-#indexPage #introSection #etlSection {
-  background: #fff;
-  padding-top: 50px; }
-  #indexPage #introSection #etlSection .curvedImg {
-    border-radius: 25px;
-    width: 80%;
-    height: auto;
-    margin: auto; }
-  #indexPage #introSection #etlSection .smallScreenImg {
-    display: none; }
-  @media screen and (max-width: 992px) {
-    #indexPage #introSection #etlSection .bigScreenImg {
-      display: none; }
-    #indexPage #introSection #etlSection .smallScreenImg {
-      display: block;
-      margin-bottom: 40px;
-      width: 100%; } }
-  @media screen and (max-width: 992px) {
-    #indexPage #introSection #etlSection h2 {
-      display: none; } }
-  #indexPage #introSection #etlSection .textBox {
-    padding: 0 10px 10px 10px; }
-    #indexPage #introSection #etlSection .textBox a {
-      color: #0a4da3; }
-    #indexPage #introSection #etlSection .textBox h2 {
-      text-align: center; }
-    #indexPage #introSection #etlSection .textBox h4 {
-      text-align: left; }
-      @media screen and (max-width: 768px) {
-        #indexPage #introSection #etlSection .textBox h4 {
-          text-align: justify; } }
-  #indexPage #introSection #etlSection .verticalAlignLgOnly {
-    display: flex;
-    align-items: center; }
-    @media screen and (max-width: 768px) {
-      #indexPage #introSection #etlSection .verticalAlignLgOnly {
-        display: block; } }
 #indexPage .jumbotron {
   margin: 100px auto !important; }
   @media screen and (max-width: 768px) {
@@ -330,6 +302,43 @@ body {
       #indexPage .jumbotron h3 {
         font-size: 15px; } }
 
+#indexPage #etlSection {
+  background: #fff;
+  padding-top: 50px; }
+  #indexPage #etlSection .curvedImg {
+    border-radius: 25px;
+    width: 80%;
+    height: auto;
+    margin: auto; }
+  #indexPage #etlSection .smallScreenImg {
+    display: none; }
+  @media screen and (max-width: 992px) {
+    #indexPage #etlSection .bigScreenImg {
+      display: none; }
+    #indexPage #etlSection .smallScreenImg {
+      display: block;
+      margin-bottom: 40px;
+      width: 100%; } }
+  @media screen and (max-width: 992px) {
+    #indexPage #etlSection h2 {
+      display: none; } }
+  #indexPage #etlSection .textBox {
+    padding: 0 10px 10px 10px; }
+    #indexPage #etlSection .textBox a {
+      color: #0a4da3; }
+    #indexPage #etlSection .textBox h2 {
+      text-align: center; }
+    #indexPage #etlSection .textBox h4 {
+      text-align: left; }
+      @media screen and (max-width: 768px) {
+        #indexPage #etlSection .textBox h4 {
+          text-align: justify; } }
+  #indexPage #etlSection .verticalAlignLgOnly {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      #indexPage #etlSection .verticalAlignLgOnly {
+        display: block; } }
 #indexPage .window h2,
 #indexPage .window h3 {
   text-align: center;
