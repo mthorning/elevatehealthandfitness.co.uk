@@ -1,14 +1,26 @@
 .shareBox .share {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
-  align-content: space-around;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch; }
   .shareBox .share > div {
-    margin: 5px; }
+    margin: 10px; }
 
 #navbarLogo {
   height: 70px; }
@@ -24,23 +36,26 @@ li > ul {
   background-color: #ffffff;
   border-color: #e9e4ea; }
   .navbar-default .navbar-brand {
+    float: none;
+    padding: 0;
     color: #0a67de; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #0a4da3; }
+    @media screen and (max-width: 768px) {
+      .navbar-default .navbar-brand {
+        float: left; } }
+    .navbar-default .navbar-brand > img {
+      margin-left: 5px; }
   .navbar-default .navbar-text {
     color: #0a67de; }
   .navbar-default .navbar-nav > li > a {
     color: #0a67de; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #0a4da3; }
-  .navbar-default .navbar-nav > .active > a,
-  .navbar-default .navbar-nav > .active > a:hover,
-  .navbar-default .navbar-nav > .active > a:focus {
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #0a4da3;
     background-color: #e9e4ea; }
-  .navbar-default .navbar-nav > .open > a,
-  .navbar-default .navbar-nav > .open > a:hover,
-  .navbar-default .navbar-nav > .open > a:focus {
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #0a4da3;
     background-color: #e9e4ea; }
   .navbar-default .navbar-toggle {
@@ -49,8 +64,7 @@ li > ul {
       background-color: #e9e4ea; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #0a67de; }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #0a67de; }
   .navbar-default .navbar-link {
     color: #0a67de; }
@@ -62,11 +76,10 @@ li > ul {
     color: #0a67de; }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
       color: #0a4da3; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #0a4da3;
     background-color: #e9e4ea; } }
+
 #navWrapper {
   background-color: #ffffff;
   border-bottom: 1px solid #e9e4ea; }
@@ -95,9 +108,21 @@ li > ul {
     #screenIndicator {
       background-color: purple; } }
 
-html,
-body {
+html, body {
   overflow-x: hidden; }
+
+noscript {
+  width: 100vw;
+  z-index: 2;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center; }
+  @media screen and (max-width: 992px) {
+    noscript {
+      top: 50px; } }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -172,28 +197,26 @@ body {
       body .additionalPicLeft {
         padding: 0; } }
   body .verticalAlign {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .fixedScenery {
   background: url("../img/jpg/Scenery.jpg") no-repeat;
   background-position: 0px 70px;
   background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  -moz-background-size: 100%;
   background-attachment: fixed; }
   @media screen and (max-width: 992px) {
     .fixedScenery {
-      background-position: 0px 50px;
-      background-position: center center;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover; } }
+      background-size: contain;
+      background-position: 0px 50px; } }
 
 #indexPage section {
   min-height: 100vh; }
+
 #indexPage #topSection {
   height: 100vh;
   overflow: hidden; }
@@ -201,20 +224,24 @@ body {
     height: 100vh; }
   #indexPage #topSection .whiteContainer {
     height: 100%; }
+
 #indexPage #topWindow {
   min-height: 40vh; }
-#indexPage #bigScreenLogo,
-#indexPage #timelineCover {
+
+#indexPage #bigScreenLogo, #indexPage #timelineCover {
   width: 100%;
   max-height: 450px;
   margin: inherit auto; }
+
 #indexPage #timelineCover {
   border: 1px solid #e9e4ea; }
+
 #indexPage .container > div {
   margin: 15px auto 15px auto; }
   @media screen and (max-width: 992px) {
     #indexPage .container > div {
       margin: 0 auto 20px auto; } }
+
 #indexPage .whiteContainer {
   text-align: center;
   padding-top: 10px;
@@ -237,8 +264,12 @@ body {
     background-size: cover; }
     @media screen and (min-width: 992px) {
       #indexPage .whiteContainer #welcome #welcomeSection #textBoxContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center; } }
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
     #indexPage .whiteContainer #welcome #welcomeSection #headingDiv {
       padding-top: 25px;
       padding-bottom: 40px;
@@ -284,9 +315,11 @@ body {
         @media screen and (max-width: 480px) {
           #indexPage .whiteContainer #welcome #welcomeSection .welcomeTextBox p {
             text-align: justify; } }
+
 #indexPage #introSection #tagline {
   width: 50%;
   height: 75%; }
+
 #indexPage #introSection #paddedBox {
   height: 50px; }
   @media screen and (max-width: 1200px) {
@@ -295,6 +328,7 @@ body {
   @media screen and (max-width: 992px) {
     #indexPage #introSection #paddedBox {
       height: 120px; } }
+
 #indexPage .jumbotron {
   margin: 100px auto !important; }
   @media screen and (max-width: 768px) {
@@ -338,63 +372,85 @@ body {
         #indexPage #etlSection .textBox h4 {
           text-align: justify; } }
   #indexPage #etlSection .verticalAlignLgOnly {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     @media screen and (max-width: 768px) {
       #indexPage #etlSection .verticalAlignLgOnly {
         display: block; } }
-#indexPage .window h2,
-#indexPage .window h3 {
+
+#indexPage .window h2, #indexPage .window h3 {
   text-align: center;
   color: white;
   font-weight: 100;
   margin: 30px auto;
   text-shadow: 3px 3px 4px #1c1c1c;
   letter-spacing: 15px; }
+
+#indexPage .window #windowETL {
+  color: #70D5F5; }
+
+#indexPage .window #windowSmart {
+  color: #0029F7;
+  text-shadow: 3px 3px 6px white; }
+
 #indexPage .window h2 {
   font-size: 140px; }
+
 #indexPage .window h3 {
   font-size: 80px; }
+
 @media screen and (max-width: 1200px) {
-  #indexPage .window h2,
-  #indexPage .window h3 {
+  #indexPage .window h2, #indexPage .window h3 {
     letter-spacing: 15px; }
   #indexPage .window h2 {
     font-size: 130px; }
   #indexPage .window h3 {
     font-size: 65px; } }
+
 @media screen and (max-width: 992px) {
-  #indexPage .window h2,
-  #indexPage .window h3 {
+  #indexPage .window h2, #indexPage .window h3 {
     letter-spacing: 11px; }
   #indexPage .window h2 {
     font-size: 115px; }
   #indexPage .window h3 {
     font-size: 50px; } }
+
 @media screen and (max-width: 768px) {
-  #indexPage .window h2,
-  #indexPage .window h3 {
+  #indexPage .window h2, #indexPage .window h3 {
     letter-spacing: 9px; }
   #indexPage .window h2 {
     font-size: 100px; }
   #indexPage .window h3 {
     font-size: 35px; } }
+
 @media screen and (max-width: 480px) {
-  #indexPage .window h2,
-  #indexPage .window h3 {
+  #indexPage .window h2, #indexPage .window h3 {
     letter-spacing: 2px; }
   #indexPage .window h2 {
     font-size: 60px; }
   #indexPage .window h3 {
     font-size: 25px; } }
+
 #indexPage #etlWindow {
   height: 70px; }
+
 #indexPage .imgWrapper {
   padding-top: 50px;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 10px; }
 
 .aboutPages {
@@ -402,14 +458,23 @@ body {
   background-size: cover; }
   .aboutPages .container {
     float: none;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
     border-radius: 25px;
     padding: 50px;
     margin: 90px auto;
     background-color: white;
     box-shadow: 5px 5px 8px #1c1c1c;
     width: 75%; }
+    .aboutPages .container #chekVid {
+      width: 50%;
+      margin: 10px;
+      float: right;
+      height: 250px;
+      max-width: 340px; }
+      @media screen and (max-width: 992px) {
+        .aboutPages .container #chekVid {
+          width: 100%;
+          float: none;
+          margin: 10px auto; } }
     @media screen and (max-width: 480px) {
       .aboutPages .container {
         border-radius: 0;
@@ -428,9 +493,7 @@ body {
     .aboutPages .container #badges img {
       width: 100%;
       height: auto; }
-    .aboutPages .container h1,
-    .aboutPages .container h3,
-    .aboutPages .container a {
+    .aboutPages .container h1, .aboutPages .container h3, .aboutPages .container a {
       color: #0a4da3;
       text-align: left; }
     .aboutPages .container #kensName {
@@ -478,17 +541,20 @@ body {
 
 #servicesPage p {
   text-indent: 0; }
+
 #servicesPage .row .dropcaps {
   font-size: 1.1em;
   font-weight: bold;
   float: left;
   padding: 0; }
+
 #servicesPage .row .col-xs-3 {
   margin: 10px 0;
   text-align: right; }
   @media screen and (max-width: 768px) {
     #servicesPage .row .col-xs-3 {
       padding: 0; } }
+
 #servicesPage .row img {
   width: 80px; }
   @media screen and (max-width: 480px) {
@@ -547,9 +613,15 @@ body {
     padding: 10px; }
   #pageFooter #reps {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     #pageFooter #reps #repsBadge {
       padding: 20px;
       width: 50%; }
@@ -564,8 +636,5 @@ body {
   #pageFooter #designCredit {
     text-align: right;
     line-height: 100px; }
-    #pageFooter #designCredit p,
-    #pageFooter #designCredit a {
+    #pageFooter #designCredit p, #pageFooter #designCredit a {
       font-size: inherit; }
-
-/*# sourceMappingURL=style.css.map */

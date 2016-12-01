@@ -16,7 +16,7 @@
 <body class="aboutPages">
     <?php include "components/header.php"; ?>
         <div class="container">
-            
+            <h1>C.H.E.K. Philosophy</h1>
         </div>
         
         <?php include 'components/footer.php' ?>

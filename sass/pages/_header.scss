@@ -5,21 +5,31 @@
         height: 45px;
     }
 }
+
 li {
     > ul {
         display: inline-block;
         left: -100px!important;
     }
 }
+
 //Navigation Bar from Gen
 .navbar-default {
     background-color: $bgDefault;
     border-color: $bgHighlight;
     .navbar-brand {
+        float: none;
+        padding: 0;
         color: $colDefault;
         &:hover,
         &:focus {
             color: $colHighlight;
+        }
+        @include sm {
+            float: left;
+        }
+        > img {
+            margin-left: 5px;
         }
     }
     .navbar-text {

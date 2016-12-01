@@ -3,6 +3,18 @@
     background: url("../img/jpg/aboutPattern.jpg") no-repeat;
     background-size: cover;
     .container {
+        #chekVid {
+            width: 50%;
+            margin: 10px;
+            float: right;
+            height: 250px;
+            @include md {
+                width: 100%;
+                float: none;
+                margin: 10px auto;
+            }
+            max-width: 340px;
+        }
         @include standardContainer;
         width: 75%;
         @include sm {

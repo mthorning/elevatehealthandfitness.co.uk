@@ -1,19 +1,12 @@
 .fixedScenery {
     background: url("../img/jpg/Scenery.jpg") no-repeat;
     background-position: 0px 70px;
-    @include md {
-        background-position: 0px 50px;
-        background-position: center center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
     background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    -moz-background-size: 100%;
     background-attachment: fixed;
+    @include md {
+        background-size: contain;
+        background-position: 0px 50px;
+    }
 }
 
 #indexPage {
@@ -217,6 +210,13 @@
             margin: 30px auto;
             text-shadow: 3px 3px 4px $darkGrey;
             letter-spacing: 15px;
+        }
+        #windowETL {
+            color: #70D5F5;
+        }
+        #windowSmart {
+            color: #0029F7;
+            text-shadow: 3px 3px 6px white;
         }
         h2 {
             font-size: 140px;

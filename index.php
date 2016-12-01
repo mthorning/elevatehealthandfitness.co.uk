@@ -70,8 +70,8 @@
 
             <section>
                 <div class="window">
-                    <h3>Eat &bull; Train &bull; Live</h3>
-                    <h2>SMART</h2>
+                    <h3 id="windowETL">Eat &bull; Train &bull; Live</h3>
+                    <h2 id="windowSmart">SMART</h2>
                 </div>
                 <div class="whiteContainer">
                     <div id="etlSection" class="container">
