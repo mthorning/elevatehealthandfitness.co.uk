@@ -56,10 +56,10 @@
                                         <h4>We specialise in helping you to:</h4>
                                         <p><span class="glyphicon glyphicon-ok"></span> Reduce your stress levels</p>
                                         <p> <span class="glyphicon glyphicon-ok"></span> Relieve back pain</p>
-                                        <p> <span class="glyphicon glyphicon-ok"></span> Overcome constant fatigue and low energy levels?</p>
-                                        <p> <span class="glyphicon glyphicon-ok"></span> Be in control of your weight?</p>
-                                        <p> <span class="glyphicon glyphicon-ok"></span> Address postural problems or injuries?</p>
-                                        <p> <span class="glyphicon glyphicon-ok"></span> Improve your fitness/sports performance levels?</p>
+                                        <p> <span class="glyphicon glyphicon-ok"></span> Overcome constant fatigue and low energy levels</p>
+                                        <p> <span class="glyphicon glyphicon-ok"></span> Be in control of your weight</p>
+                                        <p> <span class="glyphicon glyphicon-ok"></span> Address postural problems or injuries</p>
+                                        <p> <span class="glyphicon glyphicon-ok"></span> Improve your fitness/sports performance levels</p>
                                     </div>
                                 </div>
                             </div>
