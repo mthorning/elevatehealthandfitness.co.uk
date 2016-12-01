@@ -38,6 +38,7 @@ function updateContent(id) {
         type: 'GET'
         , url: 'xml/blogs.xml'
         , dataType: 'xml'
+        , cache: false
         , success: function (xml) {
             $(xml).find('section').each(function () {
                 var idCheck = $(this).find('id').text();

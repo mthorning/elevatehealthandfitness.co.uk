@@ -486,74 +486,75 @@ body {
 
 /* line 214, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage .window #windowETL {
-  color: #70D5F5; }
+  color: #70D5F5;
+  text-shadow: 0px 0px 5px white; }
 
-/* line 217, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 218, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage .window #windowSmart {
   color: #0029F7;
-  text-shadow: 3px 3px 6px white; }
+  text-shadow: 0px 0px 5px white; }
 
-/* line 221, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 222, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage .window h2 {
   font-size: 140px; }
 
-/* line 224, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 225, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage .window h3 {
   font-size: 80px; }
 
 @media screen and (max-width: 1200px) {
-  /* line 229, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 230, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2,
   #indexPage .window h3 {
     letter-spacing: 15px; }
-  /* line 232, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 233, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2 {
     font-size: 130px; }
-  /* line 235, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 236, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h3 {
     font-size: 65px; } }
 
 @media screen and (max-width: 992px) {
-  /* line 241, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 242, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2,
   #indexPage .window h3 {
     letter-spacing: 11px; }
-  /* line 244, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 245, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2 {
     font-size: 115px; }
-  /* line 247, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 248, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h3 {
     font-size: 50px; } }
 
 @media screen and (max-width: 768px) {
-  /* line 253, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 254, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2,
   #indexPage .window h3 {
     letter-spacing: 9px; }
-  /* line 256, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 257, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2 {
     font-size: 100px; }
-  /* line 259, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 260, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h3 {
     font-size: 35px; } }
 
 @media screen and (max-width: 480px) {
-  /* line 265, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 266, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2,
   #indexPage .window h3 {
     letter-spacing: 2px; }
-  /* line 268, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 269, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h2 {
     font-size: 60px; }
-  /* line 271, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+  /* line 272, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
   #indexPage .window h3 {
     font-size: 25px; } }
 
-/* line 276, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 277, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage #etlWindow {
   height: 70px; }
 
-/* line 279, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
+/* line 280, C:/xampp/htdocs/elevate/sass/pages/_index.scss */
 #indexPage .imgWrapper {
   padding-top: 50px;
   height: 100%;
