@@ -574,6 +574,9 @@ body {
       float: left; }
   #blogPage .container #contentContainer #content p {
     text-indent: 0; }
+    #blogPage .container #contentContainer #content p cite {
+      padding-left: 50px;
+      display: block; }
   #blogPage .container #menu {
     height: 100%;
     border-left: 1px dashed #8f8d8d; }

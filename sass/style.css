@@ -739,12 +739,16 @@ body {
   /* line 39, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
   #blogPage .container #contentContainer #content p {
     text-indent: 0; }
-  /* line 44, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+    /* line 41, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+    #blogPage .container #contentContainer #content p cite {
+      padding-left: 50px;
+      display: block; }
+  /* line 48, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
   #blogPage .container #menu {
     height: 100%;
     border-left: 1px dashed #8f8d8d; }
     @media screen and (max-width: 768px) {
-      /* line 44, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+      /* line 48, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
       #blogPage .container #menu {
         display: none; } }
 

@@ -3,7 +3,7 @@ $(function () {
     var id = '';
     var location = '';
     
-    updateMenu('#menuItems', 'xmlChange');
+    updateMenu('#menuItems');
     
     $(window).on('hashchange', function () {
         location = window.location.href;
@@ -12,7 +12,9 @@ $(function () {
     });    
     
     $('#navBlog').delegate('li a', 'click', function () {
-        $('#navToggleButton').trigger('click');
+        if ($window.width() < 769) {
+            $('#navToggleButton').trigger('click');
+        }
     });
     
     $(window).trigger('hashchange');
