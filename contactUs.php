@@ -65,7 +65,7 @@ if ($_POST["submit"]) {
         echo $resultMessage;
     }else{
         //email details
-                    $email_to = "monitor@stack-design.co.uk";                    
+                    $email_to = "ken@elevatehealthandfitness.co.uk";                    
                     $email_subject = "Customer Enquiry";
                     //email form details
                     $email_message = 
