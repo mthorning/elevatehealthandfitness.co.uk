@@ -125,8 +125,6 @@ body {
   color: #1c1c1c; }
   body .navMargin {
     margin-top: 60px; }
-  body .rowMargin {
-    margin: 50px 0; }
   body .container-fluid {
     padding: 0; }
     body .container-fluid .jumbotron {
@@ -588,6 +586,31 @@ body {
   color: #e9e4ea;
   background-color: #1c1c1c;
   text-align: center; }
+  #pageFooter .row {
+    text-align: left;
+    padding: 0 30px;
+    margin-bottom: 0;
+    margin-top: 0; }
+    #pageFooter .row .col-sm-12 {
+      margin-top: 30px; }
+    #pageFooter .row #reps {
+      text-align: right;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse; }
+      #pageFooter .row #reps img {
+        width: 80%;
+        max-height: 130px;
+        max-width: 130px; }
+        @media screen and (max-width: 992px) {
+          #pageFooter .row #reps img {
+            width: 80%; } }
+        @media screen and (max-width: 768px) {
+          #pageFooter .row #reps img {
+            width: 70%; } }
+    #pageFooter .row .shareLogos {
+      margin: 2px; }
   #pageFooter a {
     color: #e9e4ea; }
     #pageFooter a:hover {
@@ -596,27 +619,5 @@ body {
   #pageFooter .col-sm-6 {
     text-align: center;
     padding: 10px; }
-  #pageFooter #reps {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    #pageFooter #reps #repsBadge {
-      padding: 20px;
-      width: 50%; }
-      #pageFooter #reps #repsBadge img {
-        width: 80%; }
-        @media screen and (max-width: 992px) {
-          #pageFooter #reps #repsBadge img {
-            width: 80%; } }
-        @media screen and (max-width: 768px) {
-          #pageFooter #reps #repsBadge img {
-            width: 70%; } }
-  #pageFooter #designCredit {
-    text-align: right;
-    line-height: 100px; }
-    #pageFooter #designCredit p,
-    #pageFooter #designCredit a {
-      font-size: inherit; }
 
 /*# sourceMappingURL=style.css.map */

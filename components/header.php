@@ -1,16 +1,16 @@
 <?php include "modules/inc.title.php"; ?>
-<!--
+
     <noscript>
         <div class="alert alert-danger">
             <strong>This site requires Javascript. Please enable Javascript in your browser settings.</strong>
         </div>
     </noscript>
--->
+
     <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
         <div id="navWrapper">
 
             <!--        temporary indicator-->
-<!--            <div id="screenIndicator"></div>-->
+            <div id="screenIndicator"></div>
 
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php">

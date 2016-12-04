@@ -1,8 +1,35 @@
 #pageFooter {
-    p,
-    a {}
     color: $bgHighlight;
     background-color: $darkGrey;
+    .row {
+        text-align: left;
+        padding: 0 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+        .col-sm-12 {
+            margin-top: 30px;
+        }
+        #reps {
+            text-align: right;
+            height: 100%;
+            @include verticalAlign;
+            flex-direction: row-reverse;
+            img {
+                width: 80%;
+                max-height: 130px;
+                max-width: 130px;
+                @include md {
+                    width: 80%;
+                }
+                @include sm {
+                    width: 70%;
+                }
+            }
+        }
+        .shareLogos {
+            margin: 2px;
+        }
+    }
     a {
         color: $bgHighlight;
         &:hover {
@@ -14,31 +41,5 @@
         text-align: center;
         padding: 10px;
     }
-    #reps {
-        height: 100%;
-        @include verticalAlign;
-        justify-content: center;
-        #repsBadge {
-            padding: 20px;
-            width: 50%;
-            img {
-                width: 80%;
-                @include md {
-                    width: 80%;
-                }
-                @include sm {
-                    width: 70%;
-                }
-            }
-        }
-    }
     text-align: center;
-    #designCredit {
-        text-align: right;
-        line-height: 100px;
-        p,
-        a {
-            font-size: inherit;
-        }
-    }
 }

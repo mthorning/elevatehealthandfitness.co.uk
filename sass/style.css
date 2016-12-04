@@ -165,13 +165,10 @@ body {
   /* line 26, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .navMargin {
     margin-top: 60px; }
-  /* line 30, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
-  body .rowMargin {
-    margin: 50px 0; }
-  /* line 33, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+  /* line 31, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .container-fluid {
     padding: 0; }
-    /* line 35, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+    /* line 33, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
     body .container-fluid .jumbotron {
       margin: auto;
       margin-bottom: 50px;
@@ -180,34 +177,34 @@ body {
       padding-left: 100px;
       max-width: 80%; }
       @media screen and (max-width: 992px) {
-        /* line 35, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+        /* line 33, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
         body .container-fluid .jumbotron {
           padding-right: 60px;
           padding-left: 60px;
           max-width: 90%; } }
       @media screen and (max-width: 768px) {
-        /* line 35, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+        /* line 33, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
         body .container-fluid .jumbotron {
           padding-right: 30px;
           padding-left: 30px;
           width: 70%;
           margin: 0; } }
       @media screen and (max-width: 480px) {
-        /* line 35, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+        /* line 33, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
         body .container-fluid .jumbotron {
           width: 80%;
           padding-right: 0;
           padding-left: 0;
           margin: 0; } }
-      /* line 59, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+      /* line 57, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
       body .container-fluid .jumbotron h3 {
         line-height: 40px; }
   @media screen and (max-width: 768px) {
-    /* line 64, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+    /* line 62, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
     body .container {
       padding-left: 2px;
       padding-right: 2px; } }
-  /* line 70, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+  /* line 68, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .btnColor {
     border: 1px solid #1c1c1c;
     background-color: #0a67de;
@@ -216,25 +213,25 @@ body {
     body .btnColor:hover {
       color: white;
       box-shadow: 2px 2px 8px #1c1c1c; }
-  /* line 73, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+  /* line 71, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .additionalPicRight {
     margin: 10px;
     width: 30%;
     float: right; }
     @media screen and (max-width: 768px) {
-      /* line 73, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+      /* line 71, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
       body .additionalPicRight {
         margin: 5px; } }
-  /* line 81, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+  /* line 79, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .additionalPicLeft {
     margin: 10px;
     width: 30%;
     float: left; }
     @media screen and (max-width: 768px) {
-      /* line 81, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+      /* line 79, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
       body .additionalPicLeft {
         margin: 5px; } }
-  /* line 89, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+  /* line 87, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .verticalAlign {
     display: flex;
     align-items: center; }
@@ -757,45 +754,48 @@ body {
   color: #e9e4ea;
   background-color: #1c1c1c;
   text-align: center; }
-  /* line 6, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+  /* line 4, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+  #pageFooter .row {
+    text-align: left;
+    padding: 0 30px;
+    margin-bottom: 0;
+    margin-top: 0; }
+    /* line 9, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    #pageFooter .row .col-sm-12 {
+      margin-top: 30px; }
+    /* line 12, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    #pageFooter .row #reps {
+      text-align: right;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse; }
+      /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+      #pageFooter .row #reps img {
+        width: 80%;
+        max-height: 130px;
+        max-width: 130px; }
+        @media screen and (max-width: 992px) {
+          /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+          #pageFooter .row #reps img {
+            width: 80%; } }
+        @media screen and (max-width: 768px) {
+          /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+          #pageFooter .row #reps img {
+            width: 70%; } }
+    /* line 29, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    #pageFooter .row .shareLogos {
+      margin: 2px; }
+  /* line 33, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
   #pageFooter a {
     color: #e9e4ea; }
-    /* line 8, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    /* line 35, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
     #pageFooter a:hover {
       color: #0a4da3;
       text-decoration: none; }
-  /* line 13, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+  /* line 40, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
   #pageFooter .col-sm-6 {
     text-align: center;
     padding: 10px; }
-  /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-  #pageFooter #reps {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    /* line 21, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-    #pageFooter #reps #repsBadge {
-      padding: 20px;
-      width: 50%; }
-      /* line 24, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-      #pageFooter #reps #repsBadge img {
-        width: 80%; }
-        @media screen and (max-width: 992px) {
-          /* line 24, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-          #pageFooter #reps #repsBadge img {
-            width: 80%; } }
-        @media screen and (max-width: 768px) {
-          /* line 24, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-          #pageFooter #reps #repsBadge img {
-            width: 70%; } }
-  /* line 36, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-  #pageFooter #designCredit {
-    text-align: right;
-    line-height: 100px; }
-    /* line 40, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-    #pageFooter #designCredit p,
-    #pageFooter #designCredit a {
-      font-size: inherit; }
 
 /*# sourceMappingURL=style.css.map */
