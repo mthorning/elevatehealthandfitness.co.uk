@@ -50,7 +50,7 @@
                                         <h4>Here at Elevate Health &amp; Fitness Truro, we provide 1-to-1 personal training with holistic programs incorporating exercise, nutrition and lifestyle strategies, designed specifically for you to help you achieve your health and fitness goals, improving your sense of well-being, and elevate your quality of life!</h4>
                                     </div>
                                     <div class="hidden-xs hidden-sm hidden-md col-lg-4">
-                                        <a href="#etlWindow"><img id="etlLogo" src="img/png/tShirtCircle.png" alt="ETL Logo"></a>
+                                        <img id="etlLogo" src="img/png/tShirtCircle.png" alt="ETL Logo">
                                     </div>
                                     <div id="welcomeTextBox2" class="welcomeTextBox col-sm-6 col-lg-4">
                                         <h4>We specialise in helping you to:</h4>
@@ -89,7 +89,7 @@
                             </div>
                             <div class="col-md-6 ">
                                 <div class="bigScreenImg imgWrapper">
-                                    <img class="curvedImg" src="img/jpg/food.jpg" alt="Plate of Food">
+                                    <img id="eatImg" class="curvedImg" src="img/jpg/food.jpg" alt="Plate of Food">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                         <div class="row verticalAlignLgOnly">
                             <div class="col-md-6">
                                 <div class="bigScreenImg imgWrapper">
-                                    <img class="curvedImg" src="img/jpg/trainer.jpg" alt="Personal Trainer">
+                                    <img id="trainImg" class="curvedImg" src="img/jpg/trainer.jpg" alt="Personal Trainer">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 textBox">
@@ -125,7 +125,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="bigScreenImg imgWrapper">
-                                    <img class="curvedImg" src="img/jpg/exercising-woman.jpg" alt="Exercising Woman">
+                                    <img id="liveImg" class="curvedImg" src="img/jpg/exercising-woman.jpg" alt="Exercising Woman">
                                 </div>
                             </div>
                         </div>
@@ -142,6 +142,27 @@
                 </script>
                 <script type="text/javascript" src="js/frontPageBGImage.js"></script>
                 <?php include 'modules/navigationClassControl.php'; ?>
+
+                    <script type="text/javascript">
+                        $(function () {
+
+                            setimageheight();
+
+                            $(window).on('resize', function () {
+                                setimageheight90;
+                            });
+
+                            function setimageheight () {
+                                var eatheight = ($('#eatImg').width() / 6) * 4;
+                                var trainheight = ($('#trainImg').width() / 6) * 4;
+                                var liveheight = ($('#liveImg').width() / 6) * 4;
+                                $('#eatImg').css('max-height', eatheight);
+                                $('#trainImg').css('max-height', trainheight);
+                                $('#liveImg').css('max-height', liveheight);
+                            }
+
+                        });
+                    </script>
 
     </body>
 

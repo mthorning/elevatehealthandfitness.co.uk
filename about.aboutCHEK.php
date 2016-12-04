@@ -16,9 +16,7 @@
 <body class="aboutPages">
     <?php include "components/header.php"; ?>
         <div class="container">
-            <div class="row">
-                <h1>C.H.E.K. Philosophy</h1>
-            </div>
+            <h1>C.H.E.K. Philosophy</h1>
             <br />
             <p class="text-justify">So what is C.H.E.K. and what is their philosophy I here you ask?</p>
             <p>Well, C.H.E.K. stands for Corrective, Holistic, Exercise Kinesiology and relates to the <a href="http://www.chekinstitute.com" target="_blank">C.H.E.K. Institute in America</a>  founded by Holistic Health Practitioner Paul Chek.</p>

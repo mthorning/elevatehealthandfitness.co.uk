@@ -218,35 +218,23 @@ body {
       box-shadow: 2px 2px 8px #1c1c1c; }
   /* line 73, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .additionalPicRight {
-    background-color: white;
-    border: 1px solid #e9e4ea;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
+    margin: 10px;
     width: 30%;
     float: right; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       /* line 73, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
       body .additionalPicRight {
-        padding: 0; } }
-  /* line 78, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+        margin: 5px; } }
+  /* line 81, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .additionalPicLeft {
-    background-color: white;
-    border: 1px solid #e9e4ea;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
+    margin: 10px;
     width: 30%;
     float: left; }
-    @media screen and (max-width: 480px) {
-      /* line 78, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+    @media screen and (max-width: 768px) {
+      /* line 81, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
       body .additionalPicLeft {
-        padding: 0; } }
-  /* line 83, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
+        margin: 5px; } }
+  /* line 89, C:/xampp/htdocs/elevate/sass/pages/_base.scss */
   body .verticalAlign {
     display: flex;
     align-items: center; }
@@ -637,18 +625,17 @@ body {
       text-align: left; }
     /* line 57, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
     .aboutPages .container p {
-      text-indent: 30px;
       text-align: justify; }
-    /* line 61, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+    /* line 60, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
     .aboutPages .container #profilePic {
       width: 80%;
       margin: 30px auto; }
       @media screen and (max-width: 1200px) {
-        /* line 61, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+        /* line 60, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
         .aboutPages .container #profilePic {
           width: 100%; } }
       @media screen and (max-width: 992px) {
-        /* line 61, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
+        /* line 60, C:/xampp/htdocs/elevate/sass/pages/_aboutPages.scss */
         .aboutPages .container #profilePic {
           width: 60%; } }
 
@@ -676,31 +663,37 @@ body {
   display: block;
   text-align: left; }
 
+/* line 6, C:/xampp/htdocs/elevate/sass/pages/_contactForm.scss */
+#contactUsPage .btn {
+  margin: 30px; }
+
 /* line 2, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
 #servicesPage p {
   text-indent: 0; }
 
 /* line 6, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
 #servicesPage .row .dropcaps {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   float: left;
-  padding: 0; }
+  padding: 0;
+  margin-right: 5px;
+  height: 100%; }
 
-/* line 12, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
+/* line 14, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
 #servicesPage .row .col-xs-3 {
   margin: 10px 0;
   text-align: right; }
   @media screen and (max-width: 768px) {
-    /* line 12, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
+    /* line 14, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
     #servicesPage .row .col-xs-3 {
       padding: 0; } }
 
-/* line 19, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
+/* line 21, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
 #servicesPage .row img {
   width: 80px; }
   @media screen and (max-width: 480px) {
-    /* line 19, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
+    /* line 21, C:/xampp/htdocs/elevate/sass/pages/_services.scss */
     #servicesPage .row img {
       padding: 0;
       width: 60px; } }
@@ -743,12 +736,15 @@ body {
     /* line 35, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
     #blogPage .container #contentContainer #content img:nth-child(odd) {
       float: left; }
-  /* line 41, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+  /* line 39, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+  #blogPage .container #contentContainer #content p {
+    text-indent: 0; }
+  /* line 44, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
   #blogPage .container #menu {
     height: 100%;
     border-left: 1px dashed #8f8d8d; }
     @media screen and (max-width: 768px) {
-      /* line 41, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
+      /* line 44, C:/xampp/htdocs/elevate/sass/pages/_blog.scss */
       #blogPage .container #menu {
         display: none; } }
 

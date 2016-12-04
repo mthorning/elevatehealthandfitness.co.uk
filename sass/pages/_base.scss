@@ -71,12 +71,18 @@ body {
         @include button ($buttonBorder, $buttonBG, $buttonColor, $hColor: $buttonColor);
     }
     .additionalPicRight {
-        @include borderedPic;
+        margin: 10px;
+        @include sm {
+            margin: 5px;
+        }
         width: 30%;
         float: right;
     }
     .additionalPicLeft {
-        @include borderedPic;
+        margin: 10px;
+        @include sm {
+            margin: 5px;
+        }
         width: 30%;
         float: left;
     }
