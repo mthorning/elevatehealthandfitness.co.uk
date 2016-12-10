@@ -47,7 +47,7 @@
                             <div class="container">
                                 <div id="textBoxContainer" class="row">
                                     <div id="welcomeTextBox1" class="welcomeTextBox col-sm-6 col-lg-4">
-                                        <h4>Here at Elevate Health &amp; Fitness Truro, we provide 1-to-1 personal training with holistic programs incorporating exercise, nutrition and lifestyle strategies, designed specifically for you, to help you achieve your health and fitness goals, improving your sense of well-being and elevating your quality of life!</h4>
+                                        <h4>Here at Elevate Health &amp; Fitness Truro, we provide 1-to-1 personal training with holistic programs incorporating exercise, nutrition and lifestyle strategies, designed specifically for you, to help you achieve your health and fitness goals, improve your sense of well-being and elevate your quality of life!</h4>
                                     </div>
                                     <div class="hidden-xs hidden-sm hidden-md col-lg-4">
                                         <img id="etlLogo" src="img/png/tShirtCircle.png" alt="ETL Logo">
