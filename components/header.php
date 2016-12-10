@@ -10,7 +10,7 @@
         <div id="navWrapper">
 
             <!--        temporary indicator-->
-            <div id="screenIndicator"></div>
+<!--            <div id="screenIndicator"></div>-->
 
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php">

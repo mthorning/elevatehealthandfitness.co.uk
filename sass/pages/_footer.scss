@@ -3,7 +3,10 @@
     background-color: $darkGrey;
     .row {
         text-align: left;
-        padding: 0 30px;
+        padding: 0 100px;
+        @include md {
+            padding: 0 30px;
+        }
         margin-bottom: 0;
         margin-top: 0;
         .col-sm-12 {

@@ -5,7 +5,7 @@
         <div class="col-sm-12 col-lg-4">
             <p><b>&copy; 2016 - <?php echo date('Y'); ?> Elevate Health &amp; Fitness</b></p>
             <br />
-            <a href="tel:0747264526"><span class="glyphicon glyphicon-phone"></span> 0747264526</a>
+            <a href="tel:07979087053"><span class="glyphicon glyphicon-phone"></span>  07979087053</a>
             <br />
             <br />
             <a href="mailto:ken@elevatehealthandfitness.co.uk">ken@elevatehealthandfitness.co.uk</a>

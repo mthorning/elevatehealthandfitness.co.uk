@@ -19,7 +19,7 @@
             <h1>SERVICES</h1>
             <br />
             <br />
-            <p>Here at Elevate Health &amp; Fitness we provide 1-to-1 personal training (couple or small group training available if preferred, please contact us for more information), at various venues in and around Truro (weather and client preference dependant).</p>
+            <p>Here at Elevate Health &amp; Fitness we provide 1-to-1 personal training (couple training available if preferred, please contact us for more information), at various venues in and around Truro (weather and client preference dependant).</p>
             <p>Your journey to elevate your health follows this process:</p>
             <div class="row verticalAlign">
                 <div class="col-xs-3">
