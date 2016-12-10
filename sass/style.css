@@ -757,47 +757,43 @@ body {
   /* line 4, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
   #pageFooter .row {
     text-align: left;
-    padding: 0 100px;
+    padding: 0 30px;
     margin-bottom: 0;
     margin-top: 0; }
-    @media screen and (max-width: 992px) {
-      /* line 4, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
-      #pageFooter .row {
-        padding: 0 30px; } }
-    /* line 12, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    /* line 9, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
     #pageFooter .row .col-sm-12 {
       margin-top: 30px; }
-    /* line 15, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    /* line 12, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
     #pageFooter .row #reps {
       text-align: right;
       height: 100%;
       display: flex;
       align-items: center;
       flex-direction: row-reverse; }
-      /* line 20, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+      /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
       #pageFooter .row #reps img {
         width: 80%;
         max-height: 130px;
         max-width: 130px; }
         @media screen and (max-width: 992px) {
-          /* line 20, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+          /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
           #pageFooter .row #reps img {
             width: 80%; } }
         @media screen and (max-width: 768px) {
-          /* line 20, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+          /* line 17, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
           #pageFooter .row #reps img {
             width: 70%; } }
-    /* line 32, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    /* line 29, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
     #pageFooter .row .shareLogos {
       margin: 2px; }
-  /* line 36, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+  /* line 33, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
   #pageFooter a {
     color: #e9e4ea; }
-    /* line 38, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+    /* line 35, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
     #pageFooter a:hover {
       color: #0a4da3;
       text-decoration: none; }
-  /* line 43, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
+  /* line 40, C:/xampp/htdocs/elevate/sass/pages/_footer.scss */
   #pageFooter .col-sm-6 {
     text-align: center;
     padding: 10px; }
