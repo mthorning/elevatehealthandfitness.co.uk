@@ -12,8 +12,9 @@
         </div>
 
         <div class="col-sm-12 col-md-4">
-            <a class="twitter-timeline" href="https://twitter.com/KenWalkerPT" data-width="400" data-height="250" data-theme="light">Tweets by @KenWalkerPT
-            </a>
+            <!-- Facebook feed -->
+            <div class="fb-page" data-href="https://www.facebook.com/ElevatePersonalTrainingTruro/" data-tabs="timeline" data-width="400" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ElevatePersonalTrainingTruro/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ElevatePersonalTrainingTruro/">Elevate Health &amp; Fitness</a></blockquote></div>
+            
             <br />
             <br />
             <h3 style="display: inline;">Follow us on: </h3>

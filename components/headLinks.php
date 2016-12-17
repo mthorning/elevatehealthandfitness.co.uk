@@ -1,3 +1,15 @@
+<?php 
+
+	$userControl = false;
+
+    if ($userControl == true) {
+    	session_start();
+    	if (!isset($_SESSION['username'])) {
+        	header('Location: ../../clientLogin.php');
+    	}
+    }
+?>
+
 <!--jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 

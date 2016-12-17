@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Elevate Health &amp; Fitness</title>
+        
+        <meta name="description" content="Personal training with bespoke holistic programs incorporating exercise, nutrition and lifestyle strategies based in Truro, Cornwall.">
 
         <?php include 'components/headLinks.php'; ?>
 

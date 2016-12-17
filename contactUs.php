@@ -71,10 +71,10 @@ if ($_POST["submit"]) {
                     $email_message = 
     "<html>
         <body>
-            <img style='border: 1px solid black; width: 20%; height: auto;' src='http://elevatehealthandfitness.co.uk/img/png/navbarLogo.png'>
+            <img style='width: 20%; height: auto;' src='http://elevatehealthandfitness.co.uk/img/png/navbarLogo.png'>
             <div style='padding: 5px;'>
-                <h2 Style='color: #001EF9; text-shadow: 1px 1px 1px #000'>You have been contacted by ".ucwords($name).":</h2>
-                <h3 Style='color: #001EF9; text-shadow: 1px 1px 1px #000'>Message:</h3>
+                <h2 Style='color: #001EF9;'>You have been contacted by ".ucwords($name).":</h2>
+                <h3 Style='color: #001EF9;'>Message:</h3>
                 <p style='padding-left: 30px; font-style: italic; font-size: 1.2em'>" . $message . "</p>
             </div>
             <br />
