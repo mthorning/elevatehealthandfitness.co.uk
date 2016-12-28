@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title></title>
+    <title>About CHEK Philosophy</title>
+
+    <meta name="description" content="About Corrective, Holistic, Exercise Kinesiology training.">
     
     <?php include 'components/headLinks.php'; ?>
 

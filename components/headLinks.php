@@ -1,21 +1,9 @@
-<?php 
-
-	$userControl = false;
-
-    if ($userControl == true) {
-    	session_start();
-    	if (!isset($_SESSION['username'])) {
-        	header('Location: ../../clientLogin.php');
-    	}
-    }
-?>
-
 <!--jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <!--    bootstrap-->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
 
 <!--    custom css-->
 <link href="css/style.css" rel="stylesheet" type="text/css">

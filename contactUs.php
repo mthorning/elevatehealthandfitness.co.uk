@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Contact Form</title>
+    <title>Contact Elevate Health &amp; Fitness</title>
 
     <?php include 'components/headLinks.php'; ?>
 
